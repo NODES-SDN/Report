@@ -80,6 +80,38 @@
   \btxurlfont{https://github.com/Juniper/contrail-build}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Netconf}
+\btxtitlefont {\btxifchangecase {Opendaylight
+  controller:config:examples:netconf}{OpenDaylight
+  Controller:Config:Examples:Netconf}}.
+\newblock {\latintext
+  \btxurlfont{https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{04-08-2014}}}.
+
+\bibitem {MDS}
+\btxtitlefont {\btxifchangecase {Opendaylight
+  controller:md-sal:architecture}{OpenDaylight
+  Controller:MD-SAL:Architecture}}.
+\newblock {\latintext
+  \btxurlfont{https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{04-08-2014}}}.
+
+\bibitem {ODLLISP}
+\btxtitlefont {\btxifchangecase {Opendaylight lisp flow
+  mappin:architecture}{OpenDaylight Lisp Flow Mappin:Architecture}}.
+\newblock {\latintext
+  \btxurlfont{https://wiki.opendaylight.org/view/OpenDaylight_Lisp_Flow_Mapping:Architecture}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{6-08-2014}}}.
+
+\bibitem {OpenEPC}
+\btxtitlefont {\btxifchangecase {{OpenEPC, building your own complete mobile
+  broadband operator network testbed}}{{OpenEPC, building your own complete
+  mobile broadband operator network testbed}}}.
+\newblock \btxifchangecase {White paper}{White Paper}, Fraunhofer Institute for
+  Open Communication Systems FOKUS.
+\newblock {\latintext
+  \btxurlfont{http://www.openepc.net/_docs/OpenEPC-Whitepaper_nov2012.pdf}}.
+
 \bibitem {OpenFlow1.0.0}
 \btxjtitlefont {\btxifchangecase {The openflow switch specification}{The
   OpenFlow Switch Specification}}.
@@ -113,6 +145,12 @@
   \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
 
+\bibitem {Sve14}
+\btxtitlefont {\btxifchangecase {Tp-link tl-1043nd}{TP-Link TL-1043ND}}.
+\newblock {\latintext
+  \btxurlfont{http://wiki.openwrt.org/toh/tp-link/tl-wr1043nd}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{30-07-2014}}}.
+
 \bibitem {Trema}
 \btxtitlefont {\btxifchangecase {Trema controller}{Trema Controller}}.
 \newblock {\latintext \btxurlfont{http://trema.github.io/trema/}}\empty
@@ -129,6 +167,15 @@
   future}{{Big Switch} Leaves {OpenDaylight}, Toutes White-Box Future}}.
 \newblock {\latintext
   \btxurlfont{http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}}
+
+\bibitem {Bjo10}
+\btxnamefont {\btxlastnamefont {Bjorklund}, M.}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {{YANG - A Data Modeling Language for the Network
+  Configuration Protocol (NETCONF)}}{{YANG - A Data Modeling Language for the
+  Network Configuration Protocol (NETCONF)}}}.
+\newblock \btxifchangecase {{RFC}}{{RFC}}\ 6020, {Internet Engineering Task
+  Force}, \btxprintmonthyear{.}{October}{2010}{long}.
+\newblock {\latintext \btxurlfont{http://tools.ietf.org/html/rfc6020}}.
 
 \bibitem {CHU12}
 \btxnamefont {\btxlastnamefont {Chua}, Roy}\btxauthorcolon\ \btxtitlefont
@@ -156,6 +203,36 @@
 \newblock \btxjournalfont {Queue}, 11(12),
   \btxprintmonthyear{.}{12}{2013}{long}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2559899.2560327}}.
+
+\bibitem {Wol13}
+\btxnamefont {\btxlastnamefont {John}, W.}, \btxnamefont {\btxlastnamefont
+  {Pentikousis}, K.}, \btxnamefont {\btxlastnamefont {Agapiou}, G.},
+  \btxnamefont {\btxlastnamefont {Jacob}, E.}, \btxnamefont {\btxlastnamefont
+  {Kind}, M.}, \btxnamefont {\btxlastnamefont {Manzalini}, A}, \btxnamefont
+  {\btxlastnamefont {Risso}, F.}, \btxnamefont {\btxlastnamefont {Staessens},
+  D.}, \btxnamefont {\btxlastnamefont {Steinert}, R.}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Meirosu}, C.}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Research directions in network service
+  chaining}{Research Directions in Network Service Chaining}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Future Networks and Services (SDN4FNS),
+  2013 IEEE SDN for}, \btxprintmonthyear{.}{Nov}{2013}{long}.
+
+\bibitem {Lor14}
+\btxnamefont {\btxlastnamefont {Lorema}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {about openwrt}{about OpenWRT}}, 2014.
+\newblock {\latintext \btxurlfont{http://wiki.openwrt.org/about/start}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{30-07-2014}}}.
+
+\bibitem {OKH14}
+\btxnamefont {\btxlastnamefont {Okada}, Kazuya}, \btxnamefont {\btxlastnamefont
+  {Hazeyama}, Hiroaki}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Kadobayashi}, Youki}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Oblivious ddos mitigation with locator/id separation
+  protocol}{Oblivious DDoS Mitigation with Locator/ID Separation Protocol}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of The Ninth International
+  Conference on Future Internet Technologies}, New York, NY, USA, 2014.
+  \btxpublisherfont {ACM}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2619287.2619291}}.
 
 \bibitem {robert2012system}
 \btxnamefont {\btxlastnamefont {Robert}, B.I.I.} \btxandlong {}\ \btxnamefont
@@ -196,5 +273,13 @@
   New York, NY, USA, 2010. \btxpublisherfont {ACM}\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {978-1-4503-0199-2}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1851399.1851404}}.
+
+\bibitem {Yia04}
+\btxnamefont {\btxlastnamefont {Yiakoumis}, Yiannis}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Pantou : Openflow 1.0 for openwrt}{Pantou :
+  OpenFlow 1.0 for OpenWRT}}, 2004.
+\newblock {\latintext
+  \btxurlfont{http://archive.openflow.org/wk/index.php/Pantou_:_OpenFlow_1.0_for_OpenWRT}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{29-07-2014}}}.
 
 \end{thebibliography}

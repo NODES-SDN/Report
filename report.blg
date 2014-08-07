@@ -41,6 +41,18 @@ Warning--entry type for "Warp" isn't style-file defined
 --line 502 of file references.bib
 Warning--entry type for "Nodeflow" isn't style-file defined
 --line 508 of file references.bib
+Warning--entry type for "Lor14" isn't style-file defined
+--line 563 of file references.bib
+Warning--entry type for "Sve14" isn't style-file defined
+--line 571 of file references.bib
+Warning--entry type for "MDS" isn't style-file defined
+--line 597 of file references.bib
+Warning--entry type for "Netconf" isn't style-file defined
+--line 603 of file references.bib
+Warning--entry type for "ODLLISP" isn't style-file defined
+--line 611 of file references.bib
+Warning--entry type for "Yia04" isn't style-file defined
+--line 625 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -61,50 +73,57 @@ Warning--to sort, need author or key in IRIS
 Warning--to sort, need author or key in Contrail
 Warning--to sort, need author or key in MN14
 Warning--to sort, need author or key in CHU2
+Warning--to sort, need author or key in Sve14
+Warning--to sort, need author or key in MDS
+Warning--to sort, need author or key in Netconf
+Warning--to sort, need author or key in ODLLISP
+Warning--to sort, need author or key in OpenEPC
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in Beacon
+Warning--empty author in OpenEPC
+Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 27 entries,
+You've used 37 entries,
             2783 wiz_defined-function locations,
-            764 strings with 8811 characters,
-and the built_in function-call counts, 7151 in all, are:
-= -- 566
-> -- 153
-< -- 1
-+ -- 76
-- -- 46
-* -- 682
-:= -- 874
-add.period$ -- 60
-call.type$ -- 27
-change.case$ -- 104
+            822 strings with 10381 characters,
+and the built_in function-call counts, 10131 in all, are:
+= -- 800
+> -- 250
+< -- 2
++ -- 118
+- -- 78
+* -- 1000
+:= -- 1273
+add.period$ -- 84
+call.type$ -- 37
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 370
-empty$ -- 928
-format.name$ -- 73
-if$ -- 1625
+cite$ -- 68
+duplicate$ -- 527
+empty$ -- 1274
+format.name$ -- 123
+if$ -- 2269
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 8
-newline$ -- 128
-num.names$ -- 14
-pop$ -- 260
+int.to.str$ -- 37
+missing$ -- 10
+newline$ -- 171
+num.names$ -- 24
+pop$ -- 362
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 113
 quote$ -- 0
-skip$ -- 312
+skip$ -- 409
 stack$ -- 0
-substring$ -- 162
-swap$ -- 108
-text.length$ -- 1
+substring$ -- 212
+swap$ -- 161
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 24
-while$ -- 17
-width$ -- 29
-write$ -- 239
-(There were 43 warnings)
+type$ -- 148
+warning$ -- 31
+while$ -- 27
+width$ -- 39
+write$ -- 329
+(There were 56 warnings)
