@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: babplain-lf.bst
+Database file #1: references.bib.bib
+Warning--entry type for "CHU2" isn't style-file defined
+--line 382 of file references.bib.bib
+Warning--entry type for "MN14" isn't style-file defined
+--line 388 of file references.bib.bib
+Warning--to sort, need author or key in MN14
+Warning--to sort, need author or key in CHU2
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in MN14
+You've used 6 entries,
+            2783 wiz_defined-function locations,
+            672 strings with 6891 characters,
+and the built_in function-call counts, 1803 in all, are:
+= -- 157
+> -- 36
+< -- 1
++ -- 17
+- -- 10
+* -- 151
+:= -- 241
+add.period$ -- 14
+call.type$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 90
+empty$ -- 218
+format.name$ -- 16
+if$ -- 407
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 1
+newline$ -- 41
+num.names$ -- 8
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 73
+stack$ -- 0
+substring$ -- 55
+swap$ -- 30
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 3
+while$ -- 11
+width$ -- 7
+write$ -- 72
+(There were 5 warnings)

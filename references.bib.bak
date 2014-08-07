@@ -31,11 +31,11 @@
   pages = {120-127}
 }
 
-@MISC{BAN13,
+@ELECTRONIC{BAN13,
   author = {Banks, Ethan},
   title = {Big Switch Leaves OpenDaylight, Toutes White-Box Future},
-  publisher = {networkcomputing.com},
-  url = {http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}
+  url = {http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?},
+  publisher = {networkcomputing.com}
 }
 
 @INPROCEEDINGS{Casado-HotSDN2012,
@@ -56,12 +56,12 @@
   numpages = {6}
 }
 
-@MISC{CHU12,
+@ELECTRONIC{CHU12,
   author = {Chua, Roy},
-  title = {NOX, POX and Controllers Galore – Murphy McCauley Interview},
   year = {2012},
-  publisher = {SDNCentral},
-  url = {http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/}
+  title = {NOX, POX and Controllers Galore – Murphy McCauley Interview},
+  url = {http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/},
+  publisher = {SDNCentral}
 }
 
 @ARTICLE{Curtis-CCR2011,

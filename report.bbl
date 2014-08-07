@@ -1,0 +1,62 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {MN14}
+\btxtitlefont {\btxifchangecase {Mininet overview}{Mininet overview}}.
+\newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
+
+\bibitem {CHU2}
+\btxtitlefont {\btxifchangecase {Security challenges in sdn}{Security
+  Challenges in SDN}}.
+\newblock {\latintext
+  \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
+
+\bibitem {BAN13}
+\btxnamefont {\btxlastnamefont {Banks}, Ethan}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Big switch leaves opendaylight, toutes white-box
+  future}{Big Switch Leaves OpenDaylight, Toutes White-Box Future}}.
+\newblock {\latintext
+  \btxurlfont{http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}}
+
+\bibitem {CHU12}
+\btxnamefont {\btxlastnamefont {Chua}, Roy}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Nox, pox and controllers galore – murphy mccauley
+  interview}{NOX, POX and Controllers Galore – Murphy McCauley Interview}},
+  2012.
+\newblock {\latintext
+  \btxurlfont{http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/}}.
+
+\bibitem {Erickson13}
+\btxnamefont {\btxlastnamefont {Erickson}, David}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {The beacon openflow controller}{The Beacon Openflow
+  Controller}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Second ACM SIGCOMM
+  Workshop on Hot Topics in Software Defined Networking}, HotSDN '13,
+  \btxpageslong {}\ 13--18, New York, NY, USA, 2013. \btxpublisherfont
+  {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-4503-2178-5}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2491185.2491189}}.
+
+\bibitem {robert2012system}
+\btxnamefont {\btxlastnamefont {Robert}, B.I.I.} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Carman}, D.Z.}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {System for regulating access to and distributing content
+  in a network}{System for regulating access to and distributing content in a
+  network}}, \btxprintmonthyear{.}{2~21}{2012}{long}.
+\newblock {\latintext \btxurlfont{http://www.google.com/patents/US8122128}}, US
+  Patent 8,122,128.
+
+\end{thebibliography}
