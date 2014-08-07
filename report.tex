@@ -195,7 +195,21 @@ Other various project include Big Switch’s Indigo, a hardware abstraction laye
 
 EU has various research projects under moniker Seventh Framework Programme (FP7) which has produced both research and open source software. Some individual projects in FP7 like FELIX and OFELIA and FIRE research test-beds for use and frameworks for using them (OFELIA). Other projects focus more straightforwardly to OpenFlow. ALIEN project for instance offers an OpenFlow enabling hardware abstraction layer for non-OpenFlow enabled devices and integration with OFELIA whereas OFERTIE aims to improve delivery of real-time interactive applications on the networks. SPARC project aims to enhance standard SDN architecture by splitting the control and forwarding functions by utilizing MPLS.
 
+\section{SDN-based service chaining for mobile networks}
 
+SDN (software-defined networking) has revolutionized designing and managing networks over the past few years. Routers and switches operate with complex software, which is closed source and dedicated to the private network companies. Moreover, each of these devices come with their own configuration interfaces that is different between vendors, which makes work of network administrators exhausting to configure each of these individual network devices. \cite{FRZ13}
+
+SDN changes the way networks are managed and designed by defining two characteristics. First, SDN detaches control plane from the data plane. Second, SDN unifies the control plane, thus a single software program (controller) can control numerous data plane elements. SDN controller has direct access over the data plane through a well-defined API such as OpenFlow. An OpenFlow switch has packet-handling table, which different rules can be defined in the table. Therefore, based on different rules that match with a subset of traffic, different actions (such as dropping, forwarding and header modification) can be taken. Thus, based on different rules installed on OpenFlow by the controller, an OpenFlow switch can act as a router, firewall, network address translator, switch or something in between. \cite{FRZ13}
+
+As discussed earlier, network instruments are closed and proprietary, which is a barrier to openness. Technical innovation can break down the barrier caused by industry and government in order to breed openness. The future perspective of wireless mobile networks is that any mobile device can connect to any network and move from one network to another seamlessly and freely. Thus, handheld devices can connect to any network regardless of what radio technology it uses and who owns the network. Figure ~\ref{fig:openroads} illustrates an overview of OpenFlow Wireless. \cite{Yap10a}
+
+\begin{figure}[h!t]
+\centering
+\floatstyle{boxed}
+\includegraphics[width=110mm]{"openroad architecture".jpg}
+\caption{OpenRoads Architecture \cite{Yap10b}}
+\label{fig:openroads}
+\end{figure}
 
 
 

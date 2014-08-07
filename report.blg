@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: babplain-lf.bst
@@ -31,10 +31,6 @@ Warning--entry type for "Resonance" isn't style-file defined
 --line 460 of file references.bib
 Warning--entry type for "Flower" isn't style-file defined
 --line 466 of file references.bib
-Warning--entry type for "MUL" isn't style-file defined
---line 472 of file references.bib
-Warning--entry type for "SNAC" isn't style-file defined
---line 478 of file references.bib
 Warning--entry type for "VNet" isn't style-file defined
 --line 484 of file references.bib
 Warning--entry type for "IRIS" isn't style-file defined
@@ -59,8 +55,6 @@ Warning--to sort, need author or key in FlowVisor
 Warning--to sort, need author or key in Flower
 Warning--to sort, need author or key in Resonance
 Warning--to sort, need author or key in Nodeflow
-Warning--to sort, need author or key in MUL
-Warning--to sort, need author or key in SNAC
 Warning--to sort, need author or key in Warp
 Warning--to sort, need author or key in VNet
 Warning--to sort, need author or key in IRIS
@@ -72,45 +66,45 @@ Warning--empty language in Beacon
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 26 entries,
+You've used 27 entries,
             2783 wiz_defined-function locations,
-            748 strings with 8123 characters,
-and the built_in function-call counts, 5971 in all, are:
-= -- 478
-> -- 56
+            764 strings with 8811 characters,
+and the built_in function-call counts, 7151 in all, are:
+= -- 566
+> -- 153
 < -- 1
-+ -- 38
-- -- 10
-* -- 478
-:= -- 687
-add.period$ -- 54
-call.type$ -- 26
-change.case$ -- 83
++ -- 76
+- -- 46
+* -- 682
+:= -- 874
+add.period$ -- 60
+call.type$ -- 27
+change.case$ -- 104
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 312
-empty$ -- 871
-format.name$ -- 16
-if$ -- 1422
+cite$ -- 51
+duplicate$ -- 370
+empty$ -- 928
+format.name$ -- 73
+if$ -- 1625
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 3
-newline$ -- 121
-num.names$ -- 8
-pop$ -- 255
+int.to.str$ -- 27
+missing$ -- 8
+newline$ -- 128
+num.names$ -- 14
+pop$ -- 260
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 77
 quote$ -- 0
-skip$ -- 308
+skip$ -- 312
 stack$ -- 0
-substring$ -- 156
-swap$ -- 69
+substring$ -- 162
+swap$ -- 108
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
-warning$ -- 26
-while$ -- 11
-width$ -- 28
-write$ -- 213
-(There were 47 warnings)
+type$ -- 108
+warning$ -- 24
+while$ -- 17
+width$ -- 29
+write$ -- 239
+(There were 43 warnings)

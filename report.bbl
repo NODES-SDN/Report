@@ -41,11 +41,6 @@
 \newblock {\latintext \btxurlfont{http://openiris.etri.re.kr/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-\bibitem {MUL}
-\btxtitlefont {\btxifchangecase {Kulcloud open mul}{KulCloud Open MUL}}.
-\newblock {\latintext \btxurlfont{http://sourceforge.net/projects/mul/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
-
 \bibitem {Libfluid}
 \btxtitlefont {\btxifchangecase {Libfluid}{Libfluid}}.
 \newblock {\latintext
@@ -118,12 +113,6 @@
   \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
 
-\bibitem {SNAC}
-\btxtitlefont {\btxifchangecase {Snac}{SNAC}}.
-\newblock {\latintext
-  \btxurlfont{http://www.openflowhub.org/display/Snac/SNAC+Home}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
-
 \bibitem {Trema}
 \btxtitlefont {\btxifchangecase {Trema controller}{Trema Controller}}.
 \newblock {\latintext \btxurlfont{http://trema.github.io/trema/}}\empty
@@ -159,6 +148,15 @@
   {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-4503-2178-5}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2491185.2491189}}.
 
+\bibitem {FRZ13}
+\btxnamefont {\btxlastnamefont {Feamster}, Nick}, \btxnamefont
+  {\btxlastnamefont {Rexford}, Jennifer}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Zegura}, Ellen}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {The road to sdn}{The Road to SDN}}.
+\newblock \btxjournalfont {Queue}, 11(12),
+  \btxprintmonthyear{.}{12}{2013}{long}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2559899.2560327}}.
+
 \bibitem {robert2012system}
 \btxnamefont {\btxlastnamefont {Robert}, B.I.I.} \btxandlong {}\ \btxnamefont
   {\btxlastnamefont {Carman}, D.Z.}\btxauthorcolon\ \btxtitlefont
@@ -167,5 +165,36 @@
   network}}, \btxprintmonthyear{.}{2~21}{2012}{long}.
 \newblock {\latintext \btxurlfont{http://www.google.com/patents/US8122128}}, US
   Patent 8,122,128.
+
+\bibitem {Yap10b}
+\btxnamefont {\btxlastnamefont {Yap}, Kok\btxfnamespacelong Kiong},
+  \btxnamefont {\btxlastnamefont {Kobayashi}, Masayoshi}, \btxnamefont
+  {\btxlastnamefont {Sherwood}, Rob}, \btxnamefont {\btxlastnamefont {Huang},
+  Te\btxfnamespacelong Yuan}, \btxnamefont {\btxlastnamefont {Chan}, Michael},
+  \btxnamefont {\btxlastnamefont {Handigol}, Nikhil}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {\btxlastnamefont {McKeown}, Nick}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Openroads: Empowering research in mobile
+  networks}{OpenRoads: Empowering Research in Mobile Networks}}.
+\newblock \btxjournalfont {SIGCOMM Comput. Commun. Rev.}, 40(1),
+  \btxprintmonthyear{.}{1}{2010}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0146-4833}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1672308.1672331}}.
+
+\bibitem {Yap10a}
+\btxnamefont {\btxlastnamefont {Yap}, Kok\btxfnamespacelong Kiong},
+  \btxnamefont {\btxlastnamefont {Sherwood}, Rob}, \btxnamefont
+  {\btxlastnamefont {Kobayashi}, Masayoshi}, \btxnamefont {\btxlastnamefont
+  {Huang}, Te\btxfnamespacelong Yuan}, \btxnamefont {\btxlastnamefont {Chan},
+  Michael}, \btxnamefont {\btxlastnamefont {Handigol}, Nikhil}, \btxnamefont
+  {\btxlastnamefont {McKeown}, Nick}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Parulkar}, Guru}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Blueprint for introducing innovation into
+  wireless mobile networks}{Blueprint for Introducing Innovation into Wireless
+  Mobile Networks}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Second ACM SIGCOMM
+  Workshop on Virtualized Infrastructure Systems and Architectures}, VISA '10,
+  New York, NY, USA, 2010. \btxpublisherfont {ACM}\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-1-4503-0199-2}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1851399.1851404}}.
 
 \end{thebibliography}
