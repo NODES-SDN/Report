@@ -1,304 +1,436 @@
-@article{Kim-IEEE2013,
-  added-at = {2013-02-18T00:00:00.000+0100},
-  author = {Kim, Hyojoon and Feamster, Nick},
-  ee = {http://dx.doi.org/10.1109/MCOM.2013.6461195},
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@INPROCEEDINGS{Aditya-HotSDN2013,
+  author = {Aditya, Gudipati and Daniel, Perry and Li, Erran Li and Sachin, Katti},
+  title = {SoftRAN: software defined radio access network},
+  booktitle = {Proceedings of the second ACM SIGCOMM workshop on Hot topics in software
+	defined networking},
+  year = {2013},
+  pages = {25-30},
+  publisher = {ACM SIGCOMM}
+}
+
+@INPROCEEDINGS{Aurojit-HotSDN2013,
+  author = {Aurojit, Panda and Colin, Scott and Ali, Ghodsi and Teemu, Koponen
+	and Scott, Shenker},
+  title = {CAP for Networks},
+  booktitle = {Proceedings of the ACM SIGCOMM Workshop on Hot Topics in Software
+	Defined Networking (HotSDN 2013)},
+  year = {2013},
+  month = {August}
+}
+
+@ARTICLE{Banikazemi-IEEE13,
+  author = {Banikazemi, Mohammad and Olshefski, David and Shaikh, Anees and Tracey,
+	John and Wang, Guohui},
+  title = {Meridian: an SDN platform for cloud network services},
   journal = {IEEE Communications Magazine},
-  keywords = {dblp},
-  number = 2,
-  pages = {114-119},
-  timestamp = {2013-02-18T00:00:00.000+0100},
-  title = {Improving network management with software defined networking.},
-  volume = 51,
-  year = 2013
+  year = {2013},
+  volume = {51},
+  pages = {120-127}
 }
 
-@article{McKeown-CCR2008,
-  author = {McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar, Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott and Turner, Jonathan},
-  title = {OpenFlow: enabling innovation in campus networks},
-  journal = {SIGCOMM Comput. Commun. Rev.},
-  issue_date = {April 2008},
-  volume = {38},
-  number = {2},
-  month = mar,
-  year = {2008},
-  pages = {69--74},
-  numpages = {6},
-  doi = {10.1145/1355734.1355746},
-  acmid = {1355746},
-  publisher = {ACM},
+@MISC{BAN13,
+  author = {Banks, Ethan},
+  title = {{Big Switch} Leaves {OpenDaylight}, Toutes White-Box Future},
+  publisher = {networkcomputing.com},
+  url = {http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}
+}
+
+@INPROCEEDINGS{Casado-HotSDN2012,
+  author = {Casado, Martin and Koponen, Teemu and Shenker, Scott and Tootoonchian,
+	Amin},
+  title = {Fabric: a retrospective on evolving SDN},
+  booktitle = {Proceedings of the first workshop on Hot topics in software defined
+	networks},
+  year = {2012},
+  series = {HotSDN '12},
+  pages = {85--90},
   address = {New York, NY, USA},
-  keywords = {ethernet switch, flow-based, virtualization},
+  publisher = {ACM},
+  acmid = {2342459},
+  doi = {10.1145/2342441.2342459},
+  keywords = {network architecture},
+  location = {Helsinki, Finland},
+  numpages = {6}
 }
 
-@article{OpenFlow1.0.0,
-  title = {The OpenFlow Switch Specification},
-  url = {http://OpenFlowSwitch.org},
-  note = "\url{http://OpenFlowSwitch.org}",
+@MISC{CHU12,
+  author = {Chua, Roy},
+  title = {{NOX, POX} and Controllers Galore – {Murphy McCauley} Interview},
+  year = {2012},
+  publisher = {SDNCentral},
+  url = {http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/}
 }
 
-@article{Gude-CCR2008,
-  author = {Gude, Natasha and Koponen, Teemu and Pettit, Justin and Pfaff, Ben and Casado, Mart\'{\i}n and McKeown, Nick and Shenker, Scott},
+@ARTICLE{Curtis-CCR2011,
+  author = {Curtis, Andrew R. and Mogul, Jeffrey C. and Tourrilhes, Jean and
+	Yalagandula, Praveen and Sharma, Puneet and Banerjee, Sujata},
+  title = {DevoFlow: scaling flow management for high-performance networks},
+  journal = {SIGCOMM Comput. Commun. Rev.},
+  year = {2011},
+  volume = {41},
+  pages = {254--265},
+  number = {4},
+  month = aug,
+  acmid = {2018466},
+  address = {New York, NY, USA},
+  doi = {10.1145/2043164.2018466},
+  issue_date = {August 2011},
+  keywords = {data center, flow-based networking, switch design},
+  numpages = {12},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{Erickson13,
+  author = {Erickson, David},
+  title = {The {Beacon Openflow} Controller},
+  booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software
+	Defined Networking},
+  year = {2013},
+  series = {HotSDN '13},
+  pages = {13--18},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {2491189},
+  doi = {10.1145/2491185.2491189},
+  isbn = {978-1-4503-2178-5},
+  keywords = {beacon, controller, java, openflow},
+  location = {Hong Kong, China},
+  numpages = {6},
+  url = {http://doi.acm.org/10.1145/2491185.2491189}
+}
+
+@ARTICLE{Gude-CCR2008,
+  author = {Gude, Natasha and Koponen, Teemu and Pettit, Justin and Pfaff, Ben
+	and Casado, Mart\'{\i}n and McKeown, Nick and Shenker, Scott},
   title = {NOX: towards an operating system for networks},
   journal = {SIGCOMM Comput. Commun. Rev.},
-  issue_date = {July 2008},
+  year = {2008},
   volume = {38},
+  pages = {105--110},
   number = {3},
   month = jul,
-  year = {2008},
-  pages = {105--110},
-  numpages = {6},
-  doi = {10.1145/1384609.1384625},
   acmid = {1384625},
-  publisher = {ACM},
   address = {New York, NY, USA},
+  doi = {10.1145/1384609.1384625},
+  issue_date = {July 2008},
   keywords = {architecture, management, network, security},
-}
-
-@inproceedings{Casado-HotSDN2012,
-  author = {Casado, Martin and Koponen, Teemu and Shenker, Scott and Tootoonchian, Amin},
-  title = {Fabric: a retrospective on evolving SDN},
-  booktitle = {Proceedings of the first workshop on Hot topics in software defined networks},
-  series = {HotSDN '12},
-  year = {2012},
-  location = {Helsinki, Finland},
-  pages = {85--90},
   numpages = {6},
-  doi = {10.1145/2342441.2342459},
-  acmid = {2342459},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {network architecture},
+  publisher = {ACM}
 }
 
-@inproceedings{Tootoonchian-INM2010,
-  author = {Tootoonchian, Amin and Ganjali, Yashar},
-  title = {HyperFlow: a distributed control plane for OpenFlow},
-  booktitle = {Proceedings of the 2010 internet network management conference on Research on enterprise networking},
-  series = {INM/WREN'10},
-  year = {2010},
-  location = {San Jose, CA},
-  pages = {3--3},
-  numpages = {1},
-  acmid = {1863136},
-  publisher = {USENIX Association},
-  address = {Berkeley, CA, USA},
-}
-
-@inproceedings{HassasYeganeh-HotSDN2012,
+@INPROCEEDINGS{HassasYeganeh-HotSDN2012,
   author = {Hassas Yeganeh, Soheil and Ganjali, Yashar},
-  title = {Kandoo: a framework for efficient and scalable offloading of control applications},
-  booktitle = {Proceedings of the first workshop on Hot topics in software defined networks},
-  series = {HotSDN '12},
+  title = {Kandoo: a framework for efficient and scalable offloading of control
+	applications},
+  booktitle = {Proceedings of the first workshop on Hot topics in software defined
+	networks},
   year = {2012},
-  location = {Helsinki, Finland},
+  series = {HotSDN '12},
   pages = {19--24},
-  numpages = {6},
-  doi = {10.1145/2342441.2342446},
-  acmid = {2342446},
-  publisher = {ACM},
   address = {New York, NY, USA},
-  keywords = {data center networks, distributed control plane, software-defined networks},
+  publisher = {ACM},
+  acmid = {2342446},
+  doi = {10.1145/2342441.2342446},
+  keywords = {data center networks, distributed control plane, software-defined
+	networks},
+  location = {Helsinki, Finland},
+  numpages = {6}
 }
 
-@inproceedings{Lantz-Hotnets2010,
+@ARTICLE{Kim-IEEE2013,
+  author = {Kim, Hyojoon and Feamster, Nick},
+  title = {Improving network management with software defined networking.},
+  journal = {IEEE Communications Magazine},
+  year = {2013},
+  volume = {51},
+  pages = {114-119},
+  number = {2},
+  added-at = {2013-02-18T00:00:00.000+0100},
+  ee = {http://dx.doi.org/10.1109/MCOM.2013.6461195},
+  keywords = {dblp},
+  timestamp = {2013-02-18T00:00:00.000+0100}
+}
+
+@INPROCEEDINGS{Koponen-OSDI2010,
+  author = {Koponen, Teemu and Casado, Martin and Gude, Natasha and Stribling,
+	Jeremy and Poutievski, Leon and Zhu, Min and Ramanathan, Rajiv and
+	Iwata, Yuichiro and Inoue, Hiroaki and Hama, Takayuki and Shenker,
+	Scott},
+  title = {Onix: a distributed control platform for large-scale production networks},
+  booktitle = {Proceedings of the 9th USENIX conference on Operating systems design
+	and implementation},
+  year = {2010},
+  series = {OSDI'10},
+  pages = {1--6},
+  address = {Berkeley, CA, USA},
+  publisher = {USENIX Association},
+  acmid = {1924968},
+  location = {Vancouver, BC, Canada},
+  numpages = {6}
+}
+
+@INPROCEEDINGS{Lantz-Hotnets2010,
   author = {Lantz, Bob and Heller, Brandon and McKeown, Nick},
   title = {A network in a laptop: rapid prototyping for software-defined networks},
   booktitle = {Proceedings of the 9th ACM SIGCOMM Workshop on Hot Topics in Networks},
+  year = {2010},
   series = {Hotnets-IX},
-  year = {2010},
-  location = {Monterey, California},
   pages = {19:1--19:6},
-  articleno = {19},
-  numpages = {6},
-  doi = {10.1145/1868447.1868466},
+  address = {New York, NY, USA},
+  publisher = {ACM},
   acmid = {1868466},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {emulation, open-flow, rapid prototyping, software defined networking, virtualization},
+  articleno = {19},
+  doi = {10.1145/1868447.1868466},
+  keywords = {emulation, open-flow, rapid prototyping, software defined networking,
+	virtualization},
+  location = {Monterey, California},
+  numpages = {6}
 }
 
-@inproceedings{Koponen-OSDI2010,
-  author = {Koponen, Teemu and Casado, Martin and Gude, Natasha and Stribling, Jeremy and Poutievski, Leon and Zhu, Min and Ramanathan, Rajiv and Iwata, Yuichiro and Inoue, Hiroaki and Hama, Takayuki and Shenker, Scott},
-  title = {Onix: a distributed control platform for large-scale production networks},
-  booktitle = {Proceedings of the 9th USENIX conference on Operating systems design and implementation},
-  series = {OSDI'10},
-  year = {2010},
-  location = {Vancouver, BC, Canada},
-  pages = {1--6},
-  numpages = {6},
-  acmid = {1924968},
-  publisher = {USENIX Association},
-  address = {Berkeley, CA, USA},
-}
-
-@article{Curtis-CCR2011,
-  author = {Curtis, Andrew R. and Mogul, Jeffrey C. and Tourrilhes, Jean and Yalagandula, Praveen and Sharma, Puneet and Banerjee, Sujata},
-  title = {DevoFlow: scaling flow management for high-performance networks},
-  journal = {SIGCOMM Comput. Commun. Rev.},
-  issue_date = {August 2011},
-  volume = {41},
-  number = {4},
-  month = aug,
-  year = {2011},
-  pages = {254--265},
-  numpages = {12},
-  doi = {10.1145/2043164.2018466},
-  acmid = {2018466},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {data center, flow-based networking, switch design},
-}
-
-@inproceedings{Yu-SIGCOMM2010,
-  author = {Yu, Minlan and Rexford, Jennifer and Freedman, Michael J. and Wang, Jia},
-  title = {Scalable flow-based networking with DIFANE},
-  booktitle = {Proceedings of the ACM SIGCOMM 2010 conference},
-  series = {SIGCOMM '10},
-  year = {2010},
-  location = {New Delhi, India},
-  pages = {351--362},
-  numpages = {12},
-  doi = {10.1145/1851182.1851224},
-  acmid = {1851224},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {access control, network architecture, openflow, scalability},
-}
-
-@inproceedings{Qazi-SIGCOMM2013,
-  author = {Qazi, Zafar Ayyub and Tu, Cheng-Chun and Chiang, Luis and Miao, Rui and Sekar, Vyas and Yu, Minlan},
-  title = {SIMPLE-fying middlebox policy enforcement using SDN},
-  booktitle = {Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM},
-  series = {SIGCOMM '13},
-  year = {2013},
-  location = {Hong Kong, China},
-  pages = {27--38},
-  numpages = {12},
-  doi = {10.1145/2486001.2486022},
-  acmid = {2486022},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {middlebox, network management, software-defined networking},
-}
-
-@inproceedings{Seyed-HotSDN2013,
-  author = {Seyed, Fayazbakhsh and Vyas, Sekar and Minlan, Yu and Jeff, Mogul},
-  title = {FlowTags: Enforcing Network-Wide Policies in the Presence of Dynamic Middlebox Actions},
-  booktitle = {Proceedings of the ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking (HotSDN 2013)},
-  month = {August},
-  year = {2013},
-}
-
-@inproceedings{Tavakoli-HotNets2009,
-  author = {Tavakoli, Arsalan and Casado, Martin and Koponen, Teemu and Shenker, Scott},
-  booktitle = {HotNets},
-  publisher = {ACM SIGCOMM},
-  title = {Applying NOX to the Datacenter},
-  year = 2009,
-}
-
-@article{Banikazemi-IEEE13,
-  author = {Banikazemi, Mohammad and Olshefski, David and Shaikh, Anees and Tracey, John and Wang, Guohui},
-  pages = {120-127},
-  title = {Meridian: an SDN platform for cloud network services},
-  journal = {IEEE Communications Magazine},  
-  volume = 51,
-  year = 2013,
-}
-
-@inproceedings{Yap-VISA2010,
-  author = {Yap, Kok-Kiong and Sherwood, Rob and Kobayashi, Masayoshi and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick and Parulkar, Guru},
-  title = {Blueprint for introducing innovation into wireless mobile networks},
-  booktitle = {Proceedings of the second ACM SIGCOMM workshop on Virtualized infrastructure systems and architectures},
-  series = {VISA '10},
-  year = {2010},
-  location = {New Delhi, India},
-  pages = {25--32},
-  numpages = {8},
-  doi = {10.1145/1851399.1851404},
-  acmid = {1851404},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {flowvisor, mobile networks, mobility, openflow, software-defined networks, wireless},
-}
-
-@article{Yap-CCR2010,
-  author = {Yap, Kok-Kiong and Kobayashi, Masayoshi and Sherwood, Rob and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick},
-  title = {OpenRoads: empowering research in mobile networks},
-  journal = {SIGCOMM Comput. Commun. Rev.},
-  volume = {40},
-  number = {1},
-  year = {2010},
-  pages = {125--126},
-  doi = {http://doi.acm.org/10.1145/1672308.1672331},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-}
-
-@article{Li-EWSDN2012,
+@ARTICLE{Li-EWSDN2012,
   author = {Li, Erran Li and Z. Morley, Mao and Jennifer, Rexford},
   title = {Toward Software-Defined Cellular Networks},
-  journal ={European Workshop on Software Defined Networking (EWSDN)},
-  volume = {0},
+  journal = {European Workshop on Software Defined Networking (EWSDN)},
   year = {2012},
+  volume = {0},
   pages = {7-12},
-  doi = {http://doi.ieeecomputersociety.org/10.1109/EWSDN.2012.28},
-  publisher = {IEEE Computer Society},
   address = {Los Alamitos, CA, USA},
+  doi = {http://doi.ieeecomputersociety.org/10.1109/EWSDN.2012.28},
+  publisher = {IEEE Computer Society}
 }
 
-@inproceedings{Aditya-HotSDN2013,
-  author = {Aditya, Gudipati and Daniel, Perry and Li, Erran Li and Sachin, Katti},
-  booktitle = {Proceedings of the second ACM SIGCOMM workshop on Hot topics in software defined networking},
-  publisher = {ACM SIGCOMM},
-  title = {SoftRAN: software defined radio access network},
-  year = 2013,
-  Pages= {25-30},
+@ARTICLE{McKeown-CCR2008,
+  author = {McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar,
+	Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott
+	and Turner, Jonathan},
+  title = {OpenFlow: enabling innovation in campus networks},
+  journal = {SIGCOMM Comput. Commun. Rev.},
+  year = {2008},
+  volume = {38},
+  pages = {69--74},
+  number = {2},
+  month = mar,
+  acmid = {1355746},
+  address = {New York, NY, USA},
+  doi = {10.1145/1355734.1355746},
+  issue_date = {April 2008},
+  keywords = {ethernet switch, flow-based, virtualization},
+  numpages = {6},
+  publisher = {ACM}
 }
 
-@inproceedings{Aurojit-HotSDN2013,
-  author = {Aurojit, Panda and Colin, Scott and Ali, Ghodsi and Teemu, Koponen and Scott, Shenker},
-  title = {CAP for Networks},
-  booktitle = {Proceedings of the ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking (HotSDN 2013)},
-  month = {August},
+@INPROCEEDINGS{Qazi-SIGCOMM2013,
+  author = {Qazi, Zafar Ayyub and Tu, Cheng-Chun and Chiang, Luis and Miao, Rui
+	and Sekar, Vyas and Yu, Minlan},
+  title = {SIMPLE-fying middlebox policy enforcement using SDN},
+  booktitle = {Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM},
   year = {2013},
-}
-
-@inproceedings{Yu-PAM2013,
-  author = {Yu, Curtis and Lumezanu, Cristian and Zhang, Yueping and Singh, Vishal and Jiang, Guofei and Madhyastha, Harsha V.},
-  title = {FlowSense: monitoring network utilization with zero measurement cost},
-  booktitle = {Proceedings of the 14th international conference on Passive and Active Measurement},
-  series = {PAM'13},
-  year = {2013},
-  location = {Hong Kong, China},
-  pages = {31--41},
-  numpages = {11},
-  doi = {10.1007/978-3-642-36516-4_4},
-  acmid = {2482367},
-  publisher = {Springer-Verlag},
-  address = {Berlin, Heidelberg},
-}
-
-@inproceedings{Yu-NSDI2013,
-  author = {Yu, Minlan and Jose, Lavanya and Miao, Rui},
-  title = {Software defined traffic measurement with OpenSketch},
-  booktitle = {Proceedings of the 10th USENIX conference on Networked Systems Design and Implementation},
-  series = {nsdi'13},
-  year = {2013},
-  location = {Lombard, IL},
-  pages = {29--42},
-  numpages = {14},
-  acmid = {2482631},
-  publisher = {USENIX Association},
-  address = {Berkeley, CA, USA},
-}
-
-@inproceedings{Sushant-SIGCOMM2013,
-  author = {Sushant, Jain and Alok, Kumar and Subhasree, Mandal and Joon, Ong and Leon, Poutievski and Arjun, Singh and Subbaiah, Venkata and Jim, Wanderer and Junlan, Zhou and Min, Zhu and Jon, Zolla and Urs, Hölzle and Stephen, Stuart and Amin, Vahdat},
-  title = {B4: experience with a globally-deployed software defined wan},
-  booktitle = {ACM SIGCOMM 2013 Conference, SIGCOMM'13, Hong Kong, China, August 12-16, 2013},
+  series = {SIGCOMM '13},
+  pages = {27--38},
+  address = {New York, NY, USA},
   publisher = {ACM},
+  acmid = {2486022},
+  doi = {10.1145/2486001.2486022},
+  keywords = {middlebox, network management, software-defined networking},
+  location = {Hong Kong, China},
+  numpages = {12}
+}
+
+@MISC{robert2012system,
+  author = {Robert, B.I.I. and Carman, D.Z.},
+  title = {System for regulating access to and distributing content in a network},
+  month = feb # {~21},
+  year = {2012},
+  note = {US Patent 8,122,128},
+  publisher = {Google Patents},
+  url = {http://www.google.com/patents/US8122128}
+}
+
+@INPROCEEDINGS{Seyed-HotSDN2013,
+  author = {Seyed, Fayazbakhsh and Vyas, Sekar and Minlan, Yu and Jeff, Mogul},
+  title = {FlowTags: Enforcing Network-Wide Policies in the Presence of Dynamic
+	Middlebox Actions},
+  booktitle = {Proceedings of the ACM SIGCOMM Workshop on Hot Topics in Software
+	Defined Networking (HotSDN 2013)},
+  year = {2013},
+  month = {August}
+}
+
+@INPROCEEDINGS{Sushant-SIGCOMM2013,
+  author = {Sushant, Jain and Alok, Kumar and Subhasree, Mandal and Joon, Ong
+	and Leon, Poutievski and Arjun, Singh and Subbaiah, Venkata and Jim,
+	Wanderer and Junlan, Zhou and Min, Zhu and Jon, Zolla and Urs, Hölzle
+	and Stephen, Stuart and Amin, Vahdat},
+  title = {B4: experience with a globally-deployed software defined wan},
+  booktitle = {ACM SIGCOMM 2013 Conference, SIGCOMM'13, Hong Kong, China, August
+	12-16, 2013},
   year = {2013},
   pages = {3-14},
+  publisher = {ACM}
 }
 
+@INPROCEEDINGS{Tavakoli-HotNets2009,
+  author = {Tavakoli, Arsalan and Casado, Martin and Koponen, Teemu and Shenker,
+	Scott},
+  title = {Applying NOX to the Datacenter},
+  booktitle = {HotNets},
+  year = {2009},
+  publisher = {ACM SIGCOMM}
+}
+
+@INPROCEEDINGS{Tootoonchian-INM2010,
+  author = {Tootoonchian, Amin and Ganjali, Yashar},
+  title = {HyperFlow: a distributed control plane for OpenFlow},
+  booktitle = {Proceedings of the 2010 internet network management conference on
+	Research on enterprise networking},
+  year = {2010},
+  series = {INM/WREN'10},
+  pages = {3--3},
+  address = {Berkeley, CA, USA},
+  publisher = {USENIX Association},
+  acmid = {1863136},
+  location = {San Jose, CA},
+  numpages = {1}
+}
+
+@ARTICLE{Yap-CCR2010,
+  author = {Yap, Kok-Kiong and Kobayashi, Masayoshi and Sherwood, Rob and Huang,
+	Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick},
+  title = {OpenRoads: empowering research in mobile networks},
+  journal = {SIGCOMM Comput. Commun. Rev.},
+  year = {2010},
+  volume = {40},
+  pages = {125--126},
+  number = {1},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/1672308.1672331},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{Yap-VISA2010,
+  author = {Yap, Kok-Kiong and Sherwood, Rob and Kobayashi, Masayoshi and Huang,
+	Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick
+	and Parulkar, Guru},
+  title = {Blueprint for introducing innovation into wireless mobile networks},
+  booktitle = {Proceedings of the second ACM SIGCOMM workshop on Virtualized infrastructure
+	systems and architectures},
+  year = {2010},
+  series = {VISA '10},
+  pages = {25--32},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1851404},
+  doi = {10.1145/1851399.1851404},
+  keywords = {flowvisor, mobile networks, mobility, openflow, software-defined networks,
+	wireless},
+  location = {New Delhi, India},
+  numpages = {8}
+}
+
+@INPROCEEDINGS{Yu-PAM2013,
+  author = {Yu, Curtis and Lumezanu, Cristian and Zhang, Yueping and Singh, Vishal
+	and Jiang, Guofei and Madhyastha, Harsha V.},
+  title = {FlowSense: monitoring network utilization with zero measurement cost},
+  booktitle = {Proceedings of the 14th international conference on Passive and Active
+	Measurement},
+  year = {2013},
+  series = {PAM'13},
+  pages = {31--41},
+  address = {Berlin, Heidelberg},
+  publisher = {Springer-Verlag},
+  acmid = {2482367},
+  doi = {10.1007/978-3-642-36516-4_4},
+  location = {Hong Kong, China},
+  numpages = {11}
+}
+
+@INPROCEEDINGS{Yu-NSDI2013,
+  author = {Yu, Minlan and Jose, Lavanya and Miao, Rui},
+  title = {Software defined traffic measurement with OpenSketch},
+  booktitle = {Proceedings of the 10th USENIX conference on Networked Systems Design
+	and Implementation},
+  year = {2013},
+  series = {nsdi'13},
+  pages = {29--42},
+  address = {Berkeley, CA, USA},
+  publisher = {USENIX Association},
+  acmid = {2482631},
+  location = {Lombard, IL},
+  numpages = {14}
+}
+
+@INPROCEEDINGS{Yu-SIGCOMM2010,
+  author = {Yu, Minlan and Rexford, Jennifer and Freedman, Michael J. and Wang,
+	Jia},
+  title = {Scalable flow-based networking with DIFANE},
+  booktitle = {Proceedings of the ACM SIGCOMM 2010 conference},
+  year = {2010},
+  series = {SIGCOMM '10},
+  pages = {351--362},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1851224},
+  doi = {10.1145/1851182.1851224},
+  keywords = {access control, network architecture, openflow, scalability},
+  location = {New Delhi, India},
+  numpages = {12}
+}
+
+@OTHER{CHU2,
+  title = {Security Challenges in {SDN}},
+  url = {http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/},
+  urldate = {06-08-2014}
+}
+
+@OTHER{MN14,
+  title = {Mininet overview},
+  url = {http://mininet.org/overview/},
+  urldate = {05-08-2014}
+}
+
+@ARTICLE{OpenFlow1.0.0,
+  title = {The OpenFlow Switch Specification},
+  note = {\url{http://OpenFlowSwitch.org}},
+  url = {http://OpenFlowSwitch.org}
+}
+
+@OTHER{NOX,
+  title = {NOX Controller},
+  url = {http://www.noxrepo.org/nox/about-nox/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{POX,
+  title = {POX Controller},
+  url = {http://www.noxrepo.org/pox/about-pox/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Ryu,
+  title = {Ryu Controller},
+  url = {http://osrg.github.io/ryu/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Trema,
+  title = {Trema Controller},
+  url = {http://trema.github.io/trema/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Beacon,
+	title = {Beacon Controller},
+	url = {https://openflow.stanford.edu/display/Beacon/Home},
+	urldate = {07-08-2014}
+}
+
+@OTHER{Trema,
+  title = {Trema Controller},
+  url = {http://trema.github.io/trema/},
+  urldate = {07-08-2014}
+}
+
+	

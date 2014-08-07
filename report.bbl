@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
   \providebibliographyfont{name}{}%
   \providebibliographyfont{lastname}{}%
   \providebibliographyfont{title}{\emph}%
@@ -13,36 +13,74 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {Beacon}
+\btxtitlefont {\btxifchangecase {Beacon controller}{Beacon Controller}}.
+\newblock {\latintext
+  \btxurlfont{https://openflow.stanford.edu/display/Beacon/Home}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Floodlight}
+\btxtitlefont {\btxifchangecase {Floodlight project}{Floodlight Project}}.
+\newblock {\latintext
+  \btxurlfont{http://www.projectfloodlight.org/floodlight/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {MN14}
 \btxtitlefont {\btxifchangecase {Mininet overview}{Mininet overview}}.
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
 
+\bibitem {NOX}
+\btxtitlefont {\btxifchangecase {Nox controller}{NOX Controller}}.
+\newblock {\latintext \btxurlfont{http://www.noxrepo.org/nox/about-nox/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {OpenFlow1.0.0}
+\btxjtitlefont {\btxifchangecase {The openflow switch specification}{The
+  OpenFlow Switch Specification}}.
+\newblock {\latintext \btxurlfont{http://OpenFlowSwitch.org}},
+  \url{http://OpenFlowSwitch.org}.
+
+\bibitem {POX}
+\btxtitlefont {\btxifchangecase {Pox controller}{POX Controller}}.
+\newblock {\latintext \btxurlfont{http://www.noxrepo.org/pox/about-pox/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Ryu}
+\btxtitlefont {\btxifchangecase {Ryu controller}{Ryu Controller}}.
+\newblock {\latintext \btxurlfont{http://osrg.github.io/ryu/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {CHU2}
-\btxtitlefont {\btxifchangecase {Security challenges in sdn}{Security
-  Challenges in SDN}}.
+\btxtitlefont {\btxifchangecase {Security challenges in {SDN}}{Security
+  Challenges in {SDN}}}.
 \newblock {\latintext
   \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
 
+\bibitem {Trema}
+\btxtitlefont {\btxifchangecase {Trema controller}{Trema Controller}}.
+\newblock {\latintext \btxurlfont{http://trema.github.io/trema/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {BAN13}
 \btxnamefont {\btxlastnamefont {Banks}, Ethan}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Big switch leaves opendaylight, toutes white-box
-  future}{Big Switch Leaves OpenDaylight, Toutes White-Box Future}}.
+  {\btxifchangecase {{Big Switch} leaves {OpenDaylight}, toutes white-box
+  future}{{Big Switch} Leaves {OpenDaylight}, Toutes White-Box Future}}.
 \newblock {\latintext
   \btxurlfont{http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}}
 
 \bibitem {CHU12}
 \btxnamefont {\btxlastnamefont {Chua}, Roy}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Nox, pox and controllers galore – murphy mccauley
-  interview}{NOX, POX and Controllers Galore – Murphy McCauley Interview}},
-  2012.
+  {\btxifchangecase {{NOX, POX} and controllers galore – {Murphy McCauley}
+  interview}{{NOX, POX} and Controllers Galore – {Murphy McCauley}
+  Interview}}, 2012.
 \newblock {\latintext
   \btxurlfont{http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/}}.
 
 \bibitem {Erickson13}
 \btxnamefont {\btxlastnamefont {Erickson}, David}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {The beacon openflow controller}{The Beacon Openflow
+  {\btxifchangecase {The {Beacon Openflow} controller}{The {Beacon Openflow}
   Controller}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Second ACM SIGCOMM
   Workshop on Hot Topics in Software Defined Networking}, HotSDN '13,
