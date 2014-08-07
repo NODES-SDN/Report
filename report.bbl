@@ -25,10 +25,48 @@
   \btxurlfont{http://www.projectfloodlight.org/floodlight/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Flower}
+\btxtitlefont {\btxifchangecase {Flower}{FLOWer}}.
+\newblock {\latintext \btxurlfont{https://github.com/travelping/flower}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {FlowVisor}
+\btxtitlefont {\btxifchangecase {Flowvisor}{FlowVisor}}.
+\newblock {\latintext
+  \btxurlfont{https://openflow.stanford.edu/display/DOCS/Flowvisor}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {IRIS}
+\btxtitlefont {\btxifchangecase {Iris}{IRIS}}.
+\newblock {\latintext \btxurlfont{http://openiris.etri.re.kr/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {MUL}
+\btxtitlefont {\btxifchangecase {Kulcloud open mul}{KulCloud Open MUL}}.
+\newblock {\latintext \btxurlfont{http://sourceforge.net/projects/mul/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Libfluid}
+\btxtitlefont {\btxifchangecase {Libfluid}{Libfluid}}.
+\newblock {\latintext
+  \btxurlfont{http://opennetworkingfoundation.github.io/libfluid/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Maestro}
+\btxtitlefont {\btxifchangecase {Maestro-platform}{Maestro-platform}}.
+\newblock {\latintext
+  \btxurlfont{https://code.google.com/p/maestro-platform/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {MN14}
 \btxtitlefont {\btxifchangecase {Mininet overview}{Mininet overview}}.
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
+
+\bibitem {Nodeflow}
+\btxtitlefont {\btxifchangecase {Nodeflow}{NodeFlow}}.
+\newblock {\latintext \btxurlfont{http://garyberger.net/?p=537}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
 \bibitem {NOX}
 \btxtitlefont {\btxifchangecase {Nox controller}{NOX Controller}}.
@@ -41,15 +79,31 @@
 \newblock {\latintext \btxurlfont{http://www.opendaylight.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Contrail}
+\btxtitlefont {\btxifchangecase {Opencontrail}{OpenContrail}}.
+\newblock {\latintext
+  \btxurlfont{https://github.com/Juniper/contrail-build}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {OpenFlow1.0.0}
 \btxjtitlefont {\btxifchangecase {The openflow switch specification}{The
   OpenFlow Switch Specification}}.
 \newblock {\latintext \btxurlfont{http://OpenFlowSwitch.org}},
   \url{http://OpenFlowSwitch.org}.
 
+\bibitem {VNet}
+\btxtitlefont {\btxifchangecase {Openvnet}{OpenVNet}}.
+\newblock {\latintext \btxurlfont{http://openvnet.com/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {POX}
 \btxtitlefont {\btxifchangecase {Pox controller}{POX Controller}}.
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/pox/about-pox/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Resonance}
+\btxtitlefont {\btxifchangecase {Resonance}{Resonance}}.
+\newblock {\latintext \btxurlfont{http://resonance.noise.gatech.edu/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
 \bibitem {Ryu}
@@ -64,9 +118,20 @@
   \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
 
+\bibitem {SNAC}
+\btxtitlefont {\btxifchangecase {Snac}{SNAC}}.
+\newblock {\latintext
+  \btxurlfont{http://www.openflowhub.org/display/Snac/SNAC+Home}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {Trema}
 \btxtitlefont {\btxifchangecase {Trema controller}{Trema Controller}}.
 \newblock {\latintext \btxurlfont{http://trema.github.io/trema/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {Warp}
+\btxtitlefont {\btxifchangecase {Warp}{Warp}}.
+\newblock {\latintext \btxurlfont{http://flowforwarding.github.io/warp/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
 \bibitem {BAN13}

@@ -21,6 +21,30 @@ Warning--entry type for "Floodlight" isn't style-file defined
 --line 430 of file references.bib
 Warning--entry type for "ODL" isn't style-file defined
 --line 436 of file references.bib
+Warning--entry type for "Maestro" isn't style-file defined
+--line 442 of file references.bib
+Warning--entry type for "Libfluid" isn't style-file defined
+--line 448 of file references.bib
+Warning--entry type for "FlowVisor" isn't style-file defined
+--line 454 of file references.bib
+Warning--entry type for "Resonance" isn't style-file defined
+--line 460 of file references.bib
+Warning--entry type for "Flower" isn't style-file defined
+--line 466 of file references.bib
+Warning--entry type for "MUL" isn't style-file defined
+--line 472 of file references.bib
+Warning--entry type for "SNAC" isn't style-file defined
+--line 478 of file references.bib
+Warning--entry type for "VNet" isn't style-file defined
+--line 484 of file references.bib
+Warning--entry type for "IRIS" isn't style-file defined
+--line 490 of file references.bib
+Warning--entry type for "Contrail" isn't style-file defined
+--line 496 of file references.bib
+Warning--entry type for "Warp" isn't style-file defined
+--line 502 of file references.bib
+Warning--entry type for "Nodeflow" isn't style-file defined
+--line 508 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -29,6 +53,18 @@ Warning--to sort, need author or key in Ryu
 Warning--to sort, need author or key in Trema
 Warning--to sort, need author or key in Floodlight
 Warning--to sort, need author or key in ODL
+Warning--to sort, need author or key in Libfluid
+Warning--to sort, need author or key in Maestro
+Warning--to sort, need author or key in FlowVisor
+Warning--to sort, need author or key in Flower
+Warning--to sort, need author or key in Resonance
+Warning--to sort, need author or key in Nodeflow
+Warning--to sort, need author or key in MUL
+Warning--to sort, need author or key in SNAC
+Warning--to sort, need author or key in Warp
+Warning--to sort, need author or key in VNet
+Warning--to sort, need author or key in IRIS
+Warning--to sort, need author or key in Contrail
 Warning--to sort, need author or key in MN14
 Warning--to sort, need author or key in CHU2
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -36,45 +72,45 @@ Warning--empty language in Beacon
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 14 entries,
+You've used 26 entries,
             2783 wiz_defined-function locations,
-            706 strings with 7454 characters,
-and the built_in function-call counts, 3475 in all, are:
-= -- 286
-> -- 44
+            748 strings with 8123 characters,
+and the built_in function-call counts, 5971 in all, are:
+= -- 478
+> -- 56
 < -- 1
-+ -- 26
++ -- 38
 - -- 10
-* -- 286
-:= -- 423
-add.period$ -- 30
-call.type$ -- 14
-change.case$ -- 47
+* -- 478
+:= -- 687
+add.period$ -- 54
+call.type$ -- 26
+change.case$ -- 83
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 180
-empty$ -- 475
+cite$ -- 52
+duplicate$ -- 312
+empty$ -- 871
 format.name$ -- 16
-if$ -- 810
+if$ -- 1422
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 26
 missing$ -- 3
-newline$ -- 73
+newline$ -- 121
 num.names$ -- 8
-pop$ -- 135
+pop$ -- 255
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 57
 quote$ -- 0
-skip$ -- 164
+skip$ -- 308
 stack$ -- 0
-substring$ -- 96
-swap$ -- 45
+substring$ -- 156
+swap$ -- 69
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 14
+type$ -- 104
+warning$ -- 26
 while$ -- 11
-width$ -- 16
-write$ -- 129
-(There were 23 warnings)
+width$ -- 28
+write$ -- 213
+(There were 47 warnings)
