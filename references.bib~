@@ -427,10 +427,81 @@
 	urldate = {07-08-2014}
 }
 
-@OTHER{Trema,
-  title = {Trema Controller},
-  url = {http://trema.github.io/trema/},
+@OTHER{Floodlight,
+  title = {Floodlight Project},
+  url = {http://www.projectfloodlight.org/floodlight/},
   urldate = {07-08-2014}
 }
 
+@OTHER{ODL,
+  title = {Open Daylight Project},
+  url = {http://www.opendaylight.org/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Maestro,
+  title = {Maestro-platform},
+  url = {https://code.google.com/p/maestro-platform/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Libfluid,
+  title = {Libfluid},
+  url = {http://opennetworkingfoundation.github.io/libfluid/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{FlowVisor,
+  title = {FlowVisor},
+  url = {https://openflow.stanford.edu/display/DOCS/Flowvisor},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Resonance,
+  title = {Resonance},
+  url = {http://resonance.noise.gatech.edu/},
+  urldate = {07-08-2014}
+}
 	
+@OTHER{FlowER,
+  title = {FlowER,
+  url = {https://github.com/travelping/flower},
+  urldate = {07-08-2014}
+}
+
+@OTHER{MUL,
+  title = {KulCloud Open MUL},
+  url = {http://sourceforge.net/projects/mul/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{SNAC,
+  title = {SNAC},
+  url = {http://www.openflowhub.org/display/Snac/SNAC+Home},
+  urldate = {07-08-2014}
+}
+
+@OTHER{VNet,
+  title = {OpenVNet},
+  url = {http://openvnet.com/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{IRIS,
+  title = {IRIS},
+  url = {http://openiris.etri.re.kr/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Contrail,
+  title = {OpenContrail},
+  url = {https://github.com/Juniper/contrail-build},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Warp,
+  title = {Warp},
+  url = {http://flowforwarding.github.io/warp/},
+  urldate = {07-08-2014}
+}
+

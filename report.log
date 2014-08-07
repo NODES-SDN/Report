@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  7 AUG 2014 14:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  7 AUG 2014 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,20 +978,16 @@ File: "Controller architecture diagram".jpg Graphic file (type jpg)
 Package pdftex.def Info: "Controller architecture diagram".jpg used on input li
 ne 141.
 (pdftex.def)             Requested size: 312.9803pt x 319.33212pt.
+ [1
 
-
-LaTeX Warning: Citation `Floodlight' on page 1 undefined on input line 150.
-
-[1
-
-] [2 <./Controller architecture diagram.jpg>]
-<"ODL Diagram".jpg, id=90, 1142.2675pt x 1763.58875pt>
+] [2 <./Controller architecture diagram.jpg>] <"ODL Diagram".jpg, id=94, 1142.2
+675pt x 1763.58875pt>
 File: "ODL Diagram".jpg Graphic file (type jpg)
- <use "ODL Diagram".jpg>
+
+<use "ODL Diagram".jpg>
 Package pdftex.def Info: "ODL Diagram".jpg used on input line 158.
 (pdftex.def)             Requested size: 312.9803pt x 483.2258pt.
-
-[3] [4 <./ODL Diagram.jpg>] [5] [6] (./report.bbl
+ [3] [4 <./ODL Diagram.jpg>] [5] [6] (./report.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1019,31 +1015,31 @@ lmtt/m/n/10.95 http : / / www . projectfloodlight . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 []\T1/lmr/m/it/10.95 (+20) Security chal-lenges in SDN\T1/lmr/m/n/10.95 (+20) .
   []$\T1/lmtt/m/n/10.95 http : / / www . sdncentral . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 \T1/lmtt/m/n/10.95 security-[]challenges-[]sdn-[]software-[]defined-[]networks/
 $[]\T1/lmr/m/n/10.95 (+20) , vis-
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 67--72
+Underfull \hbox (badness 3514) in paragraph at lines 73--78
 []\T1/lmr/m/n/10.95 (+20) Banks, Ethan: \T1/lmr/m/it/10.95 (+20) Big Switch lea
 ves Open-Day-light, toutes white-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 \T1/lmr/m/it/10.95 (+20) box fu-ture\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
 10.95 http : / / www . networkcomputing . com / networking /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 \T1/lmtt/m/n/10.95 big-[]switch-[]leaves-[]opendaylight-[]touts-[]white-[]box-[
 ]future / a /
  []
@@ -1051,7 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--72
 ! Improper alphabetic constant.
 <to be read again> 
                    \active@prefix 
-l.96 ...}, \btxprintmonthyear{.}{2~21}{2012}{long}
+l.102 ..., \btxprintmonthyear{.}{2~21}{2012}{long}
                                                   .
 A one-character control sequence belongs after a ` mark.
 So I'm essentially inserting \0 here.
@@ -1060,40 +1056,33 @@ So I'm essentially inserting \0 here.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
  [7
 
-]
+] [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: F69031906E8315BF286DB0EE008A499F;409.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 10932 strings out of 495021
- 164709 string characters out of 3180199
- 293124 words of memory out of 3000000
- 13798 multiletter control sequences out of 15000+200000
+ 10935 strings out of 495021
+ 164728 string characters out of 3180199
+ 293183 words of memory out of 3000000
+ 13799 multiletter control sequences out of 15000+200000
  49490 words of font info for 87 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,8n,42p,1684b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,8n,42p,1695b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on report.pdf (10 pages, 544658 bytes).
+Output written on report.pdf (11 pages, 545102 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  14403 words of extra memory for PDF output out of 17280 (max. 10000000)
 

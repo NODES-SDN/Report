@@ -35,6 +35,12 @@
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/nox/about-nox/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {ODL}
+\btxtitlefont {\btxifchangecase {Open daylight project}{Open Daylight
+  Project}}.
+\newblock {\latintext \btxurlfont{http://www.opendaylight.org/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {OpenFlow1.0.0}
 \btxjtitlefont {\btxifchangecase {The openflow switch specification}{The
   OpenFlow Switch Specification}}.
