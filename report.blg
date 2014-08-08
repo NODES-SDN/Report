@@ -51,8 +51,11 @@ Warning--entry type for "LINC" isn't style-file defined
 --line 532 of file references.bib
 Warning--entry type for "Snabb" isn't style-file defined
 --line 538 of file references.bib
+Warning--entry type for "POFSwitch" isn't style-file defined
+--line 544 of file references.bib
 Warning--entry type for "Lantern" isn't style-file defined
 --line 550 of file references.bib
+<<<<<<< HEAD
 Warning--entry type for "STS" isn't style-file defined
 --line 556 of file references.bib
 Warning--entry type for "NS3" isn't style-file defined
@@ -89,6 +92,8 @@ Warning--entry type for "Node" isn't style-file defined
 --line 649 of file references.bib
 Warning--entry type for "Indigo" isn't style-file defined
 --line 655 of file references.bib
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 Warning--entry type for "Lor14" isn't style-file defined
 --line 713 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
@@ -100,7 +105,13 @@ Warning--entry type for "Netconf" isn't style-file defined
 Warning--entry type for "ODLLISP" isn't style-file defined
 --line 761 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
+<<<<<<< HEAD
 --line 775 of file references.bib
+=======
+--line 712 of file references.bib
+Warning--entry type for "nwEPC" isn't style-file defined
+--line 732 of file references.bib
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -124,16 +135,9 @@ Warning--to sort, need author or key in IndigoSwitch
 Warning--to sort, need author or key in OfSwitch
 Warning--to sort, need author or key in LINC
 Warning--to sort, need author or key in Snabb
+Warning--to sort, need author or key in POFSwitch
 Warning--to sort, need author or key in Lantern
 Warning--to sort, need author or key in MN14
-Warning--to sort, need author or key in STS
-Warning--to sort, need author or key in NS3
-Warning--to sort, need author or key in OFLOPS
-Warning--to sort, need author or key in Perf
-Warning--to sort, need author or key in NICE
-Warning--to sort, need author or key in OFTest
-Warning--to sort, need author or key in TestOn
-Warning--to sort, need author or key in Hyper
 Warning--to sort, need author or key in CHU2
 Warning--to sort, need author or key in Flowscale
 Warning--to sort, need author or key in Bird
@@ -157,6 +161,7 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
+<<<<<<< HEAD
 You've used 61 entries,
             2783 wiz_defined-function locations,
             905 strings with 11729 characters,
@@ -199,3 +204,47 @@ while$ -- 27
 width$ -- 63
 write$ -- 497
 (There were 104 warnings)
+=======
+You've used 45 entries,
+            2783 wiz_defined-function locations,
+            854 strings with 10938 characters,
+and the built_in function-call counts, 11855 in all, are:
+= -- 934
+> -- 264
+< -- 2
++ -- 128
+- -- 80
+* -- 1134
+:= -- 1465
+add.period$ -- 100
+call.type$ -- 45
+change.case$ -- 177
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 617
+empty$ -- 1539
+format.name$ -- 126
+if$ -- 2686
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 10
+newline$ -- 203
+num.names$ -- 26
+pop$ -- 442
+preamble$ -- 1
+purify$ -- 130
+quote$ -- 0
+skip$ -- 505
+stack$ -- 0
+substring$ -- 252
+swap$ -- 179
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 180
+warning$ -- 38
+while$ -- 29
+width$ -- 47
+write$ -- 386
+(There were 71 warnings)
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104

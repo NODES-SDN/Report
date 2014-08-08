@@ -47,6 +47,7 @@
   \btxurlfont{https://openflow.stanford.edu/display/DOCS/Flowvisor}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+<<<<<<< HEAD
 \bibitem {Frenetic}
 \btxtitlefont {\btxifchangecase {Frenetic & pyretic}{Frenetic & Pyretic}}.
 \newblock {\latintext \btxurlfont{http://www.frenetic-lang.org/}}\empty
@@ -63,6 +64,8 @@
   \btxurlfont{http://www.projectfloodlight.org/indigo/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {IndigoSwitch}
 \btxtitlefont {\btxifchangecase {Indigo virtual switch}{Indigo Virtual
   Switch}}.
@@ -104,6 +107,7 @@
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
 
+<<<<<<< HEAD
 \bibitem {Nettle}
 \btxtitlefont {\btxifchangecase {Nettle}{Nettle}}.
 \newblock {\latintext
@@ -115,6 +119,8 @@
 \newblock {\latintext \btxurlfont{https://code.google.com/p/nice-of/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {Nodeflow}
 \btxtitlefont {\btxifchangecase {Nodeflow}{NodeFlow}}.
 \newblock {\latintext \btxurlfont{http://garyberger.net/?p=537}}\empty
@@ -125,6 +131,7 @@
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/nox/about-nox/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+<<<<<<< HEAD
 \bibitem {NS3}
 \btxtitlefont {\btxifchangecase {ns-3}{ns-3}}.
 \newblock {\latintext \btxurlfont{http://www.nsnam.org/}}\empty
@@ -148,17 +155,13 @@
   \btxurlfont{https://github.com/FlowForwarding/of_protocol}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {OfSwitch}
 \btxtitlefont {\btxifchangecase {Ofsoftswitch}{OFSoftswitch}}.
 \newblock {\latintext
   \btxurlfont{https://github.com/CPqD/ofsoftswitch13}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
-\bibitem {OFTest}
-\btxtitlefont {\btxifchangecase {Oftest}{OFTest}}.
-\newblock {\latintext
-  \btxurlfont{http://www.projectfloodlight.org/oftest/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {ODL}
 \btxtitlefont {\btxifchangecase {Open daylight project}{Open Daylight
@@ -226,10 +229,9 @@
 \newblock {\latintext \btxurlfont{http://openvnet.com/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-\bibitem {Perf}
-\btxtitlefont {\btxifchangecase {Perfsonar}{PerfSonar}}.
-\newblock {\latintext
-  \btxurlfont{http://fasterdata.es.net/performance-testing/perfsonar/}}\empty
+\bibitem {POFSwitch}
+\btxtitlefont {\btxifchangecase {Pofswitch}{POFSwitch}}.
+\newblock {\latintext \btxurlfont{http://www.poforwarding.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {POX}
@@ -252,12 +254,6 @@
 \newblock {\latintext \btxurlfont{http://osrg.github.io/ryu/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-\bibitem {STS}
-\btxtitlefont {\btxifchangecase {Sdn troubleshooting system}{SDN
-  Troubleshooting System}}.
-\newblock {\latintext \btxurlfont{http://ucb-sts.github.io/sts/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
 \bibitem {CHU2}
 \btxtitlefont {\btxifchangecase {Security challenges in {SDN}}{Security
   Challenges in {SDN}}}.
@@ -271,6 +267,7 @@
   \btxurlfont{https://github.com/SnabbCo/snabbswitch}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+<<<<<<< HEAD
 \bibitem {TestOn}
 \btxtitlefont {\btxifchangecase {Teston}{TestOn}}.
 \newblock {\latintext \btxurlfont{https://github.com/Paxterra/TestON/}}\empty
@@ -281,6 +278,8 @@
 \newblock {\latintext \btxurlfont{http://bird.network.cz/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {Sve14}
 \btxtitlefont {\btxifchangecase {Tp-link tl-1043nd}{TP-Link TL-1043ND}}.
 \newblock {\latintext
@@ -305,13 +304,20 @@
   \btxurlfont{http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}}
 
 \bibitem {Bjo10}
-\btxnamefont {\btxlastnamefont {Bjorklund}, M.}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {{YANG - A Data Modeling Language for the Network
-  Configuration Protocol (NETCONF)}}{{YANG - A Data Modeling Language for the
-  Network Configuration Protocol (NETCONF)}}}.
-\newblock \btxifchangecase {{RFC}}{{RFC}}\ 6020, {Internet Engineering Task
-  Force}, \btxprintmonthyear{.}{October}{2010}{long}.
+\btxnamefont {\btxlastnamefont {Bjorklund"}, "M.}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Yang - a data modeling language for the network
+  configuration protocol (netconf)}{YANG - A Data Modeling Language for the
+  Network Configuration Protocol (NETCONF)}}.
+\newblock \btxifchangecase {Rfc}{RFC}\ 6020, Internet Engineering Task Force,
+  \btxprintmonthyear{.}{October}{2010}{long}.
 \newblock {\latintext \btxurlfont{http://tools.ietf.org/html/rfc6020}}.
+
+\bibitem {nwEPC}
+\btxnamefont {\btxlastnamefont {Chawre}, Amit}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {nw-epc}{nw-EPC}}.
+\newblock {\latintext
+  \btxurlfont{http://web.archive.org/web/20120622233936/http://www.amitchawre.net/nw-epc.html}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{8-08-2014}}}.
 
 \bibitem {CHU12}
 \btxnamefont {\btxlastnamefont {Chua}, Roy}\btxauthorcolon\ \btxtitlefont
@@ -337,7 +343,7 @@
   \btxnamefont {\btxlastnamefont {Zegura}, Ellen}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {The road to sdn}{The Road to SDN}}.
 \newblock \btxjournalfont {Queue}, 11(12),
-  \btxprintmonthyear{.}{12}{2013}{long}.
+  \btxprintmonthyear{.}{dec}{2013}{long}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2559899.2560327}}.
 
 \bibitem {Wol13}
@@ -375,7 +381,7 @@
   {\btxlastnamefont {Carman}, D.Z.}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {System for regulating access to and distributing content
   in a network}{System for regulating access to and distributing content in a
-  network}}, \btxprintmonthyear{.}{2~21}{2012}{long}.
+  network}}, \btxprintmonthyear{.}{feb}{2012}{long}.
 \newblock {\latintext \btxurlfont{http://www.google.com/patents/US8122128}}, US
   Patent 8,122,128.
 
@@ -389,7 +395,7 @@
   \btxjtitlefont {\btxifchangecase {Openroads: Empowering research in mobile
   networks}{OpenRoads: Empowering Research in Mobile Networks}}.
 \newblock \btxjournalfont {SIGCOMM Comput. Commun. Rev.}, 40(1),
-  \btxprintmonthyear{.}{1}{2010}{long}\ifbtxprintISSN {,
+  \btxprintmonthyear{.}{jan}{2010}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0146-4833}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1672308.1672331}}.
 

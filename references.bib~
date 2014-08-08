@@ -73,7 +73,7 @@
   volume = {41},
   pages = {254--265},
   number = {4},
-  month = aug,
+  month = {aug},
   acmid = {2018466},
   address = {New York, NY, USA},
   doi = {10.1145/2043164.2018466},
@@ -111,7 +111,7 @@
   volume = {38},
   pages = {105--110},
   number = {3},
-  month = jul,
+  month = {jul},
   acmid = {1384625},
   address = {New York, NY, USA},
   doi = {10.1145/1384609.1384625},
@@ -212,7 +212,7 @@
   volume = {38},
   pages = {69--74},
   number = {2},
-  month = mar,
+  month = {mar},
   acmid = {1355746},
   address = {New York, NY, USA},
   doi = {10.1145/1355734.1355746},
@@ -242,7 +242,7 @@
 @MISC{robert2012system,
   author = {Robert, B.I.I. and Carman, D.Z.},
   title = {System for regulating access to and distributing content in a network},
-  month = feb # {~21},
+  month = {feb},
   year = {2012},
   note = {US Patent 8,122,128},
   publisher = {Google Patents},
@@ -553,7 +553,7 @@
 	  urldate = {08-08-2014}
 }
 
-@OTHER{STS,
+@other{STS,
 	title = {SDN Troubleshooting System},
 	url = {http://ucb-sts.github.io/sts/},
 	urldate = {08-08-2014}
@@ -595,6 +595,7 @@
 @OTHER{Hyper,
 	title = {HyperGlance},
 	url = {http://real-status.com/product/sdn},
+<<<<<<< HEAD
 	urldate = {08-08-2014}
 }
 
@@ -619,6 +620,8 @@
 @OTHER{Frenetic,
 	title = {Frenetic & Pyretic},
 	url = {http://www.frenetic-lang.org/},
+=======
+>>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 	urldate = {08-08-2014}
 }
 
@@ -668,7 +671,7 @@
  issue_date = {December 2013},
  volume = {11},
  number = {12},
- month = dec,
+ month = {dec},
  year = {2013},
  url = {http://doi.acm.org/10.1145/2559899.2560327},
  doi = {10.1145/2559899.2560327},
@@ -700,7 +703,7 @@
  issue_date = {January 2010},
  volume = {40},
  number = {1},
- month = jan,
+ month = {jan},
  year = {2010},
  issn = {0146-4833},
  url = {http://doi.acm.org/10.1145/1672308.1672331},
@@ -733,13 +736,13 @@ month={Nov}
 }
 
 @techreport{Bjo10, 
-AUTHOR = "M. Bjorklund", 
-TITLE = "{YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF)}", 
-TYPE="{RFC}", 
+AUTHOR = {"M. Bjorklund"}, 
+TITLE = {YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF)}, 
+TYPE={RFC}, 
 NUMBER=6020, 
 YEAR = {2010}, 
 MONTH = {October},
-INSTITUTION = "{Internet Engineering Task Force}", 
+INSTITUTION = {Internet Engineering Task Force}, 
 URL={http://tools.ietf.org/html/rfc6020}
  }
 
@@ -790,6 +793,13 @@ url = {http://doi.acm.org/10.1145/2619287.2619291},
 doi = {10.1145/2619287.2619291},
 publisher = {ACM},
 address = {New York, NY, USA}
+}
+
+@online{nwEPC,
+title = {nw-EPC}, 
+author = {Amit Chawre}
+url = {http://web.archive.org/web/20120622233936/http://www.amitchawre.net/nw-epc.html}, 
+urldate = {8-08-2014}
 }
 
 
