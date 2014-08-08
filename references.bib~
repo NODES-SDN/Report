@@ -463,8 +463,8 @@
   urldate = {07-08-2014}
 }
 	
-@OTHER{FlowER,
-  title = {FlowER},
+@OTHER{Flower,
+  title = {FLOWer},
   url = {https://github.com/travelping/flower},
   urldate = {07-08-2014}
 }
@@ -504,4 +504,184 @@
   url = {http://flowforwarding.github.io/warp/},
   urldate = {07-08-2014}
 }
+
+@OTHER{Nodeflow,
+	title = {NodeFlow},
+	url = {http://garyberger.net/?p=537},
+	  urldate = {07-08-2014}
+}
+
+@OTHER{VSwitch,
+	title = {Open VSwitch},
+	url = {http://openvswitch.org/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{IndigoSwitch,
+	title = {Indigo Virtual Switch},
+	url = {http://www.projectfloodlight.org/indigo-virtual-switch/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{OfSwitch,
+	title = {OFSoftswitch},
+	url = {https://github.com/CPqD/ofsoftswitch13},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{LINC,
+	title = {LINC-switch},
+	url = {https://github.com/FlowForwarding/LINC-Switch},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{Snabb,
+	title = {Snabb Switch},
+	url = {https://github.com/SnabbCo/snabbswitch},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{POFSwitch,
+	title = {POFSwitch},
+	url = {http://www.poforwarding.org/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{Lantern,
+	title = {Lantern},
+	url = {https://github.com/CentecNetworks/Lantern},
+	  urldate = {08-08-2014}
+}
+
+@ARTICLE{FRZ13,
+ author = {Feamster, Nick and Rexford, Jennifer and Zegura, Ellen},
+ title = {The Road to SDN},
+ journal = {Queue},
+ issue_date = {December 2013},
+ volume = {11},
+ number = {12},
+ month = dec,
+ year = {2013},
+ url = {http://doi.acm.org/10.1145/2559899.2560327},
+ doi = {10.1145/2559899.2560327},
+ acmid = {2560327},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+
+@inproceedings{Yap10a,
+ author = {Yap, Kok-Kiong and Sherwood, Rob and Kobayashi, Masayoshi and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick and Parulkar, Guru},
+ title = {Blueprint for Introducing Innovation into Wireless Mobile Networks},
+ booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Virtualized Infrastructure Systems and Architectures},
+ series = {VISA '10},
+ year = {2010},
+ isbn = {978-1-4503-0199-2},
+ location = {New Delhi, India},
+ url = {http://doi.acm.org/10.1145/1851399.1851404},
+ doi = {10.1145/1851399.1851404},
+ acmid = {1851404},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+
+}
+
+@article{Yap10b,
+ author = {Yap, Kok-Kiong and Kobayashi, Masayoshi and Sherwood, Rob and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick},
+ title = {OpenRoads: Empowering Research in Mobile Networks},
+ journal = {SIGCOMM Comput. Commun. Rev.},
+ issue_date = {January 2010},
+ volume = {40},
+ number = {1},
+ month = jan,
+ year = {2010},
+ issn = {0146-4833},
+ url = {http://doi.acm.org/10.1145/1672308.1672331},
+ doi = {10.1145/1672308.1672331},
+ acmid = {1672331},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@online{Lor14,
+ author = {Lorema}, 
+title = {about OpenWRT}, 
+year = {2014}, 
+url = {http://wiki.openwrt.org/about/start}, 
+urldate = {30-07-2014}
+}
+
+@online{Sve14,
+ title = {TP-Link TL-1043ND}, 
+url = {http://wiki.openwrt.org/toh/tp-link/tl-wr1043nd}, 
+urldate = {30-07-2014}
+}
+
+@INPROCEEDINGS{Wol13, 
+author={John, W. and Pentikousis, K. and Agapiou, G. and Jacob, E. and Kind, M. and Manzalini, A and Risso, F. and Staessens, D. and Steinert, R. and Meirosu, C.}, 
+booktitle={Future Networks and Services (SDN4FNS), 2013 IEEE SDN for}, 
+title={Research Directions in Network Service Chaining}, 
+year={2013}, 
+month={Nov} 
+}
+
+@techreport{Bjo10, 
+AUTHOR = "M. Bjorklund", 
+TITLE = "{YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF)}", 
+TYPE="{RFC}", 
+NUMBER=6020, 
+YEAR = {2010}, 
+MONTH = {October},
+INSTITUTION = "{Internet Engineering Task Force}", 
+URL={http://tools.ietf.org/html/rfc6020}
+ }
+
+
+@online{MDS,
+ title = {OpenDaylight Controller:MD-SAL:Architecture}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}, 
+urldate = {04-08-2014}
+}
+
+@online{Netconf,
+ title = {OpenDaylight Controller:Config:Examples:Netconf}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}, 
+urldate = {04-08-2014}
+}
+
+
+
+@online{ODLLISP,
+ title = {OpenDaylight Lisp Flow Mappin:Architecture}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Lisp_Flow_Mapping:Architecture}, 
+urldate = {6-08-2014}
+}
+
+@techreport{OpenEPC, 
+title = {{OpenEPC, building your own complete mobile broadband operator network testbed}}, 
+group = {Fraunhofer FOKUS}, 
+type = {White Paper},
+institution = {Fraunhofer Institute for Open Communication Systems FOKUS},  
+url = {http://www.openepc.net/_docs/OpenEPC-Whitepaper_nov2012.pdf}
+}
+
+@online{Yia04,
+author = {Yiannis Yiakoumis}, 
+title = {Pantou : OpenFlow 1.0 for OpenWRT}, 
+year = {2004}, 
+url = {http://archive.openflow.org/wk/index.php/Pantou_:_OpenFlow_1.0_for_OpenWRT}, 
+urldate = {29-07-2014}
+}
+
+@INPROCEEDINGS{OKH14,
+author = {Okada, Kazuya and Hazeyama, Hiroaki and Kadobayashi, Youki},
+title = {Oblivious DDoS Mitigation with Locator/ID Separation Protocol},
+booktitle = {Proceedings of The Ninth International Conference on Future Internet Technologies},
+year = {2014},
+location = {Tokyo, Japan},
+url = {http://doi.acm.org/10.1145/2619287.2619291},
+doi = {10.1145/2619287.2619291},
+publisher = {ACM},
+address = {New York, NY, USA}
+}
+
 

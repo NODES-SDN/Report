@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: babplain-lf.bst
@@ -41,18 +41,30 @@ Warning--entry type for "Warp" isn't style-file defined
 --line 502 of file references.bib
 Warning--entry type for "Nodeflow" isn't style-file defined
 --line 508 of file references.bib
+Warning--entry type for "VSwitch" isn't style-file defined
+--line 514 of file references.bib
+Warning--entry type for "IndigoSwitch" isn't style-file defined
+--line 520 of file references.bib
+Warning--entry type for "OfSwitch" isn't style-file defined
+--line 526 of file references.bib
+Warning--entry type for "LINC" isn't style-file defined
+--line 532 of file references.bib
+Warning--entry type for "Snabb" isn't style-file defined
+--line 538 of file references.bib
+Warning--entry type for "Lantern" isn't style-file defined
+--line 550 of file references.bib
 Warning--entry type for "Lor14" isn't style-file defined
---line 563 of file references.bib
+--line 605 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
---line 571 of file references.bib
+--line 613 of file references.bib
 Warning--entry type for "MDS" isn't style-file defined
---line 597 of file references.bib
+--line 639 of file references.bib
 Warning--entry type for "Netconf" isn't style-file defined
---line 603 of file references.bib
+--line 645 of file references.bib
 Warning--entry type for "ODLLISP" isn't style-file defined
---line 611 of file references.bib
+--line 653 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
---line 625 of file references.bib
+--line 667 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -71,6 +83,12 @@ Warning--to sort, need author or key in Warp
 Warning--to sort, need author or key in VNet
 Warning--to sort, need author or key in IRIS
 Warning--to sort, need author or key in Contrail
+Warning--to sort, need author or key in VSwitch
+Warning--to sort, need author or key in IndigoSwitch
+Warning--to sort, need author or key in OfSwitch
+Warning--to sort, need author or key in LINC
+Warning--to sort, need author or key in Snabb
+Warning--to sort, need author or key in Lantern
 Warning--to sort, need author or key in MN14
 Warning--to sort, need author or key in CHU2
 Warning--to sort, need author or key in Sve14
@@ -85,45 +103,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 37 entries,
+You've used 43 entries,
             2783 wiz_defined-function locations,
-            822 strings with 10381 characters,
-and the built_in function-call counts, 10131 in all, are:
-= -- 800
-> -- 250
+            846 strings with 10785 characters,
+and the built_in function-call counts, 11379 in all, are:
+= -- 896
+> -- 256
 < -- 2
-+ -- 118
++ -- 124
 - -- 78
-* -- 1000
-:= -- 1273
-add.period$ -- 84
-call.type$ -- 37
-change.case$ -- 152
+* -- 1096
+:= -- 1405
+add.period$ -- 96
+call.type$ -- 43
+change.case$ -- 170
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 527
-empty$ -- 1274
+cite$ -- 80
+duplicate$ -- 593
+empty$ -- 1472
 format.name$ -- 123
-if$ -- 2269
+if$ -- 2575
 int.to.chr$ -- 0
-int.to.str$ -- 37
+int.to.str$ -- 43
 missing$ -- 10
-newline$ -- 171
+newline$ -- 195
 num.names$ -- 24
-pop$ -- 362
+pop$ -- 422
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 125
 quote$ -- 0
-skip$ -- 409
+skip$ -- 481
 stack$ -- 0
-substring$ -- 212
-swap$ -- 161
+substring$ -- 242
+swap$ -- 173
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 31
+type$ -- 172
+warning$ -- 37
 while$ -- 27
-width$ -- 39
-write$ -- 329
-(There were 56 warnings)
+width$ -- 45
+write$ -- 371
+(There were 68 warnings)
