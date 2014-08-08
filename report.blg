@@ -51,6 +51,8 @@ Warning--entry type for "LINC" isn't style-file defined
 --line 532 of file references.bib
 Warning--entry type for "Snabb" isn't style-file defined
 --line 538 of file references.bib
+Warning--entry type for "POFSwitch" isn't style-file defined
+--line 544 of file references.bib
 Warning--entry type for "Lantern" isn't style-file defined
 --line 550 of file references.bib
 Warning--entry type for "STS" isn't style-file defined
@@ -130,6 +132,7 @@ Warning--to sort, need author or key in IndigoSwitch
 Warning--to sort, need author or key in OfSwitch
 Warning--to sort, need author or key in LINC
 Warning--to sort, need author or key in Snabb
+Warning--to sort, need author or key in POFSwitch
 Warning--to sort, need author or key in Lantern
 Warning--to sort, need author or key in MN14
 Warning--to sort, need author or key in STS
@@ -165,45 +168,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 64 entries,
+You've used 65 entries,
             2783 wiz_defined-function locations,
-            917 strings with 11932 characters,
-and the built_in function-call counts, 15807 in all, are:
-= -- 1238
-> -- 283
+            920 strings with 11980 characters,
+and the built_in function-call counts, 16015 in all, are:
+= -- 1254
+> -- 284
 < -- 2
-+ -- 147
++ -- 148
 - -- 80
-* -- 1438
-:= -- 1883
-add.period$ -- 138
-call.type$ -- 64
-change.case$ -- 234
+* -- 1454
+:= -- 1905
+add.period$ -- 140
+call.type$ -- 65
+change.case$ -- 237
 chr.to.int$ -- 0
-cite$ -- 121
-duplicate$ -- 826
-empty$ -- 2166
+cite$ -- 123
+duplicate$ -- 837
+empty$ -- 2199
 format.name$ -- 126
-if$ -- 3655
+if$ -- 3706
 int.to.chr$ -- 0
-int.to.str$ -- 64
+int.to.str$ -- 65
 missing$ -- 10
-newline$ -- 279
+newline$ -- 283
 num.names$ -- 26
-pop$ -- 632
+pop$ -- 642
 preamble$ -- 1
-purify$ -- 168
+purify$ -- 170
 quote$ -- 0
-skip$ -- 733
+skip$ -- 745
 stack$ -- 0
-substring$ -- 347
-swap$ -- 217
+substring$ -- 352
+swap$ -- 219
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
-warning$ -- 57
+type$ -- 260
+warning$ -- 58
 while$ -- 29
-width$ -- 66
-write$ -- 519
-(There were 109 warnings)
+width$ -- 67
+write$ -- 526
+(There were 111 warnings)

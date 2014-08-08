@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  8 AUG 2014 14:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  8 AUG 2014 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, pi
-nyin, french, basque, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, uk
+english, loaded.
 (./tktltiki2.cls
 Document Class: tktltiki2 2013/04/28 v1.04 Template for theses and seminar pape
 rs at University of Helsinki CS department
@@ -65,8 +74,6 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count85
 \U@D=\dimen112
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -87,30 +94,8 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip44
 \belowcaptionskip=\skip45
 \bibindent=\dimen113
-)
-
-! Package babel Error: You haven't defined the language finnish yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \iflanguage{finnish}
-                         {
-Your command will be ignored, type <return> to proceed
-
-
-! Package babel Error: You haven't defined the language swedish yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 \iflanguage{swedish}
-                         {
-Your command will be ignored, type <return> to proceed
-
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
@@ -987,20 +972,8 @@ File: "ODL Diagram".jpg Graphic file (type jpg)
 <use "ODL Diagram".jpg>
 Package pdftex.def Info: "ODL Diagram".jpg used on input line 158.
 (pdftex.def)             Requested size: 312.9803pt x 483.2258pt.
-
-Runaway argument?
-{POFSwitch. The previously mentioned open VNet also includes a virtua\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.173 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[3] [4 <./ODL Diagram.jpg>] [5] [6]
-<"openroad architecture".jpg, id=229, 838.13126pt x 789.95125pt>
+ [3] [4 <./ODL Diagram.jpg>] [5] [6]
+<"openroad architecture".jpg, id=231, 838.13126pt x 789.95125pt>
 File: "openroad architecture".jpg Graphic file (type jpg)
 
 <use "openroad architecture".jpg>
@@ -1009,7 +982,7 @@ Package pdftex.def Info: "openroad architecture".jpg used on input line 211.
  [7
 
 ] [8 <./openroad architecture.jpg>]
-[9] <"NSC vs current network".jpg, id=268, 852.18375pt x 426.59375pt>
+[9] <"NSC vs current network".jpg, id=258, 852.18375pt x 426.59375pt>
 File: "NSC vs current network".jpg Graphic file (type jpg)
 
 <use "NSC vs current network".jpg>
@@ -1019,14 +992,14 @@ Package pdftex.def Info: "NSC vs current network".jpg used on input line 253.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10] <"benefits of dynamic nsc".jpg, id=280, 761.84625pt x 417.56pt>
+[10] <"benefits of dynamic nsc".jpg, id=269, 761.84625pt x 417.56pt>
 File: "benefits of dynamic nsc".jpg Graphic file (type jpg)
 
 <use "benefits of dynamic nsc".jpg>
 Package pdftex.def Info: "benefits of dynamic nsc".jpg used on input line 264.
 (pdftex.def)             Requested size: 312.9803pt x 171.53838pt.
  [11 <./NSC vs current network.jpg> <./benefits of dynamic nsc.jpg>] [12]
-<"packet forwarding in lisp".jpg, id=305, 775.89874pt x 378.41376pt>
+<"packet forwarding in lisp".jpg, id=292, 775.89874pt x 378.41376pt>
 File: "packet forwarding in lisp".jpg Graphic file (type jpg)
 
 <use "packet forwarding in lisp".jpg>
@@ -1034,7 +1007,7 @@ Package pdftex.def Info: "packet forwarding in lisp".jpg used on input line 287
 .
 (pdftex.def)             Requested size: 312.9803pt x 152.64467pt.
 
-<"lisp in odl".jpg, id=311, 681.54625pt x 385.44pt>
+<"lisp in odl".jpg, id=297, 681.54625pt x 385.44pt>
 File: "lisp in odl".jpg Graphic file (type jpg)
  <use "lisp in odl".jpg>
 Package pdftex.def Info: "lisp in odl".jpg used on input line 299.
@@ -1073,18 +1046,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
 []\T1/lmr/m/it/10.95 (+20) Flowvisor\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
 10.95 https : / / openflow . stanford . edu / display / DOCS /
  []
-
-! Misplaced alignment tab character &.
-<argument> Frenetic &
-                      pyretic
-l.51 ... {Frenetic & pyretic}{Frenetic & Pyretic}}
-                                                  .
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--72
@@ -1157,56 +1118,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--239
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 []\T1/lmr/m/it/10.95 (+20) Security chal-lenges in SDN\T1/lmr/m/n/10.95 (+20) .
   []$\T1/lmtt/m/n/10.95 http : / / www . sdncentral . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 \T1/lmtt/m/n/10.95 security-[]challenges-[]sdn-[]software-[]defined-[]networks/
 $[]\T1/lmr/m/n/10.95 (+20) , vis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
 []\T1/lmr/m/it/10.95 (+20) Tp-link tl-1043nd\T1/lmr/m/n/10.95 (+20) .  []$\T1/l
 mtt/m/n/10.95 http : / / wiki . openwrt . org / toh / tp-[]link /
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 311--316
+Underfull \hbox (badness 3514) in paragraph at lines 316--321
 []\T1/lmr/m/n/10.95 (+20) Banks, Ethan: \T1/lmr/m/it/10.95 (+20) Big Switch lea
 ves Open-Day-light, toutes white-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
+Underfull \hbox (badness 10000) in paragraph at lines 316--321
 \T1/lmr/m/it/10.95 (+20) box fu-ture\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
 10.95 http : / / www . networkcomputing . com / networking /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
+Underfull \hbox (badness 10000) in paragraph at lines 316--321
 \T1/lmtt/m/n/10.95 big-[]switch-[]leaves-[]opendaylight-[]touts-[]white-[]box-[
 ]future / a /
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 327--332
+Underfull \hbox (badness 10000) in paragraph at lines 332--337
 []\T1/lmr/m/n/10.95 (+20) Chawre, Amit: \T1/lmr/m/it/10.95 (+20) nw-epc\T1/lmr/
 m/n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 http : / / web . archive . org / web /
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 431--437
+Underfull \hbox (badness 10000) in paragraph at lines 436--442
 []\T1/lmr/m/n/10.95 (+20) Yiakoumis, Yian-nis: \T1/lmr/m/it/10.95 (+20) Pan-tou
  : Open-flow 1.0 for open-wrt\T1/lmr/m/n/10.95 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--437
+Underfull \hbox (badness 10000) in paragraph at lines 436--442
 \T1/lmr/m/n/10.95 (+20) 2004.  []$\T1/lmtt/m/n/10.95 http : / / archive . openf
 low . org / wk / index . php / Pantou_ :
  []
@@ -1223,12 +1184,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 11118 strings out of 495021
- 167115 string characters out of 3180199
- 296999 words of memory out of 3000000
- 13880 multiletter control sequences out of 15000+200000
+ 11116 strings out of 493481
+ 167102 string characters out of 3143393
+ 299345 words of memory out of 3000000
+ 13990 multiletter control sequences out of 15000+200000
  50768 words of font info for 99 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 965 hyphenation exceptions out of 8191
  44i,8n,42p,1695b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
@@ -1236,10 +1197,10 @@ hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on report.pdf (23 pages, 1617663 bytes).
+Output written on report.pdf (23 pages, 1616794 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 454 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
  14476 words of extra memory for PDF output out of 17280 (max. 10000000)
 

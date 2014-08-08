@@ -48,7 +48,7 @@
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
 \bibitem {Frenetic}
-\btxtitlefont {\btxifchangecase {Frenetic & pyretic}{Frenetic & Pyretic}}.
+\btxtitlefont {\btxifchangecase {Frenetic and pyretic}{Frenetic and Pyretic}}.
 \newblock {\latintext \btxurlfont{http://www.frenetic-lang.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
@@ -235,6 +235,11 @@
 \btxtitlefont {\btxifchangecase {Perfsonar}{PerfSonar}}.
 \newblock {\latintext
   \btxurlfont{http://fasterdata.es.net/performance-testing/perfsonar/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {POFSwitch}
+\btxtitlefont {\btxifchangecase {Pofswitch}{POFSwitch}}.
+\newblock {\latintext \btxurlfont{http://www.poforwarding.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {POX}
