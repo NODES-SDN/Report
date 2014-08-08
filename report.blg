@@ -192,90 +192,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-<<<<<<< HEAD
-You've used 72 entries,
+You've used 73 entries,
             2783 wiz_defined-function locations,
-            943 strings with 12292 characters,
-and the built_in function-call counts, 17471 in all, are:
-= -- 1366
-> -- 291
+            946 strings with 12340 characters,
+and the built_in function-call counts, 17679 in all, are:
+= -- 1382
+> -- 292
 < -- 2
-+ -- 155
++ -- 156
 - -- 80
-* -- 1566
-:= -- 2059
-add.period$ -- 154
-call.type$ -- 72
-change.case$ -- 258
+* -- 1582
+:= -- 2081
+add.period$ -- 156
+call.type$ -- 73
+change.case$ -- 261
 chr.to.int$ -- 0
-cite$ -- 137
-duplicate$ -- 914
-empty$ -- 2430
+cite$ -- 139
+duplicate$ -- 925
+empty$ -- 2463
 format.name$ -- 126
-if$ -- 4063
+if$ -- 4114
 int.to.chr$ -- 0
-int.to.str$ -- 72
+int.to.str$ -- 73
 missing$ -- 10
-newline$ -- 311
+newline$ -- 315
 num.names$ -- 26
-pop$ -- 712
+pop$ -- 722
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 186
 quote$ -- 0
-skip$ -- 829
+skip$ -- 841
 stack$ -- 0
-substring$ -- 387
-swap$ -- 233
+substring$ -- 392
+swap$ -- 235
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 288
-warning$ -- 65
+type$ -- 292
+warning$ -- 66
 while$ -- 29
-width$ -- 74
-write$ -- 575
-(There were 125 warnings)
-=======
-You've used 65 entries,
-            2783 wiz_defined-function locations,
-            920 strings with 11980 characters,
-and the built_in function-call counts, 16015 in all, are:
-= -- 1254
-> -- 284
-< -- 2
-+ -- 148
-- -- 80
-* -- 1454
-:= -- 1905
-add.period$ -- 140
-call.type$ -- 65
-change.case$ -- 237
-chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 837
-empty$ -- 2199
-format.name$ -- 126
-if$ -- 3706
-int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 10
-newline$ -- 283
-num.names$ -- 26
-pop$ -- 642
-preamble$ -- 1
-purify$ -- 170
-quote$ -- 0
-skip$ -- 745
-stack$ -- 0
-substring$ -- 352
-swap$ -- 219
-text.length$ -- 2
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 260
-warning$ -- 58
-while$ -- 29
-width$ -- 67
-write$ -- 526
-(There were 111 warnings)
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+width$ -- 75
+write$ -- 582
+(There were 127 warnings)

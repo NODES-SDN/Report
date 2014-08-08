@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.3}YANG Model and its usage in OpenDaylight}{12}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}LISP and its usage in OpenDaylight}{12}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}OpenEPC and nwEPC}{13}{subsection.3.5}
-\contentsline {section}{References}{16}{section*.9}
+\contentsline {section}{References}{16}{section*.10}
 \select@language {english}
 \select@language {english}
 \select@language {english}
@@ -122,7 +122,6 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-<<<<<<< HEAD
 \select@language {english}
 \select@language {english}
 \select@language {english}
@@ -137,5 +136,5 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-=======
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+\select@language {english}
+\select@language {english}

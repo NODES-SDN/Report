@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  8 AUG 2014 15:54
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  8 AUG 2014 15:50
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  8 AUG 2014 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,25 +972,8 @@ File: "ODL Diagram".jpg Graphic file (type jpg)
 <use "ODL Diagram".jpg>
 Package pdftex.def Info: "ODL Diagram".jpg used on input line 158.
 (pdftex.def)             Requested size: 312.9803pt x 483.2258pt.
-<<<<<<< HEAD
-
-Runaway argument?
-{POFSwitch. The previously mentioned open VNet also includes a virtua\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.173 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[3] [4 <./ODL Diagram.jpg>] [5] [6]
-<"openroad architecture".jpg, id=247, 838.13126pt x 789.95125pt>
-=======
  [3] [4 <./ODL Diagram.jpg>] [5] [6]
-<"openroad architecture".jpg, id=231, 838.13126pt x 789.95125pt>
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+<"openroad architecture".jpg, id=249, 838.13126pt x 789.95125pt>
 File: "openroad architecture".jpg Graphic file (type jpg)
 
 <use "openroad architecture".jpg>
@@ -1003,11 +982,7 @@ Package pdftex.def Info: "openroad architecture".jpg used on input line 211.
  [7
 
 ] [8 <./openroad architecture.jpg>]
-<<<<<<< HEAD
-[9] <"NSC vs current network".jpg, id=286, 852.18375pt x 426.59375pt>
-=======
-[9] <"NSC vs current network".jpg, id=258, 852.18375pt x 426.59375pt>
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+[9] <"NSC vs current network".jpg, id=276, 852.18375pt x 426.59375pt>
 File: "NSC vs current network".jpg Graphic file (type jpg)
 
 <use "NSC vs current network".jpg>
@@ -1017,22 +992,14 @@ Package pdftex.def Info: "NSC vs current network".jpg used on input line 253.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[10] <"benefits of dynamic nsc".jpg, id=298, 761.84625pt x 417.56pt>
-=======
-[10] <"benefits of dynamic nsc".jpg, id=269, 761.84625pt x 417.56pt>
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+[10] <"benefits of dynamic nsc".jpg, id=287, 761.84625pt x 417.56pt>
 File: "benefits of dynamic nsc".jpg Graphic file (type jpg)
 
 <use "benefits of dynamic nsc".jpg>
 Package pdftex.def Info: "benefits of dynamic nsc".jpg used on input line 264.
 (pdftex.def)             Requested size: 312.9803pt x 171.53838pt.
  [11 <./NSC vs current network.jpg> <./benefits of dynamic nsc.jpg>] [12]
-<<<<<<< HEAD
-<"packet forwarding in lisp".jpg, id=324, 775.89874pt x 378.41376pt>
-=======
-<"packet forwarding in lisp".jpg, id=292, 775.89874pt x 378.41376pt>
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+<"packet forwarding in lisp".jpg, id=310, 775.89874pt x 378.41376pt>
 File: "packet forwarding in lisp".jpg Graphic file (type jpg)
 
 <use "packet forwarding in lisp".jpg>
@@ -1040,18 +1007,22 @@ Package pdftex.def Info: "packet forwarding in lisp".jpg used on input line 287
 .
 (pdftex.def)             Requested size: 312.9803pt x 152.64467pt.
 
-<<<<<<< HEAD
-<"lisp in odl".jpg, id=330, 681.54625pt x 385.44pt>
-=======
-<"lisp in odl".jpg, id=297, 681.54625pt x 385.44pt>
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+<"lisp in odl".jpg, id=315, 681.54625pt x 385.44pt>
 File: "lisp in odl".jpg Graphic file (type jpg)
  <use "lisp in odl".jpg>
 Package pdftex.def Info: "lisp in odl".jpg used on input line 299.
 (pdftex.def)             Requested size: 312.9803pt x 177.0046pt.
 
-[13 <./packet forwarding in lisp.jpg>] [14 <./lisp in odl.jpg>] [15]
-(./report.bbl
+[13 <./packet forwarding in lisp.jpg>] [14 <./lisp in odl.jpg>]
+
+LaTeX Warning: Reference `fig:OpenEPC' on page 15 undefined on input line 320.
+
+<"OpenEPC".jpg, id=330, 777.90625pt x 450.68375pt>
+File: "OpenEPC".jpg Graphic file (type jpg)
+ <use "OpenEPC".jpg>
+Package pdftex.def Info: "OpenEPC".jpg used on input line 325.
+(pdftex.def)             Requested size: 312.9803pt x 181.32933pt.
+ [15 <./OpenEPC.jpg>] (./report.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1084,21 +1055,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--65
 10.95 https : / / openflow . stanford . edu / display / DOCS /
  []
 
-<<<<<<< HEAD
-! Misplaced alignment tab character &.
-<argument> Frenetic &
-                      pyretic
-l.67 ... {Frenetic & pyretic}{Frenetic & Pyretic}}
-                                                  .
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-=======
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--88
 []\T1/lmr/m/it/10.95 (+20) Indigo vir-tual switch\T1/lmr/m/n/10.95 (+20) .  []$
@@ -1170,144 +1126,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--270
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 299--303
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 273--277
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
 []\T1/lmr/m/it/10.95 (+20) Security chal-lenges in SDN\T1/lmr/m/n/10.95 (+20) .
   []$\T1/lmtt/m/n/10.95 http : / / www . sdncentral . com /
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 299--303
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 273--277
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
 \T1/lmtt/m/n/10.95 security-[]challenges-[]sdn-[]software-[]defined-[]networks/
 $[]\T1/lmr/m/n/10.95 (+20) , vis-
  []
 
-<<<<<<< HEAD
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 332--336
-=======
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--299
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 337--341
 []\T1/lmr/m/it/10.95 (+20) Tp-link tl-1043nd\T1/lmr/m/n/10.95 (+20) .  []$\T1/l
 mtt/m/n/10.95 http : / / wiki . openwrt . org / toh / tp-[]link /
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 3514) in paragraph at lines 353--358
-=======
-Underfull \hbox (badness 3514) in paragraph at lines 316--321
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 3514) in paragraph at lines 358--363
 []\T1/lmr/m/n/10.95 (+20) Banks, Ethan: \T1/lmr/m/it/10.95 (+20) Big Switch lea
 ves Open-Day-light, toutes white-
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 353--358
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 316--321
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
 \T1/lmr/m/it/10.95 (+20) box fu-ture\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
 10.95 http : / / www . networkcomputing . com / networking /
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 353--358
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 316--321
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
 \T1/lmtt/m/n/10.95 big-[]switch-[]leaves-[]opendaylight-[]touts-[]white-[]box-[
 ]future / a /
  []
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--374
-=======
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 332--337
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 374--379
 []\T1/lmr/m/n/10.95 (+20) Chawre, Amit: \T1/lmr/m/it/10.95 (+20) nw-epc\T1/lmr/
 m/n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 http : / / web . archive . org / web /
 
  []
 
 [19]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 473--479
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 436--442
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 478--484
 []\T1/lmr/m/n/10.95 (+20) Yiakoumis, Yian-nis: \T1/lmr/m/it/10.95 (+20) Pan-tou
  : Open-flow 1.0 for open-wrt\T1/lmr/m/n/10.95 (+20) ,
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 473--479
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 436--442
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
+Underfull \hbox (badness 10000) in paragraph at lines 478--484
 \T1/lmr/m/n/10.95 (+20) 2004.  []$\T1/lmtt/m/n/10.95 http : / / archive . openf
 low . org / wk / index . php / Pantou_ :
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2C3A49EC9CFAFD4D9F45FE7A44830EEE;872.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 2C3A49EC9CFAFD4D9F45FE7A44830EEE;872
+(rerunfilecheck)             After:  6F64C019A8CCCBE092241CA08E22D7F1;873.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 11136 strings out of 495021
- 167279 string characters out of 3180199
- 298225 words of memory out of 3000000
- 13888 multiletter control sequences out of 15000+200000
+ 11142 strings out of 493481
+ 167388 string characters out of 3143393
+ 299571 words of memory out of 3000000
+ 14003 multiletter control sequences out of 15000+200000
  50898 words of font info for 100 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
-=======
- 11116 strings out of 493481
- 167102 string characters out of 3143393
- 299345 words of memory out of 3000000
- 13990 multiletter control sequences out of 15000+200000
- 50768 words of font info for 99 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
- 44i,8n,42p,1695b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
-10.pfb>
-<<<<<<< HEAD
-Output written on report.pdf (23 pages, 1619056 bytes).
+ 44i,8n,42p,1695b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.9} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/pu
+blic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10
+.pfb>
+Output written on report.pdf (23 pages, 1775948 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 483 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
-=======
-Output written on report.pdf (23 pages, 1616794 bytes).
-PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
->>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
- 14476 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 14481 words of extra memory for PDF output out of 17280 (max. 10000000)
 
