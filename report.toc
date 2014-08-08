@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.2}Network Service Chaining}{10}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}YANG Model and its usage in OpenDaylight}{12}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}LISP and its usage in OpenDaylight}{12}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}OpenEPC and nwEPC}{13}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.5}OpenEPC and nw-EPC}{13}{subsection.3.5}
 \contentsline {section}{References}{16}{section*.9}
 \select@language {english}
 \select@language {english}

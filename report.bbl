@@ -213,6 +213,10 @@
   Force}, \btxprintmonthyear{.}{October}{2010}{long}.
 \newblock {\latintext \btxurlfont{http://tools.ietf.org/html/rfc6020}}.
 
+\bibitem {nwEPC}
+\btxnamefont {\btxlastnamefont {Chawre}, Amit}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {nw-epc}{nw-EPC}}.
+
 \bibitem {CHU12}
 \btxnamefont {\btxlastnamefont {Chua}, Roy}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {{NOX, POX} and controllers galore – {Murphy McCauley}
