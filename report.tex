@@ -327,9 +327,7 @@ OpenEPC is highly modular with configurable architecture, which makes it suitabl
 \label{fig:OpenEPC}
 \end{figure}
 
-The nw-EPC is an open source software package, which is implementation of SAE (System Architecture Evolution) gateway. It is written completely in C programming language and runs as single-threaded UNIX process, where data plane and control plane are both running in the same address space. The goal of nw-EPC is to set up a framework, which is implementing LTE SGW (Serving Gateway) and PGW (Packet Data Network Gateway) \cite{nwEPC}. Figure \ref{fig:SAE} illustrates how in SAE, different technologies such as 3GPP WLAN, GPRS, Evolved RAN, and non-3GPP networks are transparently unified \cite{SAE}
-
-The control plane in nw-EPC incorporates the SAE gateway behaviour with the help of expandable FSM framework. This enables nw-EPC node gateway to function as both SAE, and PGW gateways and also other gateway functions, such as WiMAX ASN-GW or GGSN. The data plane in nw-EPC supports IPv4 packet classification, and basic GTP (GPRS Tunneling Protocol)  tunneling/detunneling. However, there is lack of support for IPv6, DPI, QOS, traffic shaping and policing. .   
+The nw-EPC is an open source software package, which is implementation of SAE (System Architecture Evolution) gateway. It is written completely in C programming language and runs as single-threaded UNIX process, where data plane and control plane are both running in the same address space. The goal of nw-EPC is to set up a framework, which is implementing LTE SGW (Serving Gateway) and PGW (Packet Data Network Gateway) \cite{nwEPC}. Figure \ref{fig:SAE} illustrates how in SAE, different technologies such as 3GPP WLAN, GPRS, Evolved RAN, and non-3GPP networks are transparently unified \cite{SAE}.
 
 \begin{figure}[h!t]
 \centering
@@ -338,6 +336,10 @@ The control plane in nw-EPC incorporates the SAE gateway behaviour with the help
 \caption{System Architecture Evolution \cite{SAE}}
 \label{fig:SAE}
 \end{figure}
+
+The control plane in nw-EPC incorporates the SAE gateway behaviour with the help of expandable FSM framework. This enables nw-EPC node gateway to function as both SAE, and PGW gateways and also other gateway functions, such as WiMAX ASN-GW or GGSN. The data plane in nw-EPC supports IPv4 packet classification, and basic GTP (GPRS Tunneling Protocol)  tunneling/detunneling. However, there is lack of support for IPv6, DPI, QOS, traffic shaping and policing.  
+
+
 
 
 \clearpage
