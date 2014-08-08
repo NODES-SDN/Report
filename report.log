@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  8 AUG 2014 09:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  8 AUG 2014 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,7 +1000,7 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 [3] [4 <./ODL Diagram.jpg>] [5] [6]
-<"openroad architecture".jpg, id=186, 838.13126pt x 789.95125pt>
+<"openroad architecture".jpg, id=203, 838.13126pt x 789.95125pt>
 File: "openroad architecture".jpg Graphic file (type jpg)
 
 <use "openroad architecture".jpg>
@@ -1009,7 +1009,7 @@ Package pdftex.def Info: "openroad architecture".jpg used on input line 211.
  [7
 
 ] [8 <./openroad architecture.jpg>]
-[9] <"NSC vs current network".jpg, id=225, 852.18375pt x 426.59375pt>
+[9] <"NSC vs current network".jpg, id=242, 852.18375pt x 426.59375pt>
 File: "NSC vs current network".jpg Graphic file (type jpg)
 
 <use "NSC vs current network".jpg>
@@ -1019,14 +1019,14 @@ Package pdftex.def Info: "NSC vs current network".jpg used on input line 253.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10] <"benefits of dynamic nsc".jpg, id=237, 761.84625pt x 417.56pt>
+[10] <"benefits of dynamic nsc".jpg, id=254, 761.84625pt x 417.56pt>
 File: "benefits of dynamic nsc".jpg Graphic file (type jpg)
 
 <use "benefits of dynamic nsc".jpg>
 Package pdftex.def Info: "benefits of dynamic nsc".jpg used on input line 264.
 (pdftex.def)             Requested size: 312.9803pt x 171.53838pt.
  [11 <./NSC vs current network.jpg> <./benefits of dynamic nsc.jpg>] [12]
-<"packet forwarding in lisp".jpg, id=262, 775.89874pt x 378.41376pt>
+<"packet forwarding in lisp".jpg, id=279, 775.89874pt x 378.41376pt>
 File: "packet forwarding in lisp".jpg Graphic file (type jpg)
 
 <use "packet forwarding in lisp".jpg>
@@ -1034,7 +1034,7 @@ Package pdftex.def Info: "packet forwarding in lisp".jpg used on input line 287
 .
 (pdftex.def)             Requested size: 312.9803pt x 152.64467pt.
 
-<"lisp in odl".jpg, id=268, 681.54625pt x 385.44pt>
+<"lisp in odl".jpg, id=285, 681.54625pt x 385.44pt>
 File: "lisp in odl".jpg Graphic file (type jpg)
  <use "lisp in odl".jpg>
 Package pdftex.def Info: "lisp in odl".jpg used on input line 299.
@@ -1075,115 +1075,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--38
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 []\T1/lmr/m/it/10.95 (+20) Indigo vir-tual switch\T1/lmr/m/n/10.95 (+20) .  []$
 \T1/lmtt/m/n/10.95 http : / / www . projectfloodlight . org /
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 64--68
+Underfull \hbox (badness 1348) in paragraph at lines 69--73
 []\T1/lmr/m/it/10.95 (+20) Linc-switch\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/
 n/10.95 https : / / github . com / FlowForwarding / LINC-[]Switch$[]\T1/lmr/m/n
 /10.95 (+20) ,
  []
 
+[16
 
-Underfull \hbox (badness 6592) in paragraph at lines 116--120
+]
+Underfull \hbox (badness 6592) in paragraph at lines 143--147
 []\T1/lmr/m/it/10.95 (+20) Opendaylight con-troller:config:examples:netconf\T1/
 lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 https : / / wiki .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
 \T1/lmtt/m/n/10.95 opendaylight . org / view / OpenDaylight _ Controller : MD-[
 ]SAL :
  []
 
-[16
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 []\T1/lmr/m/it/10.95 (+20) Opendaylight controller:md-sal:architecture\T1/lmr/m
 /n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 https : / / wiki .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 \T1/lmtt/m/n/10.95 opendaylight . org / view / OpenDaylight _ Controller : MD-[
 ]SAL :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
+Underfull \hbox (badness 10000) in paragraph at lines 158--162
 []\T1/lmr/m/it/10.95 (+20) Opendaylight lisp flow map-pin:architecture\T1/lmr/m
 /n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 https : / / wiki .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
+Underfull \hbox (badness 10000) in paragraph at lines 158--162
 \T1/lmtt/m/n/10.95 opendaylight . org / view / OpenDaylight _ Lisp _ Flow _ Map
 ping :
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 139--144
+Underfull \hbox (badness 1496) in paragraph at lines 166--171
 []\T1/lmr/m/it/10.95 (+20) OpenEPC, build-ing your own com-plete mo-bile broad-
 band op-er-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--177
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
+[]\T1/lmr/m/it/10.95 (+20) Perfsonar\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
+10.95 http : / / fasterdata . es . net / performance-[]testing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 []\T1/lmr/m/it/10.95 (+20) Security chal-lenges in SDN\T1/lmr/m/n/10.95 (+20) .
   []$\T1/lmtt/m/n/10.95 http : / / www . sdncentral . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--177
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 \T1/lmtt/m/n/10.95 security-[]challenges-[]sdn-[]software-[]defined-[]networks/
 $[]\T1/lmr/m/n/10.95 (+20) , vis-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--189
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 []\T1/lmr/m/it/10.95 (+20) Tp-link tl-1043nd\T1/lmr/m/n/10.95 (+20) .  []$\T1/l
 mtt/m/n/10.95 http : / / wiki . openwrt . org / toh / tp-[]link /
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 201--206
+Underfull \hbox (badness 3514) in paragraph at lines 245--250
 []\T1/lmr/m/n/10.95 (+20) Banks, Ethan: \T1/lmr/m/it/10.95 (+20) Big Switch lea
 ves Open-Day-light, toutes white-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
 \T1/lmr/m/it/10.95 (+20) box fu-ture\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/
 10.95 http : / / www . networkcomputing . com / networking /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
 \T1/lmtt/m/n/10.95 big-[]switch-[]leaves-[]opendaylight-[]touts-[]white-[]box-[
 ]future / a /
  []
 
-[17]
+[18]
 ! Improper alphabetic constant.
 <to be read again> 
                    \active@prefix 
-l.278 ..., \btxprintmonthyear{.}{2~21}{2012}{long}
+l.322 ..., \btxprintmonthyear{.}{2~21}{2012}{long}
                                                   .
 A one-character control sequence belongs after a ` mark.
 So I'm essentially inserting \0 here.
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 314--320
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--364
 []\T1/lmr/m/n/10.95 (+20) Yiakoumis, Yian-nis: \T1/lmr/m/it/10.95 (+20) Pan-tou
  : Open-flow 1.0 for open-wrt\T1/lmr/m/n/10.95 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--320
+Underfull \hbox (badness 10000) in paragraph at lines 358--364
 \T1/lmr/m/n/10.95 (+20) 2004.  []$\T1/lmtt/m/n/10.95 http : / / archive . openf
 low . org / wk / index . php / Pantou_ :
  []
@@ -1200,11 +1206,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 11071 strings out of 495021
- 166663 string characters out of 3180199
- 296391 words of memory out of 3000000
- 13859 multiletter control sequences out of 15000+200000
- 50461 words of font info for 97 fonts, out of 3000000 for 9000
+ 11089 strings out of 495021
+ 166817 string characters out of 3180199
+ 296612 words of memory out of 3000000
+ 13867 multiletter control sequences out of 15000+200000
+ 50591 words of font info for 98 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,8n,42p,1695b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1213,10 +1219,10 @@ hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on report.pdf (22 pages, 1611918 bytes).
+Output written on report.pdf (22 pages, 1613882 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
  14476 words of extra memory for PDF output out of 17280 (max. 10000000)
 
