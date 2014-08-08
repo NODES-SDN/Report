@@ -36,6 +36,11 @@
   \btxurlfont{https://openflow.stanford.edu/display/DOCS/Flowvisor}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Hyper}
+\btxtitlefont {\btxifchangecase {Hyperglance}{HyperGlance}}.
+\newblock {\latintext \btxurlfont{http://real-status.com/product/sdn}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {IndigoSwitch}
 \btxtitlefont {\btxifchangecase {Indigo virtual switch}{Indigo Virtual
   Switch}}.
@@ -77,6 +82,11 @@
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
 
+\bibitem {NICE}
+\btxtitlefont {\btxifchangecase {Nice}{NICE}}.
+\newblock {\latintext \btxurlfont{https://code.google.com/p/nice-of/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {Nodeflow}
 \btxtitlefont {\btxifchangecase {Nodeflow}{NodeFlow}}.
 \newblock {\latintext \btxurlfont{http://garyberger.net/?p=537}}\empty
@@ -87,11 +97,28 @@
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/nox/about-nox/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {NS3}
+\btxtitlefont {\btxifchangecase {ns-3}{ns-3}}.
+\newblock {\latintext \btxurlfont{http://www.nsnam.org/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {OFLOPS}
+\btxtitlefont {\btxifchangecase {Oflops}{OFLOPS}}.
+\newblock {\latintext
+  \btxurlfont{http://archive.openflow.org/wk/index.php/Oflops}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {OfSwitch}
 \btxtitlefont {\btxifchangecase {Ofsoftswitch}{OFSoftswitch}}.
 \newblock {\latintext
   \btxurlfont{https://github.com/CPqD/ofsoftswitch13}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {OFTest}
+\btxtitlefont {\btxifchangecase {Oftest}{OFTest}}.
+\newblock {\latintext
+  \btxurlfont{http://www.projectfloodlight.org/oftest/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {ODL}
 \btxtitlefont {\btxifchangecase {Open daylight project}{Open Daylight
@@ -153,6 +180,12 @@
 \newblock {\latintext \btxurlfont{http://openvnet.com/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Perf}
+\btxtitlefont {\btxifchangecase {Perfsonar}{PerfSonar}}.
+\newblock {\latintext
+  \btxurlfont{http://fasterdata.es.net/performance-testing/perfsonar/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {POX}
 \btxtitlefont {\btxifchangecase {Pox controller}{POX Controller}}.
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/pox/about-pox/}}\empty
@@ -168,6 +201,12 @@
 \newblock {\latintext \btxurlfont{http://osrg.github.io/ryu/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {STS}
+\btxtitlefont {\btxifchangecase {Sdn troubleshooting system}{SDN
+  Troubleshooting System}}.
+\newblock {\latintext \btxurlfont{http://ucb-sts.github.io/sts/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {CHU2}
 \btxtitlefont {\btxifchangecase {Security challenges in {SDN}}{Security
   Challenges in {SDN}}}.
@@ -180,6 +219,11 @@
 \newblock {\latintext
   \btxurlfont{https://github.com/SnabbCo/snabbswitch}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {TestOn}
+\btxtitlefont {\btxifchangecase {Teston}{TestOn}}.
+\newblock {\latintext \btxurlfont{https://github.com/Paxterra/TestON/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {Sve14}
 \btxtitlefont {\btxifchangecase {Tp-link tl-1043nd}{TP-Link TL-1043ND}}.
