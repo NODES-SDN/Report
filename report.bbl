@@ -47,7 +47,6 @@
   \btxurlfont{https://openflow.stanford.edu/display/DOCS/Flowvisor}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-<<<<<<< HEAD
 \bibitem {Frenetic}
 \btxtitlefont {\btxifchangecase {Frenetic & pyretic}{Frenetic & Pyretic}}.
 \newblock {\latintext \btxurlfont{http://www.frenetic-lang.org/}}\empty
@@ -64,8 +63,6 @@
   \btxurlfont{http://www.projectfloodlight.org/indigo/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
-=======
->>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {IndigoSwitch}
 \btxtitlefont {\btxifchangecase {Indigo virtual switch}{Indigo Virtual
   Switch}}.
@@ -107,7 +104,11 @@
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
 
-<<<<<<< HEAD
+\bibitem {Mirage}
+\btxtitlefont {\btxifchangecase {Mirageos}{MirageOS}}.
+\newblock {\latintext \btxurlfont{http://www.openmirage.org/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {Nettle}
 \btxtitlefont {\btxifchangecase {Nettle}{Nettle}}.
 \newblock {\latintext
@@ -119,8 +120,6 @@
 \newblock {\latintext \btxurlfont{https://code.google.com/p/nice-of/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
-=======
->>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {Nodeflow}
 \btxtitlefont {\btxifchangecase {Nodeflow}{NodeFlow}}.
 \newblock {\latintext \btxurlfont{http://garyberger.net/?p=537}}\empty
@@ -131,7 +130,6 @@
 \newblock {\latintext \btxurlfont{http://www.noxrepo.org/nox/about-nox/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-<<<<<<< HEAD
 \bibitem {NS3}
 \btxtitlefont {\btxifchangecase {ns-3}{ns-3}}.
 \newblock {\latintext \btxurlfont{http://www.nsnam.org/}}\empty
@@ -155,13 +153,17 @@
   \btxurlfont{https://github.com/FlowForwarding/of_protocol}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
-=======
->>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {OfSwitch}
 \btxtitlefont {\btxifchangecase {Ofsoftswitch}{OFSoftswitch}}.
 \newblock {\latintext
   \btxurlfont{https://github.com/CPqD/ofsoftswitch13}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {OFTest}
+\btxtitlefont {\btxifchangecase {Oftest}{OFTest}}.
+\newblock {\latintext
+  \btxurlfont{http://www.projectfloodlight.org/oftest/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {ODL}
 \btxtitlefont {\btxifchangecase {Open daylight project}{Open Daylight
@@ -229,9 +231,10 @@
 \newblock {\latintext \btxurlfont{http://openvnet.com/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
-\bibitem {POFSwitch}
-\btxtitlefont {\btxifchangecase {Pofswitch}{POFSwitch}}.
-\newblock {\latintext \btxurlfont{http://www.poforwarding.org/}}\empty
+\bibitem {Perf}
+\btxtitlefont {\btxifchangecase {Perfsonar}{PerfSonar}}.
+\newblock {\latintext
+  \btxurlfont{http://fasterdata.es.net/performance-testing/perfsonar/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {POX}
@@ -254,6 +257,12 @@
 \newblock {\latintext \btxurlfont{http://osrg.github.io/ryu/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {STS}
+\btxtitlefont {\btxifchangecase {Sdn troubleshooting system}{SDN
+  Troubleshooting System}}.
+\newblock {\latintext \btxurlfont{http://ucb-sts.github.io/sts/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {CHU2}
 \btxtitlefont {\btxifchangecase {Security challenges in {SDN}}{Security
   Challenges in {SDN}}}.
@@ -267,7 +276,6 @@
   \btxurlfont{https://github.com/SnabbCo/snabbswitch}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
-<<<<<<< HEAD
 \bibitem {TestOn}
 \btxtitlefont {\btxifchangecase {Teston}{TestOn}}.
 \newblock {\latintext \btxurlfont{https://github.com/Paxterra/TestON/}}\empty
@@ -278,8 +286,6 @@
 \newblock {\latintext \btxurlfont{http://bird.network.cz/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
-=======
->>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 \bibitem {Sve14}
 \btxtitlefont {\btxifchangecase {Tp-link tl-1043nd}{TP-Link TL-1043ND}}.
 \newblock {\latintext
@@ -290,6 +296,11 @@
 \btxtitlefont {\btxifchangecase {Trema controller}{Trema Controller}}.
 \newblock {\latintext \btxurlfont{http://trema.github.io/trema/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {wakame}
+\btxtitlefont {\btxifchangecase {wakame-vdc}{wakame-vdc}}.
+\newblock {\latintext \btxurlfont{https://github.com/axsh/wakame-vdc}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {Warp}
 \btxtitlefont {\btxifchangecase {Warp}{Warp}}.

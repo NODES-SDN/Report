@@ -595,7 +595,6 @@
 @OTHER{Hyper,
 	title = {HyperGlance},
 	url = {http://real-status.com/product/sdn},
-<<<<<<< HEAD
 	urldate = {08-08-2014}
 }
 
@@ -620,8 +619,6 @@
 @OTHER{Frenetic,
 	title = {Frenetic & Pyretic},
 	url = {http://www.frenetic-lang.org/},
-=======
->>>>>>> cbc77ff61e4e465d0875f462580e46ee41d1c104
 	urldate = {08-08-2014}
 }
 
@@ -643,7 +640,7 @@
 	urldate = {08-08-2014}
 }
 
-@OTHER{OpenFaucet},
+@OTHER{OpenFaucet,
 	title = {OpenFaucet},
 	url = {https://github.com/rlenglet/openfaucet},
 	urldate = {08-08-2014}
@@ -797,7 +794,7 @@ address = {New York, NY, USA}
 
 @online{nwEPC,
 title = {nw-EPC}, 
-author = {Amit Chawre}
+author = {Amit Chawre},
 url = {http://web.archive.org/web/20120622233936/http://www.amitchawre.net/nw-epc.html}, 
 urldate = {8-08-2014}
 }
