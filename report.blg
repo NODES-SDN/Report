@@ -51,24 +51,10 @@ Warning--entry type for "LINC" isn't style-file defined
 --line 532 of file references.bib
 Warning--entry type for "Snabb" isn't style-file defined
 --line 538 of file references.bib
+Warning--entry type for "POFSwitch" isn't style-file defined
+--line 544 of file references.bib
 Warning--entry type for "Lantern" isn't style-file defined
 --line 550 of file references.bib
-Warning--entry type for "STS" isn't style-file defined
---line 556 of file references.bib
-Warning--entry type for "NS3" isn't style-file defined
---line 562 of file references.bib
-Warning--entry type for "OFLOPS" isn't style-file defined
---line 567 of file references.bib
-Warning--entry type for "Perf" isn't style-file defined
---line 572 of file references.bib
-Warning--entry type for "NICE" isn't style-file defined
---line 577 of file references.bib
-Warning--entry type for "OFTest" isn't style-file defined
---line 583 of file references.bib
-Warning--entry type for "TestOn" isn't style-file defined
---line 589 of file references.bib
-Warning--entry type for "Hyper" isn't style-file defined
---line 595 of file references.bib
 Warning--entry type for "Lor14" isn't style-file defined
 --line 650 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
@@ -80,18 +66,9 @@ Warning--entry type for "Netconf" isn't style-file defined
 Warning--entry type for "ODLLISP" isn't style-file defined
 --line 698 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
-<<<<<<< HEAD
---line 667 of file references.bib
-Warning--entry type for "nwEPC" isn't style-file defined
---line 687 of file references.bib
-I was expecting a `,' or a `}'---line 690 of file references.bib
- : 
- : url = {http://web.archive.org/web/20120622233936/http://www.amitchawre.net/nw-epc.html},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-=======
 --line 712 of file references.bib
->>>>>>> 0a9246a3b9571ad1a273d2df0b9263b96f820787
+Warning--entry type for "nwEPC" isn't style-file defined
+--line 732 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -115,16 +92,9 @@ Warning--to sort, need author or key in IndigoSwitch
 Warning--to sort, need author or key in OfSwitch
 Warning--to sort, need author or key in LINC
 Warning--to sort, need author or key in Snabb
+Warning--to sort, need author or key in POFSwitch
 Warning--to sort, need author or key in Lantern
 Warning--to sort, need author or key in MN14
-Warning--to sort, need author or key in STS
-Warning--to sort, need author or key in NS3
-Warning--to sort, need author or key in OFLOPS
-Warning--to sort, need author or key in Perf
-Warning--to sort, need author or key in NICE
-Warning--to sort, need author or key in OFTest
-Warning--to sort, need author or key in TestOn
-Warning--to sort, need author or key in Hyper
 Warning--to sort, need author or key in CHU2
 Warning--to sort, need author or key in Sve14
 Warning--to sort, need author or key in MDS
@@ -138,90 +108,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-<<<<<<< HEAD
-You've used 44 entries,
+You've used 45 entries,
             2783 wiz_defined-function locations,
-            850 strings with 10812 characters,
-and the built_in function-call counts, 11631 in all, are:
-= -- 916
-> -- 263
-< -- 2
-+ -- 127
-- -- 80
-* -- 1113
-:= -- 1441
-add.period$ -- 97
-call.type$ -- 44
-change.case$ -- 174
-chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 606
-empty$ -- 1505
-format.name$ -- 126
-if$ -- 2632
-int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 10
-newline$ -- 198
-num.names$ -- 26
-pop$ -- 433
-preamble$ -- 1
-purify$ -- 128
-quote$ -- 0
-skip$ -- 493
-stack$ -- 0
-substring$ -- 247
-swap$ -- 177
-text.length$ -- 2
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 176
-warning$ -- 37
-while$ -- 29
-width$ -- 46
-write$ -- 377
-(There was 1 error message)
-=======
-You've used 51 entries,
-            2783 wiz_defined-function locations,
-            874 strings with 11204 characters,
-and the built_in function-call counts, 13043 in all, are:
-= -- 1024
+            854 strings with 10938 characters,
+and the built_in function-call counts, 11855 in all, are:
+= -- 934
 > -- 264
 < -- 2
-+ -- 132
-- -- 78
-* -- 1224
-:= -- 1581
-add.period$ -- 112
-call.type$ -- 51
-change.case$ -- 194
++ -- 128
+- -- 80
+* -- 1134
+:= -- 1465
+add.period$ -- 100
+call.type$ -- 45
+change.case$ -- 177
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 681
-empty$ -- 1736
-format.name$ -- 123
-if$ -- 2983
+cite$ -- 83
+duplicate$ -- 617
+empty$ -- 1539
+format.name$ -- 126
+if$ -- 2686
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 45
 missing$ -- 10
-newline$ -- 227
-num.names$ -- 24
-pop$ -- 502
+newline$ -- 203
+num.names$ -- 26
+pop$ -- 442
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 130
 quote$ -- 0
-skip$ -- 577
+skip$ -- 505
 stack$ -- 0
-substring$ -- 282
-swap$ -- 189
+substring$ -- 252
+swap$ -- 179
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 204
-warning$ -- 45
-while$ -- 27
-width$ -- 53
-write$ -- 427
-(There were 84 warnings)
->>>>>>> 0a9246a3b9571ad1a273d2df0b9263b96f820787
+type$ -- 180
+warning$ -- 38
+while$ -- 29
+width$ -- 47
+write$ -- 386
+(There were 71 warnings)
