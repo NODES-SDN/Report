@@ -192,45 +192,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 73 entries,
+You've used 74 entries,
             2783 wiz_defined-function locations,
-            946 strings with 12340 characters,
-and the built_in function-call counts, 17679 in all, are:
-= -- 1382
-> -- 292
+            953 strings with 12607 characters,
+and the built_in function-call counts, 17974 in all, are:
+= -- 1405
+> -- 299
 < -- 2
-+ -- 156
-- -- 80
-* -- 1582
-:= -- 2081
-add.period$ -- 156
-call.type$ -- 73
-change.case$ -- 261
++ -- 160
+- -- 82
+* -- 1607
+:= -- 2123
+add.period$ -- 158
+call.type$ -- 74
+change.case$ -- 265
 chr.to.int$ -- 0
-cite$ -- 139
-duplicate$ -- 925
-empty$ -- 2463
-format.name$ -- 126
-if$ -- 4114
+cite$ -- 140
+duplicate$ -- 945
+empty$ -- 2501
+format.name$ -- 129
+if$ -- 4179
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 10
-newline$ -- 315
-num.names$ -- 26
-pop$ -- 722
+int.to.str$ -- 74
+missing$ -- 11
+newline$ -- 319
+num.names$ -- 28
+pop$ -- 733
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 189
 quote$ -- 0
-skip$ -- 841
+skip$ -- 850
 stack$ -- 0
-substring$ -- 392
-swap$ -- 235
+substring$ -- 398
+swap$ -- 240
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 292
+type$ -- 296
 warning$ -- 66
-while$ -- 29
-width$ -- 75
-write$ -- 582
+while$ -- 31
+width$ -- 76
+write$ -- 591
 (There were 127 warnings)

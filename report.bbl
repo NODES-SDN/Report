@@ -423,6 +423,16 @@
 \newblock {\latintext \btxurlfont{http://wiki.openwrt.org/about/start}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{30-07-2014}}}.
 
+\bibitem {SAE}
+\btxnamefont {\btxlastnamefont {Marius Iulian~Corici},~Fabricio Carvalho
+  de~Gouveia, Thomas\btxfnamespacelong Magedanz}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {A network controlled qos model over the 3gpp system
+  architecture evolution}{A Network Controlled QoS Model over the 3GPP System
+  Architecture Evolution}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Wireless Broadband and Ultra Wideband
+  Communications, 2007. AusWireless 2007. The 2nd International Conference on},
+  \btxprintmonthyear{.}{Aug}{2007}{long}.
+
 \bibitem {OKH14}
 \btxnamefont {\btxlastnamefont {Okada}, Kazuya}, \btxnamefont {\btxlastnamefont
   {Hazeyama}, Hiroaki}\btxandcomma {} \btxandlong {}\ \btxnamefont
