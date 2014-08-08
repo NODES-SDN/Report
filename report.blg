@@ -51,6 +51,8 @@ Warning--entry type for "LINC" isn't style-file defined
 --line 532 of file references.bib
 Warning--entry type for "Snabb" isn't style-file defined
 --line 538 of file references.bib
+Warning--entry type for "POFSwitch" isn't style-file defined
+--line 544 of file references.bib
 Warning--entry type for "Lantern" isn't style-file defined
 --line 550 of file references.bib
 Warning--entry type for "STS" isn't style-file defined
@@ -146,6 +148,7 @@ Warning--to sort, need author or key in IndigoSwitch
 Warning--to sort, need author or key in OfSwitch
 Warning--to sort, need author or key in LINC
 Warning--to sort, need author or key in Snabb
+Warning--to sort, need author or key in POFSwitch
 Warning--to sort, need author or key in Lantern
 Warning--to sort, need author or key in MN14
 Warning--to sort, need author or key in STS
@@ -189,6 +192,7 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
+<<<<<<< HEAD
 You've used 72 entries,
             2783 wiz_defined-function locations,
             943 strings with 12292 characters,
@@ -231,3 +235,47 @@ while$ -- 29
 width$ -- 74
 write$ -- 575
 (There were 125 warnings)
+=======
+You've used 65 entries,
+            2783 wiz_defined-function locations,
+            920 strings with 11980 characters,
+and the built_in function-call counts, 16015 in all, are:
+= -- 1254
+> -- 284
+< -- 2
++ -- 148
+- -- 80
+* -- 1454
+:= -- 1905
+add.period$ -- 140
+call.type$ -- 65
+change.case$ -- 237
+chr.to.int$ -- 0
+cite$ -- 123
+duplicate$ -- 837
+empty$ -- 2199
+format.name$ -- 126
+if$ -- 3706
+int.to.chr$ -- 0
+int.to.str$ -- 65
+missing$ -- 10
+newline$ -- 283
+num.names$ -- 26
+pop$ -- 642
+preamble$ -- 1
+purify$ -- 170
+quote$ -- 0
+skip$ -- 745
+stack$ -- 0
+substring$ -- 352
+swap$ -- 219
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 260
+warning$ -- 58
+while$ -- 29
+width$ -- 67
+write$ -- 526
+(There were 111 warnings)
+>>>>>>> 2873ac8d1ef31ae0778aefa6a09f4869235780e8
