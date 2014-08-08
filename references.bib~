@@ -592,24 +592,74 @@
 	urldate = {08-08-2014}
 }
 
-@OTHER{OFTest,
-	title = {OFTest},
-	url = {http://www.projectfloodlight.org/oftest/},
+@OTHER{Hyper,
+	title = {HyperGlance},
+	url = {http://real-status.com/product/sdn},
 	urldate = {08-08-2014}
 }
 
-@OTHER{OFTest,
-	title = {OFTest},
-	url = {http://www.projectfloodlight.org/oftest/},
+@OTHER{Flowscale,
+	title = {Flowscale},
+	url = {http://real-status.com/product/sdn},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Bird,
+	title = {the BIRD},
+	url = {http://bird.network.cz/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{RouteFlow,
+	title = {RouteFlow},
+	url = {http://routeflow.github.io/RouteFlow/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Frenetic,
+	title = {Frenetic & Pyretic},
+	url = {http://www.frenetic-lang.org/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{enetconf,
+	title = {enetconf},
+	url = {https://github.com/FlowForwarding/enetconf},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Nettle,
+	title = {Nettle},
+	url = {http://hackage.haskell.org/package/nettle-openflow-0.2.0},
+	urldate = {08-08-2014}
+}
+
+@OTHER{ofproto,
+	title = {of\_protocol},
+	url = {https://github.com/FlowForwarding/of_protocol},
+	urldate = {08-08-2014}
+}
+
+@OTHER{OpenFaucet},
+	title = {OpenFaucet},
+	url = {https://github.com/rlenglet/openfaucet},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Node,
+	title = {Oflib-Node},
+	url = {https://github.com/TrafficLab/oflib-node},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Indigo,
+	title = {Indigo},
+	url = {http://www.projectfloodlight.org/indigo/},
 	urldate = {08-08-2014}
 }
 
 
-@OTHER{OFTest,
-	title = {OFTest},
-	url = {http://www.projectfloodlight.org/oftest/},
-	urldate = {08-08-2014}
-}
+
 
 @ARTICLE{FRZ13,
  author = {Feamster, Nick and Rexford, Jennifer and Zegura, Ellen},

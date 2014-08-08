@@ -69,18 +69,38 @@ Warning--entry type for "TestOn" isn't style-file defined
 --line 589 of file references.bib
 Warning--entry type for "Hyper" isn't style-file defined
 --line 595 of file references.bib
+Warning--entry type for "Flowscale" isn't style-file defined
+--line 601 of file references.bib
+Warning--entry type for "Bird" isn't style-file defined
+--line 607 of file references.bib
+Warning--entry type for "RouteFlow" isn't style-file defined
+--line 613 of file references.bib
+Warning--entry type for "Frenetic" isn't style-file defined
+--line 619 of file references.bib
+Warning--entry type for "enetconf" isn't style-file defined
+--line 625 of file references.bib
+Warning--entry type for "Nettle" isn't style-file defined
+--line 631 of file references.bib
+Warning--entry type for "ofproto" isn't style-file defined
+--line 637 of file references.bib
+Warning--entry type for "OpenFaucet" isn't style-file defined
+--line 643 of file references.bib
+Warning--entry type for "Node" isn't style-file defined
+--line 649 of file references.bib
+Warning--entry type for "Indigo" isn't style-file defined
+--line 655 of file references.bib
 Warning--entry type for "Lor14" isn't style-file defined
---line 650 of file references.bib
+--line 713 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
---line 658 of file references.bib
+--line 721 of file references.bib
 Warning--entry type for "MDS" isn't style-file defined
---line 684 of file references.bib
+--line 747 of file references.bib
 Warning--entry type for "Netconf" isn't style-file defined
---line 690 of file references.bib
+--line 753 of file references.bib
 Warning--entry type for "ODLLISP" isn't style-file defined
---line 698 of file references.bib
+--line 761 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
---line 712 of file references.bib
+--line 775 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -115,6 +135,16 @@ Warning--to sort, need author or key in OFTest
 Warning--to sort, need author or key in TestOn
 Warning--to sort, need author or key in Hyper
 Warning--to sort, need author or key in CHU2
+Warning--to sort, need author or key in Flowscale
+Warning--to sort, need author or key in Bird
+Warning--to sort, need author or key in RouteFlow
+Warning--to sort, need author or key in Frenetic
+Warning--to sort, need author or key in Nettle
+Warning--to sort, need author or key in enetconf
+Warning--to sort, need author or key in ofproto
+Warning--to sort, need author or key in OpenFaucet
+Warning--to sort, need author or key in Node
+Warning--to sort, need author or key in Indigo
 Warning--to sort, need author or key in Sve14
 Warning--to sort, need author or key in MDS
 Warning--to sort, need author or key in Netconf
@@ -127,45 +157,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 51 entries,
+You've used 61 entries,
             2783 wiz_defined-function locations,
-            874 strings with 11204 characters,
-and the built_in function-call counts, 13043 in all, are:
-= -- 1024
-> -- 264
+            905 strings with 11729 characters,
+and the built_in function-call counts, 15123 in all, are:
+= -- 1184
+> -- 274
 < -- 2
-+ -- 132
++ -- 142
 - -- 78
-* -- 1224
-:= -- 1581
-add.period$ -- 112
-call.type$ -- 51
-change.case$ -- 194
+* -- 1384
+:= -- 1801
+add.period$ -- 132
+call.type$ -- 61
+change.case$ -- 224
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 681
-empty$ -- 1736
+cite$ -- 116
+duplicate$ -- 791
+empty$ -- 2066
 format.name$ -- 123
-if$ -- 2983
+if$ -- 3493
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 61
 missing$ -- 10
-newline$ -- 227
+newline$ -- 267
 num.names$ -- 24
-pop$ -- 502
+pop$ -- 602
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 161
 quote$ -- 0
-skip$ -- 577
+skip$ -- 697
 stack$ -- 0
-substring$ -- 282
-swap$ -- 189
+substring$ -- 332
+swap$ -- 209
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 204
-warning$ -- 45
+type$ -- 244
+warning$ -- 55
 while$ -- 27
-width$ -- 53
-write$ -- 427
-(There were 84 warnings)
+width$ -- 63
+write$ -- 497
+(There were 104 warnings)

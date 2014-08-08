@@ -19,6 +19,12 @@
   \btxurlfont{https://openflow.stanford.edu/display/Beacon/Home}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {enetconf}
+\btxtitlefont {\btxifchangecase {enetconf}{enetconf}}.
+\newblock {\latintext
+  \btxurlfont{https://github.com/FlowForwarding/enetconf}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {Floodlight}
 \btxtitlefont {\btxifchangecase {Floodlight project}{Floodlight Project}}.
 \newblock {\latintext
@@ -30,15 +36,31 @@
 \newblock {\latintext \btxurlfont{https://github.com/travelping/flower}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Flowscale}
+\btxtitlefont {\btxifchangecase {Flowscale}{Flowscale}}.
+\newblock {\latintext \btxurlfont{http://real-status.com/product/sdn}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {FlowVisor}
 \btxtitlefont {\btxifchangecase {Flowvisor}{FlowVisor}}.
 \newblock {\latintext
   \btxurlfont{https://openflow.stanford.edu/display/DOCS/Flowvisor}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {Frenetic}
+\btxtitlefont {\btxifchangecase {Frenetic & pyretic}{Frenetic & Pyretic}}.
+\newblock {\latintext \btxurlfont{http://www.frenetic-lang.org/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {Hyper}
 \btxtitlefont {\btxifchangecase {Hyperglance}{HyperGlance}}.
 \newblock {\latintext \btxurlfont{http://real-status.com/product/sdn}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {Indigo}
+\btxtitlefont {\btxifchangecase {Indigo}{Indigo}}.
+\newblock {\latintext
+  \btxurlfont{http://www.projectfloodlight.org/indigo/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {IndigoSwitch}
@@ -82,6 +104,12 @@
 \newblock {\latintext \btxurlfont{http://mininet.org/overview/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{05-08-2014}}}.
 
+\bibitem {Nettle}
+\btxtitlefont {\btxifchangecase {Nettle}{Nettle}}.
+\newblock {\latintext
+  \btxurlfont{http://hackage.haskell.org/package/nettle-openflow-0.2.0}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {NICE}
 \btxtitlefont {\btxifchangecase {Nice}{NICE}}.
 \newblock {\latintext \btxurlfont{https://code.google.com/p/nice-of/}}\empty
@@ -102,10 +130,22 @@
 \newblock {\latintext \btxurlfont{http://www.nsnam.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+\bibitem {Node}
+\btxtitlefont {\btxifchangecase {Oflib-node}{Oflib-Node}}.
+\newblock {\latintext
+  \btxurlfont{https://github.com/TrafficLab/oflib-node}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {OFLOPS}
 \btxtitlefont {\btxifchangecase {Oflops}{OFLOPS}}.
 \newblock {\latintext
   \btxurlfont{http://archive.openflow.org/wk/index.php/Oflops}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {ofproto}
+\btxtitlefont {\btxifchangecase {of\_protocol}{of\_protocol}}.
+\newblock {\latintext
+  \btxurlfont{https://github.com/FlowForwarding/of_protocol}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {OfSwitch}
@@ -169,6 +209,12 @@
 \newblock {\latintext
   \btxurlfont{http://www.openepc.net/_docs/OpenEPC-Whitepaper_nov2012.pdf}}.
 
+\bibitem {OpenFaucet}
+\btxtitlefont {\btxifchangecase {Openfaucet}{OpenFaucet}}.
+\newblock {\latintext
+  \btxurlfont{https://github.com/rlenglet/openfaucet}}\empty \btxurldatecomment
+  {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
 \bibitem {OpenFlow1.0.0}
 \btxjtitlefont {\btxifchangecase {The openflow switch specification}{The
   OpenFlow Switch Specification}}.
@@ -195,6 +241,11 @@
 \btxtitlefont {\btxifchangecase {Resonance}{Resonance}}.
 \newblock {\latintext \btxurlfont{http://resonance.noise.gatech.edu/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {RouteFlow}
+\btxtitlefont {\btxifchangecase {Routeflow}{RouteFlow}}.
+\newblock {\latintext \btxurlfont{http://routeflow.github.io/RouteFlow/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {Ryu}
 \btxtitlefont {\btxifchangecase {Ryu controller}{Ryu Controller}}.
@@ -223,6 +274,11 @@
 \bibitem {TestOn}
 \btxtitlefont {\btxifchangecase {Teston}{TestOn}}.
 \newblock {\latintext \btxurlfont{https://github.com/Paxterra/TestON/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {Bird}
+\btxtitlefont {\btxifchangecase {the bird}{the BIRD}}.
+\newblock {\latintext \btxurlfont{http://bird.network.cz/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {Sve14}
