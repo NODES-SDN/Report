@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.1)  11 AUG 2014 12:48
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  11 AUG 2014 13:32
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,6 +991,7 @@ File: "ODL Diagram".jpg Graphic file (type jpg)
 <use "ODL Diagram".jpg>
 Package pdftex.def Info: "ODL Diagram".jpg used on input line 158.
 (pdftex.def)             Requested size: 312.9803pt x 483.2258pt.
+<<<<<<< HEAD
  [3] [4 <./ODL Diagram.jpg>] [5] [6] [7]
 <"openroad architecture".jpg, id=266, 838.13126pt x 789.95125pt>
 File: "openroad architecture".jpg Graphic file (type jpg)
@@ -1002,11 +1007,31 @@ File: "NSC vs current network".jpg Graphic file (type jpg)
 
 <use "NSC vs current network".jpg>
 Package pdftex.def Info: "NSC vs current network".jpg used on input line 257.
+=======
+ [3] [4 <./ODL Diagram.jpg>] [5] [6
+
+] [7] [8]
+<"openroad architecture".jpg, id=261, 838.13126pt x 789.95125pt>
+File: "openroad architecture".jpg Graphic file (type jpg)
+
+<use "openroad architecture".jpg>
+Package pdftex.def Info: "openroad architecture".jpg used on input line 247.
+(pdftex.def)             Requested size: 312.9803pt x 294.98946pt.
+ [9
+
+] [10 <./openroad architecture.jpg>]
+[11] <"NSC vs current network".jpg, id=289, 852.18375pt x 426.59375pt>
+File: "NSC vs current network".jpg Graphic file (type jpg)
+
+<use "NSC vs current network".jpg>
+Package pdftex.def Info: "NSC vs current network".jpg used on input line 289.
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 (pdftex.def)             Requested size: 312.9803pt x 156.67856pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<<<<<<< HEAD
 [11] <"benefits of dynamic nsc".jpg, id=304, 761.84625pt x 417.56pt>
 File: "benefits of dynamic nsc".jpg Graphic file (type jpg)
 
@@ -1041,6 +1066,42 @@ Package pdftex.def Info: "SAE".jpg used on input line 339.
 (pdftex.def)             Requested size: 312.9803pt x 217.5042pt.
 
 [17 <./SAE.jpg>] (./report.bbl
+=======
+[12] <"benefits of dynamic nsc".jpg, id=299, 761.84625pt x 417.56pt>
+File: "benefits of dynamic nsc".jpg Graphic file (type jpg)
+
+<use "benefits of dynamic nsc".jpg>
+Package pdftex.def Info: "benefits of dynamic nsc".jpg used on input line 300.
+(pdftex.def)             Requested size: 312.9803pt x 171.53838pt.
+ [13 <./NSC vs current network.jpg> <./benefits of dynamic nsc.jpg>] [14]
+<"packet forwarding in lisp".jpg, id=322, 775.89874pt x 378.41376pt>
+File: "packet forwarding in lisp".jpg Graphic file (type jpg)
+
+<use "packet forwarding in lisp".jpg>
+Package pdftex.def Info: "packet forwarding in lisp".jpg used on input line 323
+.
+(pdftex.def)             Requested size: 312.9803pt x 152.64467pt.
+
+<"lisp in odl".jpg, id=327, 681.54625pt x 385.44pt>
+File: "lisp in odl".jpg Graphic file (type jpg)
+ <use "lisp in odl".jpg>
+Package pdftex.def Info: "lisp in odl".jpg used on input line 335.
+(pdftex.def)             Requested size: 312.9803pt x 177.0046pt.
+
+[15 <./packet forwarding in lisp.jpg>] [16 <./lisp in odl.jpg>]
+<"OpenEPC".jpg, id=344, 777.90625pt x 450.68375pt>
+File: "OpenEPC".jpg Graphic file (type jpg)
+ <use "OpenEPC".jpg>
+Package pdftex.def Info: "OpenEPC".jpg used on input line 361.
+(pdftex.def)             Requested size: 312.9803pt x 181.32933pt.
+ [17 <./OpenEPC.jpg>] <"SAE".jpg, id=356, 615.29875pt x 427.5975pt>
+File: "SAE".jpg Graphic file (type jpg)
+ <use "SAE".jpg>
+Package pdftex.def Info: "SAE".jpg used on input line 371.
+(pdftex.def)             Requested size: 312.9803pt x 217.5042pt.
+
+[18 <./SAE.jpg>] (./report.bbl
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1086,7 +1147,11 @@ n/10.95 https : / / github . com / FlowForwarding / LINC-[]Switch$[]\T1/lmr/m/n
 /10.95 (+20) ,
  []
 
+<<<<<<< HEAD
 [18
+=======
+[19
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 
 ]
 Underfull \hbox (badness 1796) in paragraph at lines 177--181
@@ -1119,6 +1184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--241
 ]SAL :
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--248
 []\T1/lmr/m/it/10.95 (+20) Opendaylight con-troller:project pro-pos-als\T1/lmr/
@@ -1133,6 +1199,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--248
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--255
+=======
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 []\T1/lmr/m/it/10.95 (+20) Opendaylight lisp flow map-pin:architecture\T1/lmr/m
 /n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 https : / / wiki .
  []
@@ -1167,8 +1237,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--330
 $[]\T1/lmr/m/n/10.95 (+20) , vis-
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 359--363
+=======
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 337--341
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 []\T1/lmr/m/it/10.95 (+20) Tp-link tl-1043nd\T1/lmr/m/n/10.95 (+20) .  []$\T1/l
 mtt/m/n/10.95 http : / / wiki . openwrt . org / toh / tp-[]link /
  []
@@ -1198,18 +1273,41 @@ m/n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 http : / / web . archive . org / web /
 
  []
 
+<<<<<<< HEAD
 [21]
 Underfull \hbox (badness 10000) in paragraph at lines 510--516
+=======
+[22]
+Underfull \hbox (badness 4913) in paragraph at lines 437--443
+[]\T1/lmr/m/n/10.95 (+20) Okada, Kazuya: \T1/lmr/m/it/10.95 (+20) Topol-ogy dis
+-cov-ery with ryu\T1/lmr/m/n/10.95 (+20) .  []$\T1/lmtt/m/n/10.95 http : / / ww
+w .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--443
+\T1/lmtt/m/n/10.95 necoma-[]project . jp / ja / blog / ool-[]sdn-[]hackathon14 
+/ CloudSDN _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--502
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 []\T1/lmr/m/n/10.95 (+20) Yiakoumis, Yian-nis: \T1/lmr/m/it/10.95 (+20) Pan-tou
  : Open-flow 1.0 for open-wrt\T1/lmr/m/n/10.95 (+20) ,
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 510--516
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 496--502
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 \T1/lmr/m/n/10.95 (+20) 2004.  []$\T1/lmtt/m/n/10.95 http : / / archive . openf
 low . org / wk / index . php / Pantou_ :
  []
 
+<<<<<<< HEAD
 [22])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
  [23]
@@ -1229,16 +1327,46 @@ Here is how much of TeX's memory you used:
  51111 words of font info for 102 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,8n,42p,1695b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: EEF5D8F4475F41619B329BFB93AB09E3;873.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
+ ) 
+Here is how much of TeX's memory you used:
+ 11162 strings out of 493481
+ 167615 string characters out of 3143393
+ 299824 words of memory out of 3000000
+ 14014 multiletter control sequences out of 15000+200000
+ 51028 words of font info for 101 fonts, out of 3000000 for 9000
+ 965 hyphenation exceptions out of 8191
+ 44i,15n,42p,1695b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
+<<<<<<< HEAD
 Output written on report.pdf (26 pages, 1881536 bytes).
 PDF statistics:
  560 PDF objects out of 1000 (max. 8388607)
  503 compressed objects within 6 object streams
  128 named destinations out of 1000 (max. 500000)
  14494 words of extra memory for PDF output out of 17280 (max. 10000000)
+=======
+Output written on report.pdf (26 pages, 1883395 bytes).
+PDF statistics:
+ 547 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 14486 words of extra memory for PDF output out of 17280 (max. 10000000)
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
 

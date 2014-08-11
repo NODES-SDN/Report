@@ -455,6 +455,14 @@
   Communications, 2007. AusWireless 2007. The 2nd International Conference on},
   \btxprintmonthyear{.}{Aug}{2007}{long}.
 
+\bibitem {RyuTopology}
+\btxnamefont {\btxlastnamefont {Okada}, Kazuya}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Topology discovery with ryu}{Topology Discovery with
+  Ryu}}.
+\newblock {\latintext
+  \btxurlfont{http://www.necoma-project.jp/ja/blog/ool-sdn-hackathon14/CloudSDN_Hackathon_20140625_kazuya.pdf}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{11-08-2014}}}.
+
 \bibitem {OKH14}
 \btxnamefont {\btxlastnamefont {Okada}, Kazuya}, \btxnamefont {\btxlastnamefont
   {Hazeyama}, Hiroaki}\btxandcomma {} \btxandlong {}\ \btxnamefont

@@ -4,6 +4,7 @@
 \BOOKMARK [2][-]{subsection.2.2}{Switches}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Testing and Simulating}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Other SDN projects}{section.2}% 6
+<<<<<<< HEAD
 \BOOKMARK [2][-]{subsection.2.5}{Future developments}{section.2}% 7
 \BOOKMARK [1][-]{section.3}{SDN-based service chaining for mobile networks}{}% 8
 \BOOKMARK [2][-]{subsection.3.1}{Pantou and OpenWRT}{section.3}% 9
@@ -12,3 +13,12 @@
 \BOOKMARK [2][-]{subsection.3.4}{LISP and its usage in OpenDaylight}{section.3}% 12
 \BOOKMARK [2][-]{subsection.3.5}{OpenEPC and nwEPC}{section.3}% 13
 \BOOKMARK [1][-]{section*.11}{References}{}% 14
+=======
+\BOOKMARK [1][-]{section.3}{SDN-based service chaining for mobile networks}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Pantou and OpenWRT}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Network Service Chaining}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{YANG Model and its usage in OpenDaylight}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{LISP and its usage in OpenDaylight}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{OpenEPC and nwEPC}{section.3}% 12
+\BOOKMARK [1][-]{section*.12}{References}{}% 13
+>>>>>>> 7f95a7ab09f5fe93bcae52427404460c5a8304cb
