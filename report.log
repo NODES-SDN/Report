@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  11 AUG 2014 17:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.14)  11 AUG 2014 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,10 +977,14 @@ File: "ODL Diagram".jpg Graphic file (type jpg)
 <use "ODL Diagram".jpg>
 Package pdftex.def Info: "ODL Diagram".jpg used on input line 29.
 (pdftex.def)             Requested size: 312.9803pt x 483.2258pt.
- [3] [4 <./ODL Diagram.jpg>] [5] [6
 
-] [7] [8])
-(./3-chaining.tex
+Overfull \hbox (62.81429pt too wide) in paragraph at lines 41--77
+ [][] 
+ []
+
+[3] [4 <./ODL Diagram.jpg>] [5] [6
+
+] [7] [8]) (./3-chaining.tex
 <"openroad architecture".jpg, id=285, 838.13126pt x 789.95125pt>
 File: "openroad architecture".jpg Graphic file (type jpg)
 
@@ -1248,7 +1252,7 @@ hare/texmf/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on report.pdf (29 pages, 1923952 bytes).
+Output written on report.pdf (29 pages, 1924193 bytes).
 PDF statistics:
  595 PDF objects out of 1000 (max. 8388607)
  534 compressed objects within 6 object streams
