@@ -150,7 +150,7 @@ Most OpenFlow controllers are organized in the same fashion as shown in figure ~
 One of the features that makes Beacon perhaps more notable than other aforementioned controllers is the fact that it serves as basis for one of the most popular OpenFlow controllers: Floodlight \cite{Floodlight}. Floodlight is developed by Big Switch Networks, a startup founded by networking veterans. Unlike Beacon, Floodlight doesn’t rely on OSGi framework and offers more features such as REST API and support for non-OpenFlow domains. The documentation for Floodlight is also generally good and surpasses the Beacon documentation with ease.
  Big Switch has in the past lobbied for Floodlight to be included in Open Daylight Project’s codebase \cite{BAN13} but the project opted for Cisco’s controller implementation. 
 
-Open Daylight Project \cite{ODL}, or ODP in shorthand, is commonly considered the leading SDN project with it’s substantial company backing and large developer community. The project members involved include practically every company relevant to the field. These are for instance Cisco, Microsoft, IBM, Hewlett-Packard, Juniper, Red Hat and VMware and many more. Feature highlights of Open Daylight include  a robust REST API and south-bound communication which allows for using other non-Openflow protocols: OVSDB, NETCONF, LISP, BGP, PCEP and SNMP. Naturally ODP contains components to take advantage of the protocols as well as other components not found in any other SDN projects e.g. DDOS detection and counter-measures The basic architecture is rather similar to other controllers, but different core components, applications built on top of them and protocol plugins that offer different services and use different interface complicate the organization a bit. Figure ~\ref{fig:ODL} shows the architecture and some of the components in the bundle. For prototyping applications that only make use of OpenFlow the sheer number of different components in ODP may be intimidating and distracting, but generally ODP community offers decent documentation and guides though quality varies from one component to another. In comparison with Floodlight ODP is likely to be more viable in real business environment because of the features it offers and fast evolving nature but when developing quick prototypes or SDN applications that only make use of OpenFlow, Floodlight may be a better choice due to it being simpler, smaller and at the moment better documented.
+Open Daylight Project \cite{ODL}, or ODL in shorthand, is commonly considered the leading SDN project with it’s substantial company backing and large developer community. The project members involved include practically every company relevant to the field. These are for instance Cisco, Microsoft, IBM, Hewlett-Packard, Juniper, Red Hat and VMware and many more. Feature highlights of Open Daylight include  a robust REST API and south-bound communication which allows for using other non-Openflow protocols: OVSDB, NETCONF, LISP, BGP, PCEP and SNMP. Naturally ODP contains components to take advantage of the protocols as well as other components not found in any other SDN projects e.g. DDOS detection and counter-measures The basic architecture is rather similar to other controllers, but different core components, applications built on top of them and protocol plugins that offer different services and use different interface complicate the organization a bit. Figure ~\ref{fig:ODL} shows the architecture and some of the components in the bundle. For prototyping applications that only make use of OpenFlow the sheer number of different components in ODP may be intimidating and distracting, but generally ODP community offers decent documentation and guides though quality varies from one component to another. In comparison with Floodlight ODP is likely to be more viable in real business environment because of the features it offers and fast evolving nature but when developing quick prototypes or SDN applications that only make use of OpenFlow, Floodlight may be a better choice due to it being simpler, smaller and at the moment better documented.
 
 \begin{figure}[h!t]
 \centering
@@ -160,8 +160,44 @@ Open Daylight Project \cite{ODL}, or ODP in shorthand, is commonly considered th
 \label{fig:ODL}
 \end{figure}
 
-Other lesser known controllers and controller frameworks are for example a very bare bones Libfluid \cite{Libfluid}, Java-based Maestro \cite{Maestro}, On.Lab’s Flowvisor \cite{FlowVisor} which is meant to be used with other On.Lab’s SDN components, FLOWer \cite{Flower} which is written with Erlang, the event-driven Resonance\cite{Resonance}, Node.js -based NodeFlow \cite{Nodeflow}, lesser-known KulCloud Open MUL and SNAC\ cite{MUL, SNAC}, flowforwarding.org’s Warp \cite{Warp}, network virtualization bundle Open VNet \cite{VNet}, IRIS which uses Floodlight and Beacon components to offer horizontal scalability \cite{IRIS} and Juniper’s OpenContrail focusing on SDN and Big Data \cite{Contrail}. Generally these pieces of software are either not in active development or not as well received or otherwise as notable as the controllers mentioned earlier.
+Other lesser known controllers and controller frameworks are for example a very bare bones Libfluid \cite{Libfluid}, Java-based Maestro \cite{Maestro}, On.Lab’s Flowvisor \cite{FlowVisor} which is meant to be used with other On.Lab’s SDN components, FLOWer \cite{Flower} which is written with Erlang, the event-driven Resonance\cite{Resonance}, Node.js -based NodeFlow \cite{Nodeflow}, lesser-known KulCloud Open MUL and SNAC\ cite{MUL, SNAC}, flowforwarding.org’s Warp \cite{Warp}, network virtualization bundle Open VNet \cite{VNet}, IRIS which uses Floodlight and Beacon components to offer horizontal scalability \cite{IRIS} and Juniper’s OpenContrail focusing on SDN and Big Data \cite{Contrail}. Generally these pieces of software are either not in active development or not as well received or otherwise as notable as the controllers mentioned earlier. Table \ref{tab:sdnComparison} shows comparison of some of well known SDN controllers.  
 
+\begin{sidewaystable}[htbf]
+    \caption{SDN Controllers Comparison }
+    \label{tab:sdnComparison}
+
+\centering
+\begin{tabular}{|l||c|c|c|c|c|}
+\hline\hline
+\textbf{Name} & \textbf{Pox} & \textbf{Becaon} & \textbf{Floodlight} & \textbf{OpenDaylight} & \textbf{Ryu}  \\
+\hline\hline
+          
+\textbf{Language} & Python & Java & Java,Python & Java & Python \\
+\hline
+\textbf{User Interface} &   \shortstack{ Python + QT4 \\  and Web} & Web & Web and Java & Web & GUI Patch\\
+\hline
+\textbf{\shortstack{Supports Hosts \\ with multiple \\ attachment points}} & No & No & Yes & Yes & No \\
+\hline
+\textbf{\shortstack{Compatible \\ OS(s)}}  & \shortstack{Linux \\ Mac \\ Windows} & \shortstack{Linux \\ Android} & \shortstack{Linux \\ Mac \\ Windows} & \shortstack{Linux \\ Mac \\ Windows} & Linux \\
+\hline
+\textbf{Open Source} & Yes & Yes & Yes & Yes & Yes \\ 
+\hline
+\textbf{\shortstack{Supports \\ OpenStack \\ Quantum}} & No & No & Yes & Yes & Yes \\
+\hline
+\textbf{\shortstack{Provides Abstraction \\layer above \\ southbound Protocols}} & No & No & No & Yes & No \\
+\hline
+\textbf{\shortstack{Supports topologies \\ with loops}} & \shortstack{Yes via\\ spanning tree}  & No & Yes & Yes & \shortstack{Yes via\\ spanning tree \cite{RyuTopology}} \\
+\hline
+\textbf{\shortstack{Supports non-OF \\island\\Connections}} & No & No & Yes & Yes & No \\
+\hline
+\textbf{\shortstack{Supports OF \\island Connections \\ with loops}} & No & No & No & Yes & No\\
+\hline
+
+
+\end{tabular}       
+\end{sidewaystable}
+
+\clearpage
 \subsection{Switches}
 
 OpenFlow relies fundamentally on switches: there has to be at least one in the network to connect to a controller, otherwise using OpenFlow is not possible. OpenFlow being near synonymous to SDN and network functions virtualisation or NFV being a hot topic for conversation along with SDN there’s a demand and supply for standardised, vendor-agnostic virtual and physical switches. With SDN and network virtualization it is possible to eliminate the need for specialised switches, routers, middleboxes etc. and utilise the network elements on ordinary X86 servers.

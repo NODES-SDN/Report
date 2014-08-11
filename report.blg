@@ -13,118 +13,120 @@ Warning--entry type for "POX" isn't style-file defined
 --line 406 of file references.bib
 Warning--entry type for "Ryu" isn't style-file defined
 --line 412 of file references.bib
-Warning--entry type for "Trema" isn't style-file defined
+Warning--entry type for "RyuTopology" isn't style-file defined
 --line 418 of file references.bib
+Warning--entry type for "Trema" isn't style-file defined
+--line 425 of file references.bib
 Warning--entry type for "Beacon" isn't style-file defined
---line 424 of file references.bib
+--line 431 of file references.bib
 Warning--entry type for "Floodlight" isn't style-file defined
---line 430 of file references.bib
+--line 437 of file references.bib
 Warning--entry type for "ODL" isn't style-file defined
---line 436 of file references.bib
+--line 443 of file references.bib
 Warning--entry type for "Maestro" isn't style-file defined
---line 442 of file references.bib
+--line 449 of file references.bib
 Warning--entry type for "Libfluid" isn't style-file defined
---line 448 of file references.bib
+--line 455 of file references.bib
 Warning--entry type for "FlowVisor" isn't style-file defined
---line 454 of file references.bib
+--line 461 of file references.bib
 Warning--entry type for "Resonance" isn't style-file defined
---line 460 of file references.bib
+--line 467 of file references.bib
 Warning--entry type for "Flower" isn't style-file defined
---line 466 of file references.bib
+--line 473 of file references.bib
 Warning--entry type for "VNet" isn't style-file defined
---line 484 of file references.bib
+--line 491 of file references.bib
 Warning--entry type for "IRIS" isn't style-file defined
---line 490 of file references.bib
+--line 497 of file references.bib
 Warning--entry type for "Contrail" isn't style-file defined
---line 496 of file references.bib
+--line 503 of file references.bib
 Warning--entry type for "Warp" isn't style-file defined
---line 502 of file references.bib
+--line 509 of file references.bib
 Warning--entry type for "Nodeflow" isn't style-file defined
---line 508 of file references.bib
+--line 515 of file references.bib
 Warning--entry type for "VSwitch" isn't style-file defined
---line 514 of file references.bib
+--line 521 of file references.bib
 Warning--entry type for "IndigoSwitch" isn't style-file defined
---line 520 of file references.bib
+--line 527 of file references.bib
 Warning--entry type for "OfSwitch" isn't style-file defined
---line 526 of file references.bib
+--line 533 of file references.bib
 Warning--entry type for "LINC" isn't style-file defined
---line 532 of file references.bib
+--line 539 of file references.bib
 Warning--entry type for "Snabb" isn't style-file defined
---line 538 of file references.bib
+--line 545 of file references.bib
 Warning--entry type for "POFSwitch" isn't style-file defined
---line 544 of file references.bib
+--line 551 of file references.bib
 Warning--entry type for "Lantern" isn't style-file defined
---line 550 of file references.bib
+--line 557 of file references.bib
 Warning--entry type for "STS" isn't style-file defined
---line 556 of file references.bib
+--line 563 of file references.bib
 Warning--entry type for "NS3" isn't style-file defined
---line 562 of file references.bib
+--line 569 of file references.bib
 Warning--entry type for "OFLOPS" isn't style-file defined
---line 567 of file references.bib
+--line 574 of file references.bib
 Warning--entry type for "Perf" isn't style-file defined
---line 572 of file references.bib
+--line 579 of file references.bib
 Warning--entry type for "NICE" isn't style-file defined
---line 577 of file references.bib
+--line 584 of file references.bib
 Warning--entry type for "OFTest" isn't style-file defined
---line 583 of file references.bib
+--line 590 of file references.bib
 Warning--entry type for "TestOn" isn't style-file defined
---line 589 of file references.bib
+--line 596 of file references.bib
 Warning--entry type for "Hyper" isn't style-file defined
---line 595 of file references.bib
+--line 602 of file references.bib
 Warning--entry type for "Flowscale" isn't style-file defined
---line 601 of file references.bib
+--line 608 of file references.bib
 Warning--entry type for "Bird" isn't style-file defined
---line 607 of file references.bib
+--line 614 of file references.bib
 Warning--entry type for "RouteFlow" isn't style-file defined
---line 613 of file references.bib
+--line 620 of file references.bib
 Warning--entry type for "Frenetic" isn't style-file defined
---line 619 of file references.bib
+--line 626 of file references.bib
 Warning--entry type for "enetconf" isn't style-file defined
---line 625 of file references.bib
+--line 632 of file references.bib
 Warning--entry type for "Nettle" isn't style-file defined
---line 631 of file references.bib
+--line 638 of file references.bib
 Warning--entry type for "ofproto" isn't style-file defined
---line 637 of file references.bib
+--line 644 of file references.bib
 Warning--entry type for "OpenFaucet" isn't style-file defined
---line 643 of file references.bib
+--line 650 of file references.bib
 Warning--entry type for "Node" isn't style-file defined
---line 649 of file references.bib
+--line 656 of file references.bib
 Warning--entry type for "Indigo" isn't style-file defined
---line 655 of file references.bib
+--line 662 of file references.bib
 Warning--entry type for "Mirage" isn't style-file defined
---line 661 of file references.bib
+--line 668 of file references.bib
 Warning--entry type for "wakame" isn't style-file defined
---line 667 of file references.bib
+--line 674 of file references.bib
 Warning--entry type for "IMSCORE" isn't style-file defined
---line 673 of file references.bib
+--line 680 of file references.bib
 Warning--entry type for "FP7" isn't style-file defined
---line 679 of file references.bib
+--line 686 of file references.bib
 Warning--entry type for "FELIX" isn't style-file defined
---line 685 of file references.bib
+--line 692 of file references.bib
 Warning--entry type for "OFELIA" isn't style-file defined
---line 691 of file references.bib
+--line 698 of file references.bib
 Warning--entry type for "FIRE" isn't style-file defined
---line 697 of file references.bib
+--line 704 of file references.bib
 Warning--entry type for "ALIEN" isn't style-file defined
---line 703 of file references.bib
+--line 710 of file references.bib
 Warning--entry type for "OFERTIE" isn't style-file defined
---line 709 of file references.bib
+--line 716 of file references.bib
 Warning--entry type for "SPARC" isn't style-file defined
---line 715 of file references.bib
+--line 722 of file references.bib
 Warning--entry type for "Lor14" isn't style-file defined
---line 770 of file references.bib
+--line 777 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
---line 778 of file references.bib
+--line 785 of file references.bib
 Warning--entry type for "MDS" isn't style-file defined
---line 804 of file references.bib
+--line 811 of file references.bib
 Warning--entry type for "Netconf" isn't style-file defined
---line 810 of file references.bib
+--line 817 of file references.bib
 Warning--entry type for "ODLLISP" isn't style-file defined
---line 818 of file references.bib
+--line 825 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
---line 832 of file references.bib
+--line 839 of file references.bib
 Warning--entry type for "nwEPC" isn't style-file defined
---line 852 of file references.bib
+--line 859 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -192,45 +194,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 74 entries,
+You've used 75 entries,
             2783 wiz_defined-function locations,
-            953 strings with 12607 characters,
-and the built_in function-call counts, 17974 in all, are:
-= -- 1405
-> -- 299
+            959 strings with 12773 characters,
+and the built_in function-call counts, 18242 in all, are:
+= -- 1427
+> -- 306
 < -- 2
-+ -- 160
-- -- 82
-* -- 1607
-:= -- 2123
-add.period$ -- 158
-call.type$ -- 74
-change.case$ -- 265
++ -- 163
+- -- 84
+* -- 1629
+:= -- 2161
+add.period$ -- 160
+call.type$ -- 75
+change.case$ -- 269
 chr.to.int$ -- 0
-cite$ -- 140
-duplicate$ -- 945
-empty$ -- 2501
-format.name$ -- 129
-if$ -- 4179
+cite$ -- 141
+duplicate$ -- 958
+empty$ -- 2535
+format.name$ -- 132
+if$ -- 4239
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 75
 missing$ -- 11
-newline$ -- 319
-num.names$ -- 28
-pop$ -- 733
+newline$ -- 323
+num.names$ -- 30
+pop$ -- 743
 preamble$ -- 1
-purify$ -- 189
+purify$ -- 192
 quote$ -- 0
-skip$ -- 850
+skip$ -- 862
 stack$ -- 0
-substring$ -- 398
-swap$ -- 240
+substring$ -- 403
+swap$ -- 244
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 296
+type$ -- 300
 warning$ -- 66
-while$ -- 31
-width$ -- 76
-write$ -- 591
-(There were 127 warnings)
+while$ -- 33
+width$ -- 77
+write$ -- 599
+(There were 128 warnings)
