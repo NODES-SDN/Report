@@ -191,6 +191,11 @@
   \btxurlfont{http://www.projectfloodlight.org/oftest/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+\bibitem {ONOS}
+\btxtitlefont {\btxifchangecase {Onos}{ONOS}}.
+\newblock {\latintext \btxurlfont{http://onlab.us/tools/onos.html}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{11-08-2014}}}.
+
 \bibitem {ODL}
 \btxtitlefont {\btxifchangecase {Open daylight project}{Open Daylight
   Project}}.
@@ -233,6 +238,13 @@
 \newblock {\latintext
   \btxurlfont{https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{04-08-2014}}}.
+
+\bibitem {projects}
+\btxtitlefont {\btxifchangecase {Opendaylight controller:project
+  proposals}{OpenDaylight Controller:Project Proposals}}.
+\newblock {\latintext
+  \btxurlfont{https://wiki.opendaylight.org/view/Project_Proposals:Main}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{11-08-2014}}}.
 
 \bibitem {ODLLISP}
 \btxtitlefont {\btxifchangecase {Opendaylight lisp flow
@@ -303,6 +315,11 @@
   Troubleshooting System}}.
 \newblock {\latintext \btxurlfont{http://ucb-sts.github.io/sts/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {SDNCentral}
+\btxtitlefont {\btxifchangecase {Sdncentral}{SDNCentral}}.
+\newblock {\latintext \btxurlfont{http://www.sdncentral.com/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{11-08-2014}}}.
 
 \bibitem {CHU2}
 \btxtitlefont {\btxifchangecase {Security challenges in {SDN}}{Security
