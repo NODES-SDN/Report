@@ -141,11 +141,11 @@ Most OpenFlow controllers are organized in the same fashion as shown in figure ~
 \includegraphics[width=110mm]{"Controller architecture diagram".jpg}
 \caption{General SDN controller architecture}
 \label{fig:architecture}
-\end{figure}
+\end{figure}                      
 
 	Hailed as the first OpenFlow controller, NOX was developed side-by-side with OpenFlow but peculiarly released a year before OpenFlow’s official release \cite{NOX}. NOX is written in C++ and is meant for developing further customised SDN controllers, but it is commonly regarded as complex and cumbersome to use for anything but really performance critical applications. The developer Murphy McCauley himself recommends using POX \cite{POX}, the Python version of NOX, for most tasks \cite{CHU12}. There is also a newer version of NOX that according to developers has more streamlined architecture, cleaner codebase and is more efficient. At the time of writing this the latest modification to source code was an over 7 months old bugfix, so NOX’s actual viability in current SDN development is questionable.
 
-	Beacon is another ntremaotable OF controller \cite{Beacon}. It was released in 2010 and it’s written in Java. Despite Java’s reputation as an inefficient programming language Beacon has fared well performance-wise in comparison with other controllers \cite{Erickson13}. Java was chosen to address C’s and C++’s portability problems and to reduce developer’s burden with significantly shorter compilation times and better error logging. Other controllers with similar focus on easier development are for example Python-based Ryu \cite{Ryu} and Ruby-based Trema \cite{Trema}.
+	Beacon is another notable OF controller \cite{Beacon}. It was released in 2010 and it’s written in Java. Despite Java’s reputation as an inefficient programming language Beacon has fared well performance-wise in comparison with other controllers \cite{Erickson13}. Java was chosen to address C’s and C++’s portability problems and to reduce developer’s burden with significantly shorter compilation times and better error logging. Other controllers with similar focus on easier development are for example Python-based Ryu \cite{Ryu} and Ruby-based Trema \cite{Trema}.
 
 One of the features that makes Beacon perhaps more notable than other aforementioned controllers is the fact that it serves as basis for one of the most popular OpenFlow controllers: Floodlight \cite{Floodlight}. Floodlight is developed by Big Switch Networks, a startup founded by networking veterans. Unlike Beacon, Floodlight doesn’t rely on OSGi framework and offers more features such as REST API and support for non-OpenFlow domains. The documentation for Floodlight is also generally good and surpasses the Beacon documentation with ease.
  Big Switch has in the past lobbied for Floodlight to be included in Open Daylight Project’s codebase \cite{BAN13} but the project opted for Cisco’s controller implementation. 
@@ -405,9 +405,52 @@ The control plane in nw-EPC incorporates the SAE gateway behaviour with the help
 
 % uncomment the following
 
-% \newpage
-% \appendix
+\newpage
+\appendix
 % 
-% \section{Example appendix}
-
+\section{Open Source Projects}
+\begin{sidewaystable}[htbf]
+\tiny
+\caption{Controllers and related}
+\begin{tabular}{|l|l|l|l|l|}
+\hline \hline
+\textbf{Name} & \textbf{Usage} & \textbf{Developers \& License} & \textbf{Link} & \textbf{Notes} \\
+\hline \hline
+\shortstack{Beacon}& \shortstack{OpenFlow controller that supports \\ event-based and threaded operation} & \shortstack[l]{Open Source,\\ David Erickson/Stanford University, \\ License: BSD License} & \shortstack {https://openflow.stanford.edu/display/Beacon/Home}  & \\
+\hline
+\shortstack{Floodlight} & \shortstack{Alternative OpenFlow Controller} & \shortstack[l]{Open Source,\\ sponsored by Big Switch} & \shortstack{http://www.projectfloodlight.org/floodlight/} &  \\
+\hline
+\shortstack{FlowER} & \shortstack{Erlang OpenFlow controller \& \\ development platform} & \shortstack[l]{Open Source,\\ TravelPing, License: MIT} & \shortstack{ https://github.com/travelping/flower} & \\
+\hline
+\shortstack{FlowForward Warp}  & \shortstack{Parses and encodes \\ OF messages \& handles connections \\ with OF datapathelements.} & \shortstack[l]{Open Source,\\ InfoBlox Inc., License: Apache 2.0} & \shortstack{http://flowforwarding.github.io/warp/} & \\
+\hline
+\shortstack{FlowVisor} & \shortstack{Controller that acts as \\ a hypervisor/proxy between \\ OpenFlow switches} & \shortstack[l]{Open Source,\\ On.Lab} & \shortstack{http://onlab.us/flowvisor.html} & \shortstack{Part of ON.LAB's Open SDN Stack}. \\
+\hline
+\shortstack{IRIS} & \shortstack{Recursive SDN controller} & \shortstack{Open Source,\\ ETRI, License: Apache 2.0} & \shortstack{http://openiris.etri.re.kr/} &                       \\
+\hline
+\shortstack{KulCloud Open MUL} & \shortstack{OpenFlow controller} & \shortstack{Open Source,\\ KulCloud, License: GPLv2} & \shortstack{http://sourceforge.net/projects/mul/} & \\
+\hline
+\shortstack{libfluid} & \shortstack{Basic library to implement \\ a controller upon.}& \shortstack{Open Source,\\ Open Networking Foundation/CPqD, \\ License: Apache 2.0  }  & \shortstack{http://opennetworkingfoundation.github.io/libfluid/} & \\
+\hline
+\shortstack{Maestro} & \shortstack{Control platform with \\ support for OpenFlow switches} & \shortstack{Open Source,\\ Zheng Cai/Rice University,\\ License: GNU Lesser GPL} & \shortstack{https://code.google.com/p/maestro-platform/}&\\
+\hline
+\shortstack{NodeFlow} & \shortstack{Node.js based \\ OpenFlow controller} & \shortstack{Open Source,\\ Gary Berger/(Cisco?), \\ License:MIT License} & \shortstack{http://garyberger.net/?p=537} & \\
+\hline
+\shortstack{NOX} & \shortstack{First OpenFlow controller} & \shortstack{Open Source,\\ NoxRepo, License: Apache 2.0} & \shortstack{http://www.noxrepo.org/nox/about-nox/} & \\
+\hline
+\shortstack{OpenContrail} & \shortstack{Virtual Network Controller, \\ includes analytics engine to handle Big Data.}& \shortstack{Open Source,\\ Juniper, License: Apache 2.0} & \shortstack{https://github.com/Juniper/contrail-build} & \\
+\hline
+\shortstack{OpenVNet} & \shortstack{Provides network virtualization \\ along with components such as \\ SDN controller, virtualswitch \\ and virtual router.} & \shortstack{Open Source,\\ Axsh.co, License: LGPL3} & \shortstack{http://openvnet.com/} & \\
+\hline
+\shortstack{POX}& \shortstack{General SDN controller} & \shortstack{Open Source,\\ NoxRepo, License: Apache 2.0} & \shortstack{http://www.noxrepo.org/pox/about-pox/}               & \\
+\hline
+\shortstack{Resonance} & \shortstack{Event-driven network controller} & \shortstack{Open Source,\\ Georgia institute of technology} & \shortstack{http://resonance.noise.gatech.edu/} & \\
+\hline
+\shortstack{Ryu} & \shortstack{SDN Framework written in Python} & \shortstack{Open Source,\\ License: Apache 2.0} & \shortstack{http://osrg.github.io/ryu/} & \\                                 \hline
+\shortstack{SNAC} & \shortstack{OpenFlow controller} & \shortstack{Open Source,\\ SNAC team, License: GPL} & \shortstack{http://www.openflowhub.org/display/Snac/SNAC+Home} & \\
+\hline
+\shortstack{Trema} & \shortstack{OpenFlow  controller framework} & \shortstack{Open Source,\\ NEC, License: GPLv2} & \shortstack{https://github.com/trema/trema}                      & \\   
+\hline                              
+\end{tabular}
+\end{sidewaystable}
 \end{document}
