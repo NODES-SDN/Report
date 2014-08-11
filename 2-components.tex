@@ -1,69 +1,3 @@
-% --- Template for thesis / report with tktltiki2 class ---
-% 
-% last updated 2013/02/15 for tkltiki2 v1.02
-
-\documentclass[english]{tktltiki2}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{microtype}
-\usepackage{amsfonts,amsmath,amssymb,amsthm,booktabs,color,enumitem,graphicx}
-\usepackage[hidelinks]{hyperref}
-\usepackage{subfig}
-\usepackage{rotating,tabularx}
-\usepackage{float}
-\usepackage{rotating}
-\usepackage{url}
-
-\makeatletter
-\AtBeginDocument{\hypersetup{pdftitle = {\@title}, pdfauthor = {\@author}}}
-\makeatother
-
-\usepackage[fixlanguage]{babelbib}
-\usepackage[nottoc]{tocbibind}
-
-\newtheorem{thm}{Theorem}
-\newtheorem{lem}[thm]{Lemma}
-\newtheorem{cor}[thm]{Corollary}
-\theoremstyle{definition}
-\newtheorem{definition}[thm]{Definition}
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-
-
-\title{Open Source Platforms, Applications and Tools for\\SDN and 5G Research}
-\author{Lauri Suomalainen, Emad Nikkhouy, Aaron Yi Ding, Sasu Tarkoma}
-%\date{\today}
-\date{August 15, 2014}
-\level{Technical Report C-2014-X}
-
-\abstract{Software-Defined Networking (SDN) is a novel solution to network configuration and management. Its openness and programmability features have greatly motivated the open source communities where numerous applications and tools are developed for various R\&D purposes. For the strength of SDN, the upcoming 5th Generation mobile networks (5G) can also benefit from the modular and open design to innovate the network architecture and services. In this report, we present a survey of existing open source platforms, applications and tools for SDN and 5G research. We discuss the potential directions and share our perspectives in this domain.}
-
-\keywords{SDN, Open Source, 5G Mobile Networks}
-% \numberofpagesinformation{16 pages + 10 appendix pages}
-
- \faculty{Faculty of Science}
- \department{Department of Computer Science}
- \subject{Computer Science}
-
- \university{University of Helsinki}
- \universitylong{HELSINGIN YLIOPISTO --- HELSINGFORS UNIVERSITET --- UNIVERSITY OF HELSINKI} % displayed on the top of the abstract page
- \city{Helsinki}
- \depositeplace{University of Helsinki / Kumpulan Kampuskirjasto}
-
-\begin{document}
-
-\frontmatter      % roman page numbering for front matter
-\maketitle        % title page
-\makeabstract     % abstract page
-\tableofcontents  % table of contents
-
-\mainmatter       % clear page, start arabic page numbering
-
-
-\section{Introduction}
-
 \section{Open Source SDN Components}
 
 Even though the concept of software defined networking dates back to year 2004 \cite{robert2012system} the first widely recognised applications followed only several years later. The most notable one is the widespread OpenFlow protocol \cite{OpenFlow1.0.0} which made its official debut in 2009 and has since become the most prevalent protocol for SDN.  The available applications on the market reflect the pervasiveness of OpenFlow as practically all of them are built to support the protocol. Keeping SDN’s basic concepts and architectural solutions in mind it doesn’t come as a surprise that the network controllers and switch implementations are the most common SDN related applications. In this section, we present a comprehensive survey of existing open source components for SDN.
@@ -78,11 +12,11 @@ Most OpenFlow controllers are organized in the same fashion as shown in figure ~
 \includegraphics[width=110mm]{"Controller architecture diagram".jpg}
 \caption{General SDN controller architecture}
 \label{fig:architecture}
-\end{figure}                      
+\end{figure}
 
 	Hailed as the first OpenFlow controller, NOX was developed side-by-side with OpenFlow but peculiarly released a year before OpenFlow’s official release \cite{NOX}. NOX is written in C++ and is meant for developing further customised SDN controllers, but it is commonly regarded as complex and cumbersome to use for anything but really performance critical applications. The developer Murphy McCauley himself recommends using POX \cite{POX}, the Python version of NOX, for most tasks \cite{CHU12}. There is also a newer version of NOX that according to developers has more streamlined architecture, cleaner codebase and is more efficient. At the time of writing this the latest modification to source code was an over 7 months old bugfix, so NOX’s actual viability in current SDN development is questionable.
 
-	Beacon is another notable OF controller \cite{Beacon}. It was released in 2010 and it’s written in Java. Despite Java’s reputation as an inefficient programming language Beacon has fared well performance-wise in comparison with other controllers \cite{Erickson13}. Java was chosen to address C’s and C++’s portability problems and to reduce developer’s burden with significantly shorter compilation times and better error logging. Other controllers with similar focus on easier development are for example Python-based Ryu \cite{Ryu} and Ruby-based Trema \cite{Trema}.
+	Beacon is another ntremaotable OF controller \cite{Beacon}. It was released in 2010 and it’s written in Java. Despite Java’s reputation as an inefficient programming language Beacon has fared well performance-wise in comparison with other controllers \cite{Erickson13}. Java was chosen to address C’s and C++’s portability problems and to reduce developer’s burden with significantly shorter compilation times and better error logging. Other controllers with similar focus on easier development are for example Python-based Ryu \cite{Ryu} and Ruby-based Trema \cite{Trema}.
 
 One of the features that makes Beacon perhaps more notable than other aforementioned controllers is the fact that it serves as basis for one of the most popular OpenFlow controllers: Floodlight \cite{Floodlight}. Floodlight is developed by Big Switch Networks, a startup founded by networking veterans. Unlike Beacon, Floodlight doesn’t rely on OSGi framework and offers more features such as REST API and support for non-OpenFlow domains. The documentation for Floodlight is also generally good and surpasses the Beacon documentation with ease.
  Big Switch has in the past lobbied for Floodlight to be included in Open Daylight Project’s codebase \cite{BAN13} but the project opted for Cisco’s controller implementation. 
@@ -173,75 +107,3 @@ EU has various research projects under moniker Seventh Framework Programme (FP7)
 SDN development seems to be thriving and especially different companies have taken great interest in the concept. Open Daylight, being the biggest company backed SDN project to date, is evolving continuously. During this year as many as 15 new project proposals have been accepted to be included in Open Daylight, among those dedicated Service Function Chaining component, Authentication, Authorization and Accounting component and application policy plugin to name few \cite{projects}. While Floodlight isn't evolving with as rigorous pace, the active development and moderate company involvement is likely to keep Floodlight Open Daylight's main competition. However, the two big controllers might get a new rival in the future. Currently the top trending project in sdncentral.com is On.Lab's upcoming network operating system ONOS \cite{SDNCentral, ONOS}. ONOS is to complete On.Lab's SDN stack consisting of ONOS, FlowVisor and Mininet. It is to feature controller function as well as horizontal co-ordination and communication among multiple ONOS instances allowing easier scalability for networks. The first prototype was demonstrated at year 2013's Open Network Summit and according to On.Lab ONOS will be released this year but no definitive date has been given.
 
 \clearpage
-
-\section{SDN-based service chaining for mobile networks}
-
-SDN (software-defined networking) has revolutionized designing and managing networks over the past few years. Routers and switches operate with complex software, which is closed source and dedicated to the private network companies. Moreover, each of these devices come with their own configuration interfaces that is different between vendors, which makes work of network administrators exhausting to configure each of these individual network devices. \cite{FRZ13}
-
-SDN changes the way networks are managed and designed by defining two characteristics. First, SDN detaches control plane from the data plane. Second, SDN unifies the control plane, thus a single software program (controller) can control numerous data plane elements. SDN controller has direct access over the data plane through a well-defined API such as OpenFlow. An OpenFlow switch has packet-handling table, which different rules can be defined in the table. Therefore, based on different rules that match with a subset of traffic, different actions (such as dropping, forwarding and header modification) can be taken. Thus, based on different rules installed on OpenFlow by the controller, an OpenFlow switch can act as a router, firewall, network address translator, switch or something in between. 
-=======
-\input{1-intro}
-
-\input{2-components}
-
-\input{3-chaining}
-
-\input{4-discuss}
-
-\bibliographystyle{babplain-lf}
-% \bibliographystyle{plain}
-\bibliography{references}
-
-% --- Appendices ---
-
-% uncomment the following
-
-\newpage
-\appendix
-% 
-\section{Open Source Projects}
-\begin{sidewaystable}[htbf]
-\tiny
-\caption{Controllers and related}
-\begin{tabular}{|l|l|l|l|l|}
-\hline \hline
-\textbf{Name} & \textbf{Usage} & \textbf{Developers \& License} & \textbf{Link} & \textbf{Notes} \\
-\hline \hline
-\shortstack{Beacon}& \shortstack{OpenFlow controller that supports \\ event-based and threaded operation} & \shortstack[l]{Open Source,\\ David Erickson/Stanford University, \\ License: BSD License} & \shortstack {https://openflow.stanford.edu/display/Beacon/Home}  & \\
-\hline
-\shortstack{Floodlight} & \shortstack{Alternative OpenFlow Controller} & \shortstack[l]{Open Source,\\ sponsored by Big Switch} & \shortstack{http://www.projectfloodlight.org/floodlight/} &  \\
-\hline
-\shortstack{FlowER} & \shortstack{Erlang OpenFlow controller \& \\ development platform} & \shortstack[l]{Open Source,\\ TravelPing, License: MIT} & \shortstack{ https://github.com/travelping/flower} & \\
-\hline
-\shortstack{FlowForward Warp}  & \shortstack{Parses and encodes \\ OF messages \& handles connections \\ with OF datapathelements.} & \shortstack[l]{Open Source,\\ InfoBlox Inc., License: Apache 2.0} & \shortstack{http://flowforwarding.github.io/warp/} & \\
-\hline
-\shortstack{FlowVisor} & \shortstack{Controller that acts as \\ a hypervisor/proxy between \\ OpenFlow switches} & \shortstack[l]{Open Source,\\ On.Lab} & \shortstack{http://onlab.us/flowvisor.html} & \shortstack{Part of ON.LAB's Open SDN Stack}. \\
-\hline
-\shortstack{IRIS} & \shortstack{Recursive SDN controller} & \shortstack{Open Source,\\ ETRI, License: Apache 2.0} & \shortstack{http://openiris.etri.re.kr/} &                       \\
-\hline
-\shortstack{KulCloud Open MUL} & \shortstack{OpenFlow controller} & \shortstack{Open Source,\\ KulCloud, License: GPLv2} & \shortstack{http://sourceforge.net/projects/mul/} & \\
-\hline
-\shortstack{libfluid} & \shortstack{Basic library to implement \\ a controller upon.}& \shortstack{Open Source,\\ Open Networking Foundation/CPqD, \\ License: Apache 2.0  }  & \shortstack{http://opennetworkingfoundation.github.io/libfluid/} & \\
-\hline
-\shortstack{Maestro} & \shortstack{Control platform with \\ support for OpenFlow switches} & \shortstack{Open Source,\\ Zheng Cai/Rice University,\\ License: GNU Lesser GPL} & \shortstack{https://code.google.com/p/maestro-platform/}&\\
-\hline
-\shortstack{NodeFlow} & \shortstack{Node.js based \\ OpenFlow controller} & \shortstack{Open Source,\\ Gary Berger/(Cisco?), \\ License:MIT License} & \shortstack{http://garyberger.net/?p=537} & \\
-\hline
-\shortstack{NOX} & \shortstack{First OpenFlow controller} & \shortstack{Open Source,\\ NoxRepo, License: Apache 2.0} & \shortstack{http://www.noxrepo.org/nox/about-nox/} & \\
-\hline
-\shortstack{OpenContrail} & \shortstack{Virtual Network Controller, \\ includes analytics engine to handle Big Data.}& \shortstack{Open Source,\\ Juniper, License: Apache 2.0} & \shortstack{https://github.com/Juniper/contrail-build} & \\
-\hline
-\shortstack{OpenVNet} & \shortstack{Provides network virtualization \\ along with components such as \\ SDN controller, virtualswitch \\ and virtual router.} & \shortstack{Open Source,\\ Axsh.co, License: LGPL3} & \shortstack{http://openvnet.com/} & \\
-\hline
-\shortstack{POX}& \shortstack{General SDN controller} & \shortstack{Open Source,\\ NoxRepo, License: Apache 2.0} & \shortstack{http://www.noxrepo.org/pox/about-pox/}               & \\
-\hline
-\shortstack{Resonance} & \shortstack{Event-driven network controller} & \shortstack{Open Source,\\ Georgia institute of technology} & \shortstack{http://resonance.noise.gatech.edu/} & \\
-\hline
-\shortstack{Ryu} & \shortstack{SDN Framework written in Python} & \shortstack{Open Source,\\ License: Apache 2.0} & \shortstack{http://osrg.github.io/ryu/} & \\                                 \hline
-\shortstack{SNAC} & \shortstack{OpenFlow controller} & \shortstack{Open Source,\\ SNAC team, License: GPL} & \shortstack{http://www.openflowhub.org/display/Snac/SNAC+Home} & \\
-\hline
-\shortstack{Trema} & \shortstack{OpenFlow  controller framework} & \shortstack{Open Source,\\ NEC, License: GPLv2} & \shortstack{https://github.com/trema/trema}                      & \\   
-\hline                              
-\end{tabular}
-\end{sidewaystable}
-\end{document}

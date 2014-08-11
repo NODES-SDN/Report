@@ -31,11 +31,11 @@
   pages = {120-127}
 }
 
-@ELECTRONIC{BAN13,
+@MISC{BAN13,
   author = {Banks, Ethan},
-  title = {Big Switch Leaves OpenDaylight, Toutes White-Box Future},
-  url = {http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?},
-  publisher = {networkcomputing.com}
+  title = {{Big Switch} Leaves {OpenDaylight}, Toutes White-Box Future},
+  publisher = {networkcomputing.com},
+  url = {http://www.networkcomputing.com/networking/big-switch-leaves-opendaylight-touts-white-box-future/a/d-id/1234231?}
 }
 
 @INPROCEEDINGS{Casado-HotSDN2012,
@@ -56,12 +56,12 @@
   numpages = {6}
 }
 
-@ELECTRONIC{CHU12,
+@MISC{CHU12,
   author = {Chua, Roy},
+  title = {{NOX, POX} and Controllers Galore – {Murphy McCauley} Interview},
   year = {2012},
-  title = {NOX, POX and Controllers Galore – Murphy McCauley Interview},
-  url = {http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/},
-  publisher = {SDNCentral}
+  publisher = {SDNCentral},
+  url = {http://www.sdncentral.com/sdn-nfv-open-source/nox-pox-controllers-murphy-mccauley/2012/09/}
 }
 
 @ARTICLE{Curtis-CCR2011,
@@ -73,7 +73,7 @@
   volume = {41},
   pages = {254--265},
   number = {4},
-  month = aug,
+  month = {aug},
   acmid = {2018466},
   address = {New York, NY, USA},
   doi = {10.1145/2043164.2018466},
@@ -85,7 +85,7 @@
 
 @INPROCEEDINGS{Erickson13,
   author = {Erickson, David},
-  title = {The Beacon Openflow Controller},
+  title = {The {Beacon Openflow} Controller},
   booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software
 	Defined Networking},
   year = {2013},
@@ -111,7 +111,7 @@
   volume = {38},
   pages = {105--110},
   number = {3},
-  month = jul,
+  month = {jul},
   acmid = {1384625},
   address = {New York, NY, USA},
   doi = {10.1145/1384609.1384625},
@@ -212,7 +212,7 @@
   volume = {38},
   pages = {69--74},
   number = {2},
-  month = mar,
+  month = {mar},
   acmid = {1355746},
   address = {New York, NY, USA},
   doi = {10.1145/1355734.1355746},
@@ -242,7 +242,7 @@
 @MISC{robert2012system,
   author = {Robert, B.I.I. and Carman, D.Z.},
   title = {System for regulating access to and distributing content in a network},
-  month = feb # {~21},
+  month = {feb},
   year = {2012},
   note = {US Patent 8,122,128},
   publisher = {Google Patents},
@@ -380,7 +380,7 @@
 }
 
 @OTHER{CHU2,
-  title = {Security Challenges in SDN},
+  title = {Security Challenges in {SDN}},
   url = {http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/},
   urldate = {06-08-2014}
 }
@@ -396,4 +396,503 @@
   note = {\url{http://OpenFlowSwitch.org}},
   url = {http://OpenFlowSwitch.org}
 }
+
+@OTHER{NOX,
+  title = {NOX Controller},
+  url = {http://www.noxrepo.org/nox/about-nox/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{POX,
+  title = {POX Controller},
+  url = {http://www.noxrepo.org/pox/about-pox/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Ryu,
+  title = {Ryu Controller},
+  url = {http://osrg.github.io/ryu/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{RyuTopology,
+  title = {Topology	Discovery	with	Ryu},
+  author = {Kazuya	Okada},
+  url = {http://www.necoma-project.jp/ja/blog/ool-sdn-hackathon14/CloudSDN_Hackathon_20140625_kazuya.pdf},
+  urldate = {11-08-2014}
+}
+
+@OTHER{Trema,
+  title = {Trema Controller},
+  url = {http://trema.github.io/trema/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Beacon,
+	title = {Beacon Controller},
+	url = {https://openflow.stanford.edu/display/Beacon/Home},
+	urldate = {07-08-2014}
+}
+
+@OTHER{Floodlight,
+  title = {Floodlight Project},
+  url = {http://www.projectfloodlight.org/floodlight/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{ODL,
+  title = {Open Daylight Project},
+  url = {http://www.opendaylight.org/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Maestro,
+  title = {Maestro-platform},
+  url = {https://code.google.com/p/maestro-platform/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Libfluid,
+  title = {Libfluid},
+  url = {http://opennetworkingfoundation.github.io/libfluid/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{FlowVisor,
+  title = {FlowVisor},
+  url = {https://openflow.stanford.edu/display/DOCS/Flowvisor},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Resonance,
+  title = {Resonance},
+  url = {http://resonance.noise.gatech.edu/},
+  urldate = {07-08-2014}
+}
+	
+@OTHER{Flower,
+  title = {FLOWer},
+  url = {https://github.com/travelping/flower},
+  urldate = {07-08-2014}
+}
+
+@OTHER{MUL,
+  title = {KulCloud Open MUL},
+  url = {http://sourceforge.net/projects/mul/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{SNAC,
+  title = {SNAC},
+  url = {http://www.openflowhub.org/display/Snac/SNAC+Home},
+  urldate = {07-08-2014}
+}
+
+@OTHER{VNet,
+  title = {OpenVNet},
+  url = {http://openvnet.com/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{IRIS,
+  title = {IRIS},
+  url = {http://openiris.etri.re.kr/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Contrail,
+  title = {OpenContrail},
+  url = {https://github.com/Juniper/contrail-build},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Warp,
+  title = {Warp},
+  url = {http://flowforwarding.github.io/warp/},
+  urldate = {07-08-2014}
+}
+
+@OTHER{Nodeflow,
+	title = {NodeFlow},
+	url = {http://garyberger.net/?p=537},
+	  urldate = {07-08-2014}
+}
+
+@OTHER{VSwitch,
+	title = {Open VSwitch},
+	url = {http://openvswitch.org/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{IndigoSwitch,
+	title = {Indigo Virtual Switch},
+	url = {http://www.projectfloodlight.org/indigo-virtual-switch/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{OfSwitch,
+	title = {OFSoftswitch},
+	url = {https://github.com/CPqD/ofsoftswitch13},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{LINC,
+	title = {LINC-switch},
+	url = {https://github.com/FlowForwarding/LINC-Switch},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{Snabb,
+	title = {Snabb Switch},
+	url = {https://github.com/SnabbCo/snabbswitch},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{POFSwitch,
+	title = {POFSwitch},
+	url = {http://www.poforwarding.org/},
+	  urldate = {08-08-2014}
+}
+
+@OTHER{Lantern,
+	title = {Lantern},
+	url = {https://github.com/CentecNetworks/Lantern},
+	  urldate = {08-08-2014}
+}
+
+@other{STS,
+	title = {SDN Troubleshooting System},
+	url = {http://ucb-sts.github.io/sts/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{NS3,
+	title = {ns-3},
+	url = {http://www.nsnam.org/},
+	urldate = {08-08-2014}
+}
+@OTHER{OFLOPS,
+	title = {OFLOPS},
+	url = {http://archive.openflow.org/wk/index.php/Oflops},
+	urldate = {08-08-2014}
+}
+@OTHER{Perf,
+	title = {PerfSonar},
+	url = {http://fasterdata.es.net/performance-testing/perfsonar/},
+	urldate = {08-08-2014}
+}
+@OTHER{NICE,
+	title = {NICE},
+	url = {https://code.google.com/p/nice-of/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{OFTest,
+	title = {OFTest},
+	url = {http://www.projectfloodlight.org/oftest/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{TestOn,
+	title = {TestOn},
+	url = {https://github.com/Paxterra/TestON/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Hyper,
+	title = {HyperGlance},
+	url = {http://real-status.com/product/sdn},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Flowscale,
+	title = {Flowscale},
+	url = {http://real-status.com/product/sdn},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Bird,
+	title = {the BIRD},
+	url = {http://bird.network.cz/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{RouteFlow,
+	title = {RouteFlow},
+	url = {http://routeflow.github.io/RouteFlow/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Frenetic,
+	title = {Frenetic and Pyretic},
+	url = {http://www.frenetic-lang.org/},
+	urldate = {08-08-2014}
+}
+
+@OTHER{enetconf,
+	title = {enetconf},
+	url = {https://github.com/FlowForwarding/enetconf},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Nettle,
+	title = {Nettle},
+	url = {http://hackage.haskell.org/package/nettle-openflow-0.2.0},
+	urldate = {08-08-2014}
+}
+
+@OTHER{ofproto,
+	title = {of\_protocol},
+	url = {https://github.com/FlowForwarding/of_protocol},
+	urldate = {08-08-2014}
+}
+
+@OTHER{OpenFaucet,
+	title = {OpenFaucet},
+	url = {https://github.com/rlenglet/openfaucet},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Node,
+	title = {Oflib-Node},
+	url = {https://github.com/TrafficLab/oflib-node},
+	urldate = {08-08-2014}
+}
+
+@OTHER{Indigo,
+	title = {Indigo},
+	url = {http://www.projectfloodlight.org/indigo/},
+	urldate = {08-08-2014}
+}
+
+@Other{Mirage,
+	title = {MirageOS},
+	url = {http://www.openmirage.org/},
+	urldate = {08-08-2014}
+}
+
+@Other{wakame,
+	title = {wakame-vdc},
+	url = {https://github.com/axsh/wakame-vdc},
+	urldate = {08-08-2014}
+}
+
+@Other{IMSCORE,
+	title = {Open Source IMS Core}, 
+	url = {http://www.openimscore.org/},
+	urldate = {08-08-2014}
+}
+
+@Other{FP7,
+title = {Seventh Framework Programme}, 
+	url = {http://cordis.europa.eu/home_en.html},
+	urldate = {08-08-2014}
+}
+
+@Other{FELIX,
+title = {FELIX}, 
+	url = {http://www.ict-felix.eu/},
+	urldate = {08-08-2014}
+}
+
+@Other{OFELIA,
+title = {OFELIA}, 
+	url = {http://www.fp7-ofelia.eu/},
+	urldate = {08-08-2014}
+}
+
+@Other{FIRE,
+title = {FIRE}, 
+	url = {http://www.ict-fire.eu/home/fire-projects.html},
+	urldate = {08-08-2014}
+}
+
+@Other{ALIEN,
+title = {ALIEN}, 
+	url = {http://www.fp7-alien.eu/},
+	urldate = {08-08-2014}
+}
+
+@Other{OFERTIE,
+title = {OFERTIE}, 
+	url = {http://www.ofertie.org/},
+	urldate = {08-08-2014}
+}
+
+@Other{SPARC,
+title = {SPARC}, 
+	url = {http://www.fp7-sparc.eu/},
+	urldate = {08-08-2014}
+}
+
+@Other{Virtex,
+title = {Open Virtex}, 
+	url = {http://ovx.onlab.us/},
+	urldate = {11-08-2014}
+}
+
+@Other{ONOS,
+  title= {ONOS},
+    url = {http://onlab.us/tools/onos.html},
+    urldate = {11-08-2014}
+}
+
+@online{Projects,
+ title = {OpenDaylight Controller:Project Proposals}, 
+url = {https://wiki.opendaylight.org/view/Project_Proposals:Main}, 
+urldate = {11-08-2014}
+}
+
+@online{SDNCentral,
+ title = {SDNCentral}, 
+url = {http://www.sdncentral.com/}, 
+urldate = {11-08-2014}
+}
+
+@ARTICLE{FRZ13,
+ author = {Feamster, Nick and Rexford, Jennifer and Zegura, Ellen},
+ title = {The Road to SDN},
+ journal = {Queue},
+ issue_date = {December 2013},
+ volume = {11},
+ number = {12},
+ month = {dec},
+ year = {2013},
+ url = {http://doi.acm.org/10.1145/2559899.2560327},
+ doi = {10.1145/2559899.2560327},
+ acmid = {2560327},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+
+@inproceedings{Yap10a,
+ author = {Yap, Kok-Kiong and Sherwood, Rob and Kobayashi, Masayoshi and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick and Parulkar, Guru},
+ title = {Blueprint for Introducing Innovation into Wireless Mobile Networks},
+ booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Virtualized Infrastructure Systems and Architectures},
+ series = {VISA '10},
+ year = {2010},
+ isbn = {978-1-4503-0199-2},
+ location = {New Delhi, India},
+ url = {http://doi.acm.org/10.1145/1851399.1851404},
+ doi = {10.1145/1851399.1851404},
+ acmid = {1851404},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+
+}
+
+@article{Yap10b,
+ author = {Yap, Kok-Kiong and Kobayashi, Masayoshi and Sherwood, Rob and Huang, Te-Yuan and Chan, Michael and Handigol, Nikhil and McKeown, Nick},
+ title = {OpenRoads: Empowering Research in Mobile Networks},
+ journal = {SIGCOMM Comput. Commun. Rev.},
+ issue_date = {January 2010},
+ volume = {40},
+ number = {1},
+ month = {jan},
+ year = {2010},
+ issn = {0146-4833},
+ url = {http://doi.acm.org/10.1145/1672308.1672331},
+ doi = {10.1145/1672308.1672331},
+ acmid = {1672331},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@online{Lor14,
+ author = {Lorema}, 
+title = {about OpenWRT}, 
+year = {2014}, 
+url = {http://wiki.openwrt.org/about/start}, 
+urldate = {30-07-2014}
+}
+
+@online{Sve14,
+ title = {TP-Link TL-1043ND}, 
+url = {http://wiki.openwrt.org/toh/tp-link/tl-wr1043nd}, 
+urldate = {30-07-2014}
+}
+
+@INPROCEEDINGS{Wol13, 
+author={John, W. and Pentikousis, K. and Agapiou, G. and Jacob, E. and Kind, M. and Manzalini, A and Risso, F. and Staessens, D. and Steinert, R. and Meirosu, C.}, 
+booktitle={Future Networks and Services (SDN4FNS), 2013 IEEE SDN for}, 
+title={Research Directions in Network Service Chaining}, 
+year={2013}, 
+month={Nov} 
+}
+
+@techreport{Bjo10, 
+AUTHOR = {"M. Bjorklund"}, 
+TITLE = {YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF)}, 
+TYPE={RFC}, 
+NUMBER=6020, 
+YEAR = {2010}, 
+MONTH = {October},
+INSTITUTION = {Internet Engineering Task Force}, 
+URL={http://tools.ietf.org/html/rfc6020}
+ }
+
+
+@online{MDS,
+ title = {OpenDaylight Controller:MD-SAL:Architecture}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}, 
+urldate = {04-08-2014}
+}
+
+@online{Netconf,
+ title = {OpenDaylight Controller:Config:Examples:Netconf}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture}, 
+urldate = {04-08-2014}
+}
+
+
+
+@online{ODLLISP,
+ title = {OpenDaylight Lisp Flow Mappin:Architecture}, 
+url = {https://wiki.opendaylight.org/view/OpenDaylight_Lisp_Flow_Mapping:Architecture}, 
+urldate = {6-08-2014}
+}
+
+@techreport{OpenEPC, 
+title = {{OpenEPC, building your own complete mobile broadband operator network testbed}}, 
+group = {Fraunhofer FOKUS}, 
+type = {White Paper},
+institution = {Fraunhofer Institute for Open Communication Systems FOKUS},  
+url = {http://www.openepc.net/_docs/OpenEPC-Whitepaper_nov2012.pdf}
+}
+
+@online{Yia04,
+author = {Yiannis Yiakoumis}, 
+title = {Pantou : OpenFlow 1.0 for OpenWRT}, 
+year = {2004}, 
+url = {http://archive.openflow.org/wk/index.php/Pantou_:_OpenFlow_1.0_for_OpenWRT}, 
+urldate = {29-07-2014}
+}
+
+@INPROCEEDINGS{OKH14,
+author = {Okada, Kazuya and Hazeyama, Hiroaki and Kadobayashi, Youki},
+title = {Oblivious DDoS Mitigation with Locator/ID Separation Protocol},
+booktitle = {Proceedings of The Ninth International Conference on Future Internet Technologies},
+year = {2014},
+location = {Tokyo, Japan},
+url = {http://doi.acm.org/10.1145/2619287.2619291},
+doi = {10.1145/2619287.2619291},
+publisher = {ACM},
+address = {New York, NY, USA}
+}
+
+@online{nwEPC,
+title = {nw-EPC}, 
+author = {Amit Chawre},
+url = {http://web.archive.org/web/20120622233936/http://www.amitchawre.net/nw-epc.html}, 
+urldate = {8-08-2014}
+}
+
+@INPROCEEDINGS{SAE, 
+author={Marius Iulian Corici, Fabricio Carvalho de Gouveia, Thomas Magedanz}, 
+booktitle={Wireless Broadband and Ultra Wideband Communications, 2007. AusWireless 2007. The 2nd International Conference on}, 
+title={A Network Controlled QoS Model over the 3GPP System Architecture Evolution}, 
+year={2007}, 
+month={Aug} 
+}
+
 
