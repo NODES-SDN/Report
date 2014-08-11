@@ -111,20 +111,22 @@ Warning--entry type for "OFERTIE" isn't style-file defined
 --line 709 of file references.bib
 Warning--entry type for "SPARC" isn't style-file defined
 --line 715 of file references.bib
+Warning--entry type for "Virtex" isn't style-file defined
+--line 721 of file references.bib
 Warning--entry type for "Lor14" isn't style-file defined
---line 770 of file references.bib
+--line 776 of file references.bib
 Warning--entry type for "Sve14" isn't style-file defined
---line 778 of file references.bib
+--line 784 of file references.bib
 Warning--entry type for "MDS" isn't style-file defined
---line 804 of file references.bib
-Warning--entry type for "Netconf" isn't style-file defined
 --line 810 of file references.bib
+Warning--entry type for "Netconf" isn't style-file defined
+--line 816 of file references.bib
 Warning--entry type for "ODLLISP" isn't style-file defined
---line 818 of file references.bib
+--line 824 of file references.bib
 Warning--entry type for "Yia04" isn't style-file defined
---line 832 of file references.bib
+--line 838 of file references.bib
 Warning--entry type for "nwEPC" isn't style-file defined
---line 852 of file references.bib
+--line 858 of file references.bib
 Warning--to sort, need author or key in OpenFlow1.0.0
 Warning--to sort, need author or key in NOX
 Warning--to sort, need author or key in POX
@@ -172,6 +174,7 @@ Warning--to sort, need author or key in Node
 Warning--to sort, need author or key in Indigo
 Warning--to sort, need author or key in Mirage
 Warning--to sort, need author or key in wakame
+Warning--to sort, need author or key in Virtex
 Warning--to sort, need author or key in IMSCORE
 Warning--to sort, need author or key in OpenEPC
 Warning--to sort, need author or key in FP7
@@ -192,45 +195,45 @@ Warning--empty year in OpenEPC
 Warning--empty author in OpenFlow1.0.0
 Warning--empty journal in OpenFlow1.0.0
 Warning--empty year in OpenFlow1.0.0
-You've used 74 entries,
+You've used 75 entries,
             2783 wiz_defined-function locations,
-            953 strings with 12607 characters,
-and the built_in function-call counts, 17974 in all, are:
-= -- 1405
-> -- 299
+            958 strings with 12660 characters,
+and the built_in function-call counts, 18182 in all, are:
+= -- 1421
+> -- 300
 < -- 2
-+ -- 160
++ -- 161
 - -- 82
-* -- 1607
-:= -- 2123
-add.period$ -- 158
-call.type$ -- 74
-change.case$ -- 265
+* -- 1623
+:= -- 2145
+add.period$ -- 160
+call.type$ -- 75
+change.case$ -- 268
 chr.to.int$ -- 0
-cite$ -- 140
-duplicate$ -- 945
-empty$ -- 2501
+cite$ -- 142
+duplicate$ -- 956
+empty$ -- 2534
 format.name$ -- 129
-if$ -- 4179
+if$ -- 4230
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 75
 missing$ -- 11
-newline$ -- 319
+newline$ -- 323
 num.names$ -- 28
-pop$ -- 733
+pop$ -- 743
 preamble$ -- 1
-purify$ -- 189
+purify$ -- 191
 quote$ -- 0
-skip$ -- 850
+skip$ -- 862
 stack$ -- 0
-substring$ -- 398
-swap$ -- 240
+substring$ -- 403
+swap$ -- 242
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 296
-warning$ -- 66
+type$ -- 300
+warning$ -- 67
 while$ -- 31
-width$ -- 76
-write$ -- 591
-(There were 127 warnings)
+width$ -- 77
+write$ -- 598
+(There were 129 warnings)

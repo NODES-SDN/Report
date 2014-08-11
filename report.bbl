@@ -202,6 +202,11 @@
 \newblock {\latintext \btxurlfont{http://www.openimscore.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+\bibitem {Virtex}
+\btxtitlefont {\btxifchangecase {Open virtex}{Open Virtex}}.
+\newblock {\latintext \btxurlfont{http://ovx.onlab.us/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{11-08-2014}}}.
+
 \bibitem {VSwitch}
 \btxtitlefont {\btxifchangecase {Open vswitch}{Open VSwitch}}.
 \newblock {\latintext \btxurlfont{http://openvswitch.org/}}\empty
