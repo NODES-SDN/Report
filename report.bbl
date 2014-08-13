@@ -13,6 +13,21 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {ALIENproject}
+\btxtitlefont {\btxifchangecase {About alien}{About ALIEN}}.
+\newblock {\latintext \btxurlfont{http://www.fp7-alien.eu/?page_id=12}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{13-08-2014}}}.
+
+\bibitem {FELIXproject}
+\btxtitlefont {\btxifchangecase {About felix}{About FELIX}}.
+\newblock {\latintext \btxurlfont{http://www.ict-felix.eu/?page_id=25}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{12-08-2014}}}.
+
+\bibitem {OFERTIEproject}
+\btxtitlefont {\btxifchangecase {About ofertie}{About OFERTIE}}.
+\newblock {\latintext \btxurlfont{http://www.ofertie.org/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{13-08-2014}}}.
+
 \bibitem {ALIEN}
 \btxtitlefont {\btxifchangecase {Alien}{ALIEN}}.
 \newblock {\latintext \btxurlfont{http://www.fp7-alien.eu/}}\empty
@@ -40,6 +55,12 @@
 \newblock {\latintext
   \btxurlfont{http://www.ict-fire.eu/home/fire-projects.html}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {FIREproject}
+\btxtitlefont {\btxifchangecase {The fire landscape}{The FIRE landscape}}.
+\newblock {\latintext
+  \btxurlfont{http://www.ict-fire.eu/home/the-fire-landscape.html}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{13-08-2014}}}.
 
 \bibitem {Floodlight}
 \btxtitlefont {\btxifchangecase {Floodlight project}{Floodlight Project}}.
@@ -340,6 +361,13 @@
   \btxurlfont{https://github.com/SnabbCo/snabbswitch}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
+\bibitem {SPARCproject}
+\btxtitlefont {\btxifchangecase {Software defined networking for next
+  generation internet components}{Software Defined Networking for Next
+  Generation Internet Components}}.
+\newblock {\latintext \btxurlfont{http://www.fp7-sparc.eu/goals/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{12-08-2014}}}.
+
 \bibitem {SPARC}
 \btxtitlefont {\btxifchangecase {Sparc}{SPARC}}.
 \newblock {\latintext \btxurlfont{http://www.fp7-sparc.eu/}}\empty
@@ -375,6 +403,12 @@
 \btxtitlefont {\btxifchangecase {Warp}{Warp}}.
 \newblock {\latintext \btxurlfont{http://flowforwarding.github.io/warp/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
+\bibitem {OFELIAproject}
+\btxtitlefont {\btxifchangecase {What does ofelia?}{What does OFELIA?}}
+\newblock {\latintext
+  \btxurlfont{http://www.fp7-ofelia.eu/assets/Uploads/About-OpenFlow-OFELIA.pdf}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{13-08-2014}}}.
 
 \bibitem {BAN13}
 \btxnamefont {\btxlastnamefont {Banks}, Ethan}\btxauthorcolon\ \btxtitlefont
