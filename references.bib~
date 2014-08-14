@@ -224,25 +224,6 @@
   numpages = {6}
 }
 
-@INPROCEEDINGS{Kreutz:2013:TSD:2491185.2491199,
-  author = {Kreutz, Diego and Ramos, Fernando M.V. and Verissimo, Paulo},
-  title = {Towards Secure and Dependable Software-defined Networks},
-  booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software
-	Defined Networking},
-  year = {2013},
-  series = {HotSDN '13},
-  pages = {55--60},
-  address = {New York, NY, USA},
-  publisher = {ACM},
-  acmid = {2491199},
-  doi = {10.1145/2491185.2491199},
-  isbn = {978-1-4503-2178-5},
-  keywords = {controllers, dependability, sdn, security, threat vectors},
-  location = {Hong Kong, China},
-  numpages = {6},
-  url = {http://doi.acm.org/10.1145/2491185.2491199}
-}
-
 @INPROCEEDINGS{Lantz-Hotnets2010,
   author = {Lantz, Bob and Heller, Brandon and McKeown, Nick},
   title = {A network in a laptop: rapid prototyping for software-defined networks},
@@ -359,17 +340,6 @@
 	Defined Networking (HotSDN 2013)},
   year = {2013},
   month = {August}
-}
-
-@TECHREPORT{,
-  author = {Sarah Sorensen},
-  title = {Security Implications of Software‐Defined Networks},
-  institution = {SDNCentral},
-  year = {2012},
-  type = {Whitepaper},
-  keywords = {SDN, Security},
-  timestamp = {2014.08.14},
-  url = {http://www.sdncentral.com/download-sdn-security-whitepaper/}
 }
 
 @INPROCEEDINGS{Sushant-SIGCOMM2013,
@@ -542,12 +512,6 @@
   urldate = {08-08-2014}
 }
 
-@OTHER{ALIENproject,
-  title = {About ALIEN},
-  url = {http://www.fp7-alien.eu/?page_id=12},
-  urldate = {13-08-2014}
-}
-
 @OTHER{Beacon,
   title = {Beacon Controller},
   url = {https://openflow.stanford.edu/display/Beacon/Home},
@@ -584,22 +548,10 @@
   urldate = {08-08-2014}
 }
 
-@OTHER{FELIXproject,
-  title = {About FELIX},
-  url = {http://www.ict-felix.eu/?page_id=25},
-  urldate = {12-08-2014}
-}
-
 @OTHER{FIRE,
   title = {FIRE},
   url = {http://www.ict-fire.eu/home/fire-projects.html},
   urldate = {08-08-2014}
-}
-
-@OTHER{FIREproject,
-  title = {The FIRE landscape},
-  url = {http://www.ict-fire.eu/home/the-fire-landscape.html},
-  urldate = {13-08-2014}
 }
 
 @OTHER{Floodlight,
@@ -776,22 +728,10 @@
   urldate = {08-08-2014}
 }
 
-@OTHER{OFELIAproject,
-  title = {What does OFELIA?},
-  url = {http://www.fp7-ofelia.eu/assets/Uploads/About-OpenFlow-OFELIA.pdf},
-  urldate = {13-08-2014}
-}
-
 @OTHER{OFERTIE,
   title = {OFERTIE},
   url = {http://www.ofertie.org/},
   urldate = {08-08-2014}
-}
-
-@OTHER{OFERTIEproject,
-  title = {About OFERTIE},
-  url = {http://www.ofertie.org/},
-  urldate = {13-08-2014}
 }
 
 @OTHER{OFLOPS,
@@ -911,14 +851,6 @@
   urldate = {08-08-2014}
 }
 
-@OTHER{SPARCproject,
-  title = {Software Defined Networking for Next Generation Internet Components
-	
-	},
-  url = {http://www.fp7-sparc.eu/goals/},
-  urldate = {12-08-2014}
-}
-
 @OTHER{STS,
   title = {SDN Troubleshooting System},
   url = {http://ucb-sts.github.io/sts/},
@@ -972,4 +904,59 @@
   url = {http://flowforwarding.github.io/warp/},
   urldate = {07-08-2014}
 }
+
+@online{SPARCproject,
+ title = {Software Defined Networking for Next Generation Internet Components
+}, 
+url = {http://www.fp7-sparc.eu/goals/}, 
+urldate = {12-08-2014}
+}
+
+@online{FELIXproject,
+ title = {About FELIX}, 
+url = {http://www.ict-felix.eu/?page_id=25}, 
+urldate = {12-08-2014}
+}
+
+@online{OFELIAproject,
+ title = {What does OFELIA?}, 
+url = {http://www.fp7-ofelia.eu/assets/Uploads/About-OpenFlow-OFELIA.pdf}, 
+urldate = {13-08-2014}
+}
+
+@online{ALIENproject,
+ title = {About ALIEN}, 
+url = {http://www.fp7-alien.eu/?page_id=12}, 
+urldate = {13-08-2014}
+}
+
+@online{OFERTIEproject,
+ title = {About OFERTIE}, 
+url = {http://www.ofertie.org/}, 
+urldate = {13-08-2014}
+}
+ 
+@online{FIREproject,
+ title = {The FIRE landscape}, 
+url = {http://www.ict-fire.eu/home/the-fire-landscape.html}, 
+urldate = {13-08-2014}
+}        
+
+@inproceedings{Kreutz:2013:TSD:2491185.2491199,
+ author = {Kreutz, Diego and Ramos, Fernando M.V. and Verissimo, Paulo},
+ title = {Towards Secure and Dependable Software-defined Networks},
+ booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking},
+ series = {HotSDN '13},
+ year = {2013},
+ isbn = {978-1-4503-2178-5},
+ location = {Hong Kong, China},
+ pages = {55--60},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2491185.2491199},
+ doi = {10.1145/2491185.2491199},
+ acmid = {2491199},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {controllers, dependability, sdn, security, threat vectors},
+} 
 
