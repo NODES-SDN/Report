@@ -494,6 +494,14 @@
   \btxpublisherfont {ACM}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/2619287.2619291}}.
 
+\bibitem {QN14}
+\btxnamefont {\btxlastnamefont {P.~Quinn}, T.\btxfnamespacelong
+  Nadeau}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Service function
+  chaining problem statement}{Service Function Chaining Problem Statement}}.
+\newblock \btxtechreplong {}, \btxprintmonthyear{.}{August}{2014}{long}.
+\newblock {\latintext
+  \btxurlfont{http://tools.ietf.org/html/draft-ietf-sfc-problem-statement-09}}.
+
 \bibitem {robert2012system}
 \btxnamefont {\btxlastnamefont {Robert}, B.I.I.} \btxandlong {}\ \btxnamefont
   {\btxlastnamefont {Carman}, D.Z.}\btxauthorcolon\ \btxtitlefont
