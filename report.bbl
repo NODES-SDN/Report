@@ -112,6 +112,11 @@
 \newblock {\latintext \btxurlfont{http://openiris.etri.re.kr/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
+\bibitem {MUL}
+\btxtitlefont {\btxifchangecase {Kulcloud open mul}{KulCloud Open MUL}}.
+\newblock {\latintext \btxurlfont{http://sourceforge.net/projects/mul/}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
+
 \bibitem {Lantern}
 \btxtitlefont {\btxifchangecase {Lantern}{Lantern}}.
 \newblock {\latintext
@@ -360,6 +365,12 @@
 \newblock {\latintext
   \btxurlfont{https://github.com/SnabbCo/snabbswitch}}\empty \btxurldatecomment
   {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
+
+\bibitem {SNAC}
+\btxtitlefont {\btxifchangecase {Snac}{SNAC}}.
+\newblock {\latintext
+  \btxurlfont{http://www.openflowhub.org/display/Snac/SNAC+Home}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{07-08-2014}}}.
 
 \bibitem {SPARCproject}
 \btxtitlefont {\btxifchangecase {Software defined networking for next
