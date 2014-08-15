@@ -28,11 +28,6 @@
 \newblock {\latintext \btxurlfont{http://www.ofertie.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{13-08-2014}}}.
 
-\bibitem {ALIEN}
-\btxtitlefont {\btxifchangecase {Alien}{ALIEN}}.
-\newblock {\latintext \btxurlfont{http://www.fp7-alien.eu/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
 \bibitem {Beacon}
 \btxtitlefont {\btxifchangecase {Beacon controller}{Beacon Controller}}.
 \newblock {\latintext
@@ -43,17 +38,6 @@
 \btxtitlefont {\btxifchangecase {enetconf}{enetconf}}.
 \newblock {\latintext
   \btxurlfont{https://github.com/FlowForwarding/enetconf}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
-\bibitem {FELIX}
-\btxtitlefont {\btxifchangecase {Felix}{FELIX}}.
-\newblock {\latintext \btxurlfont{http://www.ict-felix.eu/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
-\bibitem {FIRE}
-\btxtitlefont {\btxifchangecase {Fire}{FIRE}}.
-\newblock {\latintext
-  \btxurlfont{http://www.ict-fire.eu/home/fire-projects.html}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {FIREproject}
@@ -175,16 +159,6 @@
 \bibitem {NS3}
 \btxtitlefont {\btxifchangecase {ns-3}{ns-3}}.
 \newblock {\latintext \btxurlfont{http://www.nsnam.org/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
-\bibitem {OFELIA}
-\btxtitlefont {\btxifchangecase {Ofelia}{OFELIA}}.
-\newblock {\latintext \btxurlfont{http://www.fp7-ofelia.eu/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
-\bibitem {OFERTIE}
-\btxtitlefont {\btxifchangecase {Ofertie}{OFERTIE}}.
-\newblock {\latintext \btxurlfont{http://www.ofertie.org/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {Node}
@@ -354,12 +328,6 @@
   \btxurlfont{http://www.sdncentral.com/security-challenges-sdn-software-defined-networks/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{06-08-2014}}}.
 
-\bibitem {FP7}
-\btxtitlefont {\btxifchangecase {Seventh framework programme}{Seventh Framework
-  Programme}}.
-\newblock {\latintext \btxurlfont{http://cordis.europa.eu/home_en.html}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
-
 \bibitem {Snabb}
 \btxtitlefont {\btxifchangecase {Snabb switch}{Snabb Switch}}.
 \newblock {\latintext
@@ -378,11 +346,6 @@
   Generation Internet Components}}.
 \newblock {\latintext \btxurlfont{http://www.fp7-sparc.eu/goals/}}\empty
   \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{12-08-2014}}}.
-
-\bibitem {SPARC}
-\btxtitlefont {\btxifchangecase {Sparc}{SPARC}}.
-\newblock {\latintext \btxurlfont{http://www.fp7-sparc.eu/}}\empty
-  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{08-08-2014}}}.
 
 \bibitem {TestOn}
 \btxtitlefont {\btxifchangecase {Teston}{TestOn}}.
@@ -542,8 +505,8 @@
 
 \bibitem {Sorensen12}
 \btxnamefont {\btxlastnamefont {Sorensen}, Sarah}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Security implications of software‐defined
-  networks}{Security Implications of Software‐Defined Networks}}.
+  {\btxifchangecase {Security implications of software-defined
+  networks}{Security Implications of Software-Defined Networks}}.
 \newblock \btxifchangecase {Whitepaper}{Whitepaper}, SDNCentral, 2012.
 \newblock {\latintext
   \btxurlfont{http://www.sdncentral.com/download-sdn-security-whitepaper/}}.
