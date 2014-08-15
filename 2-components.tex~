@@ -45,31 +45,31 @@ Other lesser known controllers and controller frameworks are for example a very 
         
 \textbf{Language} & Python & Java & Java,Python & Java & Python \\
 \hline
-\textbf{User interface} &   \shortstack{ Python + QT4 \\  and Web} & Web & Web and Java & Web & GUI Patch\\
+\textbf{User Interface} &   \shortstack{ Python + QT4 \\  and Web} & Web & Web and Java & Web & GUI Patch\\
 \hline
-\textbf{\shortstack{Supports hosts \\ with multiple \\ attachment points}} & No & No & Yes & Yes & No \\
+\textbf{\shortstack{Supports Hosts \\ with multiple \\ attachment points}} & No & No & Yes & Yes & No \\
 \hline
 \textbf{\shortstack{Compatible \\ OS(s)}}  & \shortstack{Linux \\ Mac \\ Windows} & \shortstack{Linux \\ Android} & \shortstack{Linux \\ Mac \\ Windows} & \shortstack{Linux \\ Mac \\ Windows} & Linux \\
 \hline
-\textbf{Development community} & Nicira Networks & \shortstack{David Ericson \\ Stanford University} & \shortstack{Big Switch \\ Networks} & Industry Supported & NTT Communications \\
+\textbf{Development Community} & Nicira Networks & \shortstack{David Ericson \\ Stanford University} & \shortstack{Big Switch \\ Networks} & Industry Supported & NTT Communications \\
 \hline
-\textbf{Actively developed} & Yes & Maintained & Yes & Yes & Yes \\
+\textbf{Actively Developed} & Yes & Maintained & Yes & Yes & Yes \\
 \hline
-\textbf{Open source} & Yes & Yes & Yes & Yes & Yes \\
+\textbf{Open Source} & Yes & Yes & Yes & Yes & Yes \\
 \hline
-\textbf{\shortstack{Open source \\ license}} & GNU & BSD & Apache & EPL & Apache\\
+\textbf{\shortstack{Open Source \\ license}} & GNU & BSD & Apache & EPL & Apache\\
 \hline
-\textbf{Supports REST API} & Yes (Limited) & Yes & Yes & Yes & Yes \\
+\textbf{Support REST API} & Yes (Limited) & Yes & Yes & Yes & Yes \\
 \hline
 \textbf{\shortstack{Supports \\ OpenStack \\ Quantum}} & No & No & Yes & Yes & Yes \\
 \hline
-\textbf{\shortstack{Provides abstraction \\layer above \\ southbound protocols}} & No & No & No & Yes & No \\
+\textbf{\shortstack{Provides Abstraction \\layer above \\ southbound Protocols}} & No & No & No & Yes & No \\
 \hline
 \textbf{\shortstack{Supports topologies \\ with loops}} & \shortstack{Yes via\\ spanning tree}  & No & Yes & Yes & \shortstack{Yes via\\ spanning tree \cite{RyuTopology}} \\
 \hline
-\textbf{\shortstack{Supports non-OF \\island\\connections}} & No & No & Yes & Yes & No \\
+\textbf{\shortstack{Supports non-OF \\island\\Connections}} & No & No & Yes & Yes & No \\
 \hline
-\textbf{\shortstack{Supports OF \\island connections \\ with loops}} & No & No & No & Yes & No\\
+\textbf{\shortstack{Supports OF \\island Connections \\ with loops}} & No & No & No & Yes & No\\
 \hline
 
 
