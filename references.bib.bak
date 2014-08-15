@@ -224,7 +224,7 @@
   numpages = {6}
 }
 
-@INPROCEEDINGS{Kreutz:2013:TSD:2491185.2491199,
+@INPROCEEDINGS{Kreutz13,
   author = {Kreutz, Diego and Ramos, Fernando M.V. and Verissimo, Paulo},
   title = {Towards Secure and Dependable Software-defined Networks},
   booktitle = {Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software
@@ -361,7 +361,7 @@
   month = {August}
 }
 
-@TECHREPORT{,
+@TECHREPORT{Sorensen12,
   author = {Sarah Sorensen},
   title = {Security Implications of Software‐Defined Networks},
   institution = {SDNCentral},
